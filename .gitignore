@@ -1,0 +1,114 @@
+# =================================
+# HKL-VITS Hybrid Kannada TTS
+# =================================
+
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+
+# Virtual environment
+.venv/
+venv/
+
+
+# IDE
+.idea/
+.vscode/
+
+
+# Environment
+.env
+
+
+# =================================
+# Dataset
+# =================================
+
+# downloaded Kannada dataset
+dataset/kannada_tts/
+
+# temporary dataset files
+dataset/*.zip
+dataset/*.tsv
+
+
+# =================================
+# Model checkpoints
+# =================================
+
+# trained models
+checkpoints/
+
+# keep empty folder
+!checkpoints/.gitkeep
+
+
+# =================================
+# Generated audio
+# =================================
+
+# generated wav from API
+outputs/*.wav
+
+# keep output folder
+!outputs/.gitkeep
+
+
+# =================================
+# HuggingFace cache
+# =================================
+
+.cache/
+.huggingface/
+
+
+# =================================
+# ML model files
+# =================================
+
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+
+# =================================
+# Logs
+# =================================
+
+*.log
+logs/
+
+
+# =================================
+# Temporary files
+# =================================
+
+*.tmp
+*.temp
+
+
+# =================================
+# OS
+# =================================
+
+.DS_Store
+Thumbs.db
+
+
+# =================================
+# Testing
+# =================================
+
+.pytest_cache/
+
+
+# =================================
+# Jupyter
+# =================================
+
+.ipynb_checkpoints/
