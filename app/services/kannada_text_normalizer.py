@@ -1,100 +1,128 @@
 """
 HKL-VITS Hybrid Kannada TTS
 
-Kannada Text Normalizer Service
+Kannada Text Normalizer
 """
 
 import re
 from typing import List
 
+from indic_numtowords import num2words
+
 from app.config.hkl_config import HKLConfig
-
-
 class KannadaTextNormalizer:
 
     def __init__(self, config: HKLConfig):
 
         self.config = config
 
-    # ======================================
-    # Whitespace cleanup
-    # ======================================
+    # -------------------------------
+    # whitespace
+    # -------------------------------
 
-    def normalize_whitespace(self, text: str) -> str:
+    def normalize_whitespace(self, text):
 
-        text = re.sub(r"\s+", " ", text)
+        return re.sub(r"\s+", " ", text).strip()
 
-        return text.strip()
+    # -------------------------------
+    # symbols
+    # -------------------------------
 
-    # ======================================
-    # Symbol replacement
-    # ======================================
-
-    def replace_symbols(self, text: str) -> str:
+    def replace_symbols(self, text):
 
         if not self.config.expand_symbols:
 
             return text
 
-        for symbol, replacement in self.config.symbol_map.items():
+        for symbol, value in self.config.symbol_map.items():
 
-            text = text.replace(symbol, f" {replacement} ")
+            text = text.replace(symbol, f" {value} ")
 
-        return self.normalize_whitespace(text)
+        return text
 
-    # ======================================
-    # Number expansion
-    # ======================================
+    # -------------------------------
+    # Kannada number engine
+    # -------------------------------
 
-    def expand_number_token(self, token: str) -> str:
+    def number_to_kannada(self, value):
 
-        if not self.config.expand_numbers:
+        try:
 
-            return token
+            return num2words(value, lang="kn")
 
-        if not re.fullmatch(r"\d+", token):
+        except Exception:
 
-            return token
+            return str(value)
 
-        result = []
+    # -------------------------------
+    # number detection
+    # -------------------------------
 
-        for digit in token:
+    def expand_number_token(self, token):
 
-            result.append(self.config.digit_to_kn[digit])
+        original = token
 
-        return " ".join(result)
+        currency = False
 
-    def expand_numbers(self, text: str) -> str:
+        if token.startswith("ರೂಪಾಯಿ"):
 
-        tokens = text.split()
+            currency = True
+
+        # remove commas
+
+        clean = token.replace(",", "")
+
+        # remove currency symbols
+
+        clean = re.sub(r"[₹$€£]", "", clean)
+
+        # punctuation save
+
+        suffix = ""
+
+        if clean[-1:] in ".,!?":
+
+            suffix = clean[-1]
+
+            clean = clean[:-1]
+
+        if not clean.isdigit():
+
+            return original
+
+        number = int(clean)
+
+        result = self.number_to_kannada(number)
+
+        return result + suffix
+
+    def expand_numbers(self, text):
 
         output = []
 
-        for token in tokens:
+        for token in text.split():
 
             output.append(self.expand_number_token(token))
 
         return " ".join(output)
 
-    # ======================================
-    # Punctuation handling
-    # ======================================
+    # -------------------------------
+    # punctuation
+    # -------------------------------
 
-    def process_punctuation(self, text: str) -> str:
+    def process_punctuation(self, text):
 
-        if self.config.preserve_punctuation:
+        for p, v in self.config.punctuation_map.items():
 
-            return text
-
-        text = re.sub(r"[^\w\sಀ-೿]", "", text)
+            text = text.replace(p, v)
 
         return text
 
-    # ======================================
-    # Main normalization pipeline
-    # ======================================
+    # -------------------------------
+    # main
+    # -------------------------------
 
-    def normalize(self, text: str) -> str:
+    def normalize(self, text):
 
         text = self.normalize_whitespace(text)
 
@@ -108,10 +136,6 @@ class KannadaTextNormalizer:
 
         return text
 
-    # ======================================
-    # Tokenizer
-    # ======================================
-
-    def tokenize(self, text: str) -> List[str]:
+    def tokenize(self, text) -> List[str]:
 
         return self.normalize(text).split()

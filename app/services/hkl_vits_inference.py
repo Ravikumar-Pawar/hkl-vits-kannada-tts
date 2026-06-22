@@ -5,8 +5,7 @@ from transformers import VitsModel, AutoTokenizer
 
 from app.config.hkl_config import HKLConfig
 from app.pipelines.training import HKLTrainerModel
-
-
+from app.services.kannada_text_normalizer import KannadaTextNormalizer
 class HKLVITSInference:
 
     def __init__(self, model, tokenizer, device):
@@ -14,6 +13,8 @@ class HKLVITSInference:
         self.model = model
         self.tokenizer = tokenizer
         self.device = device
+
+        self.normalizer = KannadaTextNormalizer(HKLConfig())
 
     @classmethod
     def load(cls):
@@ -24,7 +25,7 @@ class HKLVITSInference:
 
         BASE_MODEL = "facebook/mms-tts-kan"
 
-        CHECKPOINT = "checkpoints/" "hkl_vits_epoch_10.pt"
+        CHECKPOINT = "checkpoints/hkl_vits_epoch_10.pt"
 
         print("Loading tokenizer...")
 
@@ -53,6 +54,18 @@ class HKLVITSInference:
         return cls(model, tokenizer, device)
 
     def synthesize(self, text):
+
+        # ===========================
+        # Text normalization
+        # ===========================
+
+        text = self.normalizer.normalize(text)
+
+        print("Normalized:", text)
+
+        # ===========================
+        # Tokenization
+        # ===========================
 
         inputs = self.tokenizer(text, return_tensors="pt").to(self.device)
 

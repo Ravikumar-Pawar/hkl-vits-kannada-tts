@@ -1,7 +1,6 @@
 """
 HKL-VITS Hybrid Kannada TTS
 Central Configuration
-app/config/hkl_config.py
 """
 
 from dataclasses import dataclass, field
@@ -11,34 +10,9 @@ from typing import Dict, List
 @dataclass
 class HKLConfig:
 
-    # MMS / VITS
     mms_model_name: str = "facebook/mms-tts-kan"
 
     sample_rate: int = 16000
-
-    # Linguistic pipeline
-
-    use_g2p: bool = True
-
-    use_grapheme_encoder: bool = True
-
-    use_phoneme_encoder: bool = True
-
-    # Prosody
-
-    use_prosody_model: bool = True
-
-    prosody_features: List[str] = field(
-        default_factory=lambda: ["pause", "duration", "pitch", "energy"]
-    )
-
-    # Emotion
-
-    use_emotion_embedding: bool = False
-
-    supported_emotions: List[str] = field(
-        default_factory=lambda: ["neutral", "happy", "sad", "angry", "questioning"]
-    )
 
     # Text normalization
 
@@ -48,29 +22,33 @@ class HKLConfig:
 
     preserve_punctuation: bool = True
 
-    symbol_map: Dict[str, str] = field(
-        default_factory=lambda: {"+": "ಪ್ಲಸ್", "=": "ಸಮಾನ", "%": "ಶೇಕಡಾ", "&": "ಮತ್ತು"}
-    )
+    # Symbols
 
-    digit_to_kn: Dict[str, str] = field(
+    symbol_map: Dict[str, str] = field(
         default_factory=lambda: {
-            "0": "ಸೊನ್ನೆ",
-            "1": "ಒಂದು",
-            "2": "ಎರಡು",
-            "3": "ಮೂರು",
-            "4": "ನಾಲ್ಕು",
-            "5": "ಐದು",
-            "6": "ಆರು",
-            "7": "ಏಳು",
-            "8": "ಎಂಟು",
-            "9": "ಒಂಬತ್ತು",
+            "₹": "ರೂಪಾಯಿ",
+            "$": "ಡಾಲರ್",
+            "%": "ಶೇಕಡಾ",
+            "+": "ಪ್ಲಸ್",
+            "=": "ಸಮಾನ",
+            "&": "ಮತ್ತು",
+            "@": "ಅಟ್",
+            "#": "ನಂಬರ್",
         }
     )
 
-    # Training
+    # Number behaviour
 
-    learning_rate: float = 2e-4
+    digit_by_digit_words: bool = False
 
-    batch_size: int = 2
+    # numbers which should be spoken digit wise
 
-    gradient_accumulation_steps: int = 8
+    digit_context_words: List[str] = field(
+        default_factory=lambda: ["otp", "pin", "code", "number", "mobile", "phone"]
+    )
+
+    # punctuation pause
+
+    punctuation_map: Dict[str, str] = field(
+        default_factory=lambda: {".": " ... ", ",": " , ", "?": " ... ", "!": " ... "}
+    )
