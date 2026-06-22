@@ -10,17 +10,23 @@ from typing import List
 from indic_numtowords import num2words
 
 from app.config.hkl_config import HKLConfig
+from app.config.logger import setup_logger
+logger = setup_logger(name=__name__)
+
+
 class KannadaTextNormalizer:
 
     def __init__(self, config: HKLConfig):
 
         self.config = config
 
+        logger.info("KannadaTextNormalizer initialized")
+
     # -------------------------------
     # whitespace
     # -------------------------------
 
-    def normalize_whitespace(self, text):
+    def normalize_whitespace(self, text: str) -> str:
 
         return re.sub(r"\s+", " ", text).strip()
 
@@ -28,7 +34,7 @@ class KannadaTextNormalizer:
     # symbols
     # -------------------------------
 
-    def replace_symbols(self, text):
+    def replace_symbols(self, text: str) -> str:
 
         if not self.config.expand_symbols:
 
@@ -44,13 +50,15 @@ class KannadaTextNormalizer:
     # Kannada number engine
     # -------------------------------
 
-    def number_to_kannada(self, value):
+    def number_to_kannada(self, value: int) -> str:
 
         try:
 
             return num2words(value, lang="kn")
 
-        except Exception:
+        except Exception as e:
+
+            logger.warning("Number conversion failed %s: %s", value, e)
 
             return str(value)
 
@@ -58,29 +66,17 @@ class KannadaTextNormalizer:
     # number detection
     # -------------------------------
 
-    def expand_number_token(self, token):
+    def expand_number_token(self, token: str) -> str:
 
         original = token
 
-        currency = False
-
-        if token.startswith("ರೂಪಾಯಿ"):
-
-            currency = True
-
-        # remove commas
-
         clean = token.replace(",", "")
-
-        # remove currency symbols
 
         clean = re.sub(r"[₹$€£]", "", clean)
 
-        # punctuation save
-
         suffix = ""
 
-        if clean[-1:] in ".,!?":
+        if clean and clean[-1] in ".,!?":
 
             suffix = clean[-1]
 
@@ -96,46 +92,66 @@ class KannadaTextNormalizer:
 
         return result + suffix
 
-    def expand_numbers(self, text):
+    def expand_numbers_text(self, text: str) -> str:
 
-        output = []
+        if not self.config.expand_numbers:
+
+            return text
+
+        tokens = []
 
         for token in text.split():
 
-            output.append(self.expand_number_token(token))
+            tokens.append(self.expand_number_token(token))
 
-        return " ".join(output)
+        return " ".join(tokens)
 
     # -------------------------------
     # punctuation
     # -------------------------------
 
-    def process_punctuation(self, text):
+    def process_punctuation(self, text: str) -> str:
 
-        for p, v in self.config.punctuation_map.items():
+        if not self.config.preserve_punctuation:
 
-            text = text.replace(p, v)
+            return text
+
+        for p, value in self.config.punctuation_map.items():
+
+            text = text.replace(p, value)
 
         return text
 
     # -------------------------------
-    # main
+    # main pipeline
     # -------------------------------
 
-    def normalize(self, text):
+    def normalize(self, text: str) -> str:
+
+        if not text:
+
+            return ""
+
+        logger.debug("Original text: %s", text)
 
         text = self.normalize_whitespace(text)
 
         text = self.replace_symbols(text)
 
-        text = self.expand_numbers(text)
+        text = self.expand_numbers_text(text)
 
         text = self.process_punctuation(text)
 
         text = self.normalize_whitespace(text)
 
+        logger.debug("Normalized text: %s", text)
+
         return text
 
-    def tokenize(self, text) -> List[str]:
+    # -------------------------------
+    # tokenizer helper
+    # -------------------------------
+
+    def tokenize(self, text: str) -> List[str]:
 
         return self.normalize(text).split()

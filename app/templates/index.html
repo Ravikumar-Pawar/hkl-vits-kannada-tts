@@ -3,729 +3,642 @@
 
 <head>
 
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>
-HKL Kannada TTS
-</title>
+    <title>
+        HKL Kannada TTS
+    </title>
 
 
-<style>
+    <style>
 
 
-* {
+        * {
 
-    box-sizing: border-box;
+            box-sizing: border-box;
 
-    font-family:
-    "Segoe UI",
-    "Noto Sans Kannada",
-    Arial,
-    sans-serif;
+            font-family: "Segoe UI",
+            "Noto Sans Kannada",
+            Arial,
+            sans-serif;
 
-}
+        }
 
 
-body {
+        body {
 
-    margin:0;
+            margin: 0;
 
-    min-height:100vh;
+            min-height: 100vh;
 
-    background:
-    linear-gradient(
-        135deg,
-        #667eea,
-        #764ba2
-    );
+            background: linear-gradient(
+                    135deg,
+                    #667eea,
+                    #764ba2
+            );
 
-}
+        }
 
 
-/* NAVBAR */
+        /* NAVBAR */
 
 
-.navbar {
+        .navbar {
 
-    background:white;
+            background: white;
 
-    padding:18px 45px;
+            padding: 18px 45px;
 
-    display:flex;
+            display: flex;
 
-    justify-content:space-between;
+            justify-content: space-between;
 
-    align-items:center;
+            align-items: center;
 
-}
+        }
 
 
-.logo {
+        .logo {
 
-    font-size:26px;
+            font-size: 26px;
 
-    font-weight:700;
+            font-weight: 700;
 
-    color:#667eea;
+            color: #667eea;
 
-}
+        }
 
 
-.nav {
+        .nav {
 
-    display:flex;
+            display: flex;
 
-    gap:30px;
+            gap: 30px;
 
-}
+        }
 
 
-.nav a {
+        .nav a {
 
-    text-decoration:none;
+            text-decoration: none;
 
-    color:#444;
+            color: #444;
 
-}
+        }
 
 
+        /* CONTAINER */
 
-/* CONTAINER */
 
+        .container {
 
-.container {
+            max-width: 1200px;
 
-    max-width:1200px;
+            margin: auto;
 
-    margin:auto;
+            padding: 40px 20px;
 
-    padding:40px 20px;
+        }
 
-}
 
+        /* HERO */
 
 
-/* HERO */
+        .hero {
 
+            text-align: center;
 
-.hero {
+            color: white;
 
-    text-align:center;
+            margin-bottom: 40px;
 
-    color:white;
+        }
 
-    margin-bottom:40px;
 
-}
+        .hero h1 {
 
+            font-size: 42px;
 
-.hero h1 {
+            margin-bottom: 15px;
 
-    font-size:42px;
+        }
 
-    margin-bottom:15px;
 
-}
+        .hero p {
 
+            font-size: 20px;
 
-.hero p {
+            line-height: 1.7;
 
-    font-size:20px;
+        }
 
-    line-height:1.7;
 
-}
+        /* CARD */
 
 
+        .card {
 
-/* CARD */
+            background: white;
 
+            border-radius: 20px;
 
-.card {
+            padding: 35px;
 
-    background:white;
+            margin-bottom: 30px;
 
-    border-radius:20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, .15);
 
-    padding:35px;
+        }
 
-    margin-bottom:30px;
 
-    box-shadow:
-    0 15px 35px
-    rgba(0,0,0,.15);
+        /* TEXT AREA */
 
-}
 
+        textarea {
 
+            width: 100%;
 
-/* TEXT AREA */
+            height: 220px;
 
+            resize: none;
 
-textarea {
+            padding: 20px;
 
-    width:100%;
+            font-size: 20px;
 
-    height:220px;
+            border-radius: 15px;
 
-    resize:none;
+            border: 2px solid #ddd;
 
-    padding:20px;
+        }
 
-    font-size:20px;
 
-    border-radius:15px;
+        textarea:focus {
 
-    border:2px solid #ddd;
+            outline: none;
 
-}
+            border-color: #667eea;
 
+        }
 
-textarea:focus {
 
-    outline:none;
+        /* BUTTON */
 
-    border-color:#667eea;
 
-}
+        button {
 
 
+            margin-top: 20px;
 
-/* BUTTON */
+            width: 100%;
 
+            padding: 18px;
 
-button {
 
+            border: none;
 
-    margin-top:20px;
 
-    width:100%;
+            border-radius: 15px;
 
-    padding:18px;
 
+            background: linear-gradient(
+                    135deg,
+                    #667eea,
+                    #764ba2
+            );
 
-    border:none;
 
+            color: white;
 
-    border-radius:15px;
 
+            font-size: 20px;
 
-    background:
-    linear-gradient(
-        135deg,
-        #667eea,
-        #764ba2
-    );
 
+            font-weight: 600;
 
-    color:white;
 
+        }
 
-    font-size:20px;
 
+        button:disabled {
 
-    font-weight:600;
+            opacity: .6;
 
+        }
 
-}
 
+        /* AUDIO */
 
-button:disabled {
 
-    opacity:.6;
+        audio {
 
-}
+            width: 100%;
 
+            margin-top: 25px;
 
+        }
 
-/* AUDIO */
 
+        /* SUMMARY */
 
-audio {
 
-    width:100%;
+        .summary-grid {
 
-    margin-top:25px;
 
-}
+            display: grid;
 
 
+            grid-template-columns:
+    repeat(auto-fit, minmax(250px, 1fr));
 
-/* SUMMARY */
 
+            gap: 20px;
 
-.summary-grid {
 
+        }
 
-    display:grid;
 
+        .summary-box {
 
-    grid-template-columns:
-    repeat(auto-fit,minmax(250px,1fr));
 
+            background: #f5f6ff;
 
-    gap:20px;
 
+            padding: 20px;
 
-}
 
+            border-radius: 15px;
 
-.summary-box {
 
+        }
 
-    background:#f5f6ff;
 
+        .summary-box h3 {
 
-    padding:20px;
 
+            margin-top: 0;
 
-    border-radius:15px;
+            color: #667eea;
 
 
-}
+        }
 
 
+        .status {
 
-.summary-box h3 {
 
+            color: green;
 
-    margin-top:0;
+            font-weight: bold;
 
-    color:#667eea;
+        }
 
 
-}
+        /* FOOTER */
 
 
-.status {
+        .footer {
 
 
-    color:green;
+            text-align: center;
 
-    font-weight:bold;
 
-}
+            color: white;
 
 
+            padding: 20px;
 
-/* FOOTER */
 
+        }
 
-.footer {
 
+        /* MOBILE */
 
-    text-align:center;
 
+        @media (max-width: 700px) {
 
-    color:white;
 
+            .nav {
 
-    padding:20px;
+                display: none;
 
+            }
 
-}
 
+            .hero h1 {
 
+                font-size: 30px;
 
-/* MOBILE */
+            }
 
 
-@media(max-width:700px){
+            .card {
 
+                padding: 20px;
 
-.nav {
+            }
 
-    display:none;
 
-}
+        }
 
-
-.hero h1 {
-
-    font-size:30px;
-
-}
-
-
-.card {
-
-    padding:20px;
-
-}
-
-
-}
-
-</style>
+    </style>
 
 
 </head>
 
 
-
 <body>
-
 
 
 <nav class="navbar">
 
 
-<div class="logo">
+    <div class="logo">
 
-HKL Kannada TTS
+        HKL Kannada TTS
 
-</div>
+    </div>
 
 
-<div class="nav">
+    <div class="nav">
 
-<a href="#">
-Home
-</a>
+        <a href="#">
+            Home
+        </a>
 
-<a href="#">
-Model
-</a>
+        <a href="#">
+            Model
+        </a>
 
-<a href="#">
-Docs
-</a>
+        <a href="#">
+            Docs
+        </a>
 
-<a href="#">
-About
-</a>
+        <a href="#">
+            About
+        </a>
 
-</div>
+    </div>
 
 
 </nav>
 
 
-
-
-
 <div class="container">
 
 
-
-<section class="hero">
-
-
-<h1>
-
-Welcome to Modern Kannada Speech Technology
-
-</h1>
+    <section class="hero">
 
 
-<p>
+        <h1>
+
+            Welcome to Modern Kannada Speech Technology
+
+        </h1>
 
 
-Generate human-like Kannada voice from text using
-
-HKL-VITS Hybrid Kannada TTS.
-
-<br>
-
-Advanced linguistic encoding and prosody modeling
-
-for natural speech synthesis.
+        <p>
 
 
-</p>
+            Generate human-like Kannada voice from text using
+
+            HKL-VITS Hybrid Kannada TTS.
+
+            <br>
+
+            Advanced linguistic encoding and prosody modeling
+
+            for natural speech synthesis.
 
 
-</section>
+        </p>
 
 
+    </section>
 
 
+    <div class="card">
 
 
-<div class="card">
+        <h2>
+
+            Generate Human Voice
+
+        </h2>
 
 
-<h2>
+        <textarea
 
-Generate Human Voice
+                id="text"
 
-</h2>
-
-
-
-<textarea
-
-id="text"
-
-placeholder="ಕನ್ನಡ ವಾಕ್ಯ ನಮೂದಿಸಿ...">
+                placeholder="ಕನ್ನಡ ವಾಕ್ಯ ನಮೂದಿಸಿ...">
 
 </textarea>
 
 
+        <button
 
-<button
+                id="generate-btn"
 
-id="generate-btn"
-
-onclick="generate()">
-
-
-Generate Human Voice
+                onclick="generate()">
 
 
-</button>
+            Generate Human Voice
 
 
-
-<audio
-
-id="player"
-
-controls>
+        </button>
 
 
-</audio>
+        <audio
+
+                id="player"
+
+                controls>
 
 
-
-</div>
-
+        </audio>
 
 
+    </div>
 
 
+    <div class="card">
 
 
+        <h2>
 
-<div class="card">
+            Loaded Model Summary
 
-
-<h2>
-
-Loaded Model Summary
-
-</h2>
+        </h2>
 
 
+        <div
 
-<div
+                id="summary"
 
-id="summary"
-
-class="summary-grid">
+                class="summary-grid">
 
 
-Loading model...
+            Loading model...
+
+
+        </div>
+
+
+    </div>
 
 
 </div>
-
-
-</div>
-
-
-
-</div>
-
-
-
-
 
 
 <div class="footer">
 
-HKL-VITS Hybrid Kannada TTS
+    HKL-VITS Hybrid Kannada TTS
 
 </div>
-
-
-
-
-
 
 
 <script>
 
 
+    async function generate() {
 
-async function generate(){
 
+        let text =
+            document
+                .getElementById("text")
+                .value
+                .trim();
 
 
-let text =
-document
-.getElementById("text")
-.value
-.trim();
+        if (!text) {
 
+            alert(
+                "Enter Kannada text"
+            );
 
+            return;
 
-if(!text){
+        }
 
-alert(
-"Enter Kannada text"
-);
 
-return;
+        let btn =
+            document
+                .getElementById("generate-btn");
 
-}
 
+        btn.disabled = true;
 
 
-let btn =
-document
-.getElementById("generate-btn");
+        btn.innerText =
+            "Generating Human Voice...";
 
 
+        try {
 
-btn.disabled=true;
 
+            let response =
+                await fetch(
+                    "/api/tts",
+                    {
 
-btn.innerText=
-"Generating Human Voice...";
+                        method: "POST",
 
+                        headers: {
 
+                            "Content-Type":
+                                "application/json"
 
-try{
+                        },
 
+                        body:
+                            JSON.stringify({
 
+                                text: text
 
-let response =
-await fetch(
-"/api/tts",
-{
+                            })
 
-method:"POST",
+                    }
+                );
 
-headers:{
 
-"Content-Type":
-"application/json"
+            if (!response.ok) {
 
-},
+                throw Error();
 
-body:
-JSON.stringify({
+            }
 
-text:text
 
-})
+            let blob =
+                await response.blob();
 
-}
 
-);
+            let url =
+                URL.createObjectURL(blob);
 
 
+            let audio =
+                document
+                    .getElementById("player");
 
-if(!response.ok){
 
-throw Error();
+            audio.src = url;
 
-}
 
+            audio.play();
 
 
-let blob =
-await response.blob();
+        } catch (e) {
 
 
+            alert(
+                "Voice generation failed"
+            );
 
-let url =
-URL.createObjectURL(blob);
 
+            console.error(e);
 
 
-let audio =
-document
-.getElementById("player");
+        } finally {
 
 
+            btn.disabled = false;
 
-audio.src=url;
 
+            btn.innerText =
+                "Generate Human Voice";
 
-audio.play();
 
+        }
 
 
-}
+    }
 
-catch(e){
 
+    async function loadSummary() {
 
-alert(
-"Voice generation failed"
-);
 
+        try {
 
-console.error(e);
 
+            let response =
+                await fetch(
+                    "/api/model-summary"
+                );
 
-}
 
+            let data =
+                await response.json();
 
-finally{
 
+            document
+                .getElementById("summary")
+                .innerHTML =
 
-btn.disabled=false;
 
-
-btn.innerText=
-"Generate Human Voice";
-
-
-}
-
-
-
-}
-
-
-
-
-
-
-async function loadSummary(){
-
-
-    try{
-
-
-        let response =
-        await fetch(
-            "/api/model-summary"
-        );
-
-
-        let data =
-        await response.json();
-
-
-
-        document
-        .getElementById("summary")
-        .innerHTML =
-
-
-
-        `
-
-
-        <div class="summary-box">
-
-        <h3>
-        Model
-        </h3>
-
-        <p>
-        ${data.name}
-        </p>
-
-        </div>
-
-
+                `
 
 
         <div class="summary-box">
@@ -749,16 +662,35 @@ async function loadSummary(){
         <div class="summary-box">
 
         <h3>
-        Sample Rate
+        Device
         </h3>
 
         <p>
 
-        ${data.sample_rate} Hz
+        ${data.device}
 
         </p>
 
         </div>
+
+
+
+
+
+        <div class="summary-box">
+
+        <h3>
+        Base Model
+        </h3>
+
+        <p>
+
+        ${data.model.base_model}
+
+        </p>
+
+        </div>
+
 
 
 
@@ -772,11 +704,12 @@ async function loadSummary(){
 
         <p>
 
-        ${data.model_class}
+        ${data.model.class}
 
         </p>
 
         </div>
+
 
 
 
@@ -790,7 +723,7 @@ async function loadSummary(){
 
         <p>
 
-        ${data.parameters.toLocaleString()}
+        ${data.model.parameters.toLocaleString()}
 
         </p>
 
@@ -803,18 +736,15 @@ async function loadSummary(){
 
         <div class="summary-box">
 
-
         <h3>
-        Description
+        Trainable Parameters
         </h3>
-
 
         <p>
 
-        ${data.description}
+        ${data.model.trainable_parameters.toLocaleString()}
 
         </p>
-
 
         </div>
 
@@ -822,28 +752,91 @@ async function loadSummary(){
 
 
 
+
         <div class="summary-box">
 
-
         <h3>
-
-        Architecture
-
+        Sample Rate
         </h3>
 
+        <p>
+
+        ${data.audio.sample_rate} Hz
+
+        </p>
+
+        </div>
+
+
+
+
+
+
+        <div class="summary-box">
+
+        <h3>
+        Tokenizer
+        </h3>
+
+        <p>
+
+        ${data.tokenizer.class}
+
+        </p>
+
+        </div>
+
+
+
+
+
+
+
+        <div class="summary-box">
+
+        <h3>
+        Checkpoint
+        </h3>
+
+        <p>
+
+        ${data.model.checkpoint}
+
+        </p>
+
+        </div>
+
+
+
+
+
+
+
+        <div class="summary-box">
+
+        <h3>
+        Text Normalization
+        </h3>
 
 
         <ul>
 
+        <li>
+        Numbers:
+        ${data.text_normalization.numbers}
+        </li>
 
-        ${
-            data.architecture
-            .map(
-                item =>
-                `<li>${item}</li>`
-            )
-            .join("")
-        }
+
+        <li>
+        Symbols:
+        ${data.text_normalization.symbols}
+        </li>
+
+
+        <li>
+        Punctuation:
+        ${data.text_normalization.punctuation}
+        </li>
 
 
         </ul>
@@ -853,43 +846,68 @@ async function loadSummary(){
 
 
 
+
+
+
+
+
+        <div class="summary-box">
+
+        <h3>
+        Pipeline
+        </h3>
+
+
+        <ul>
+
+
+        ${
+                    data.pipeline
+                        .map(
+                            item =>
+                                `<li>${item}</li>`
+                        )
+                        .join("")
+                }
+
+
+        </ul>
+
+
+        </div>
+
+
+
+
         `;
 
 
+        } catch (error) {
+
+
+            console.error(
+                error
+            );
+
+
+            document
+                .getElementById("summary")
+                .innerHTML =
+
+
+                "Unable to load model summary";
+
+
+        }
+
 
     }
 
-
-    catch(error){
-
-
-        console.error(
-            error
-        );
-
-
-        document
-        .getElementById("summary")
-        .innerHTML =
-
-
-        "Unable to load model summary";
-
-
-    }
-
-
-}
-
-
-window.onload =
-loadSummary;
-
+    window.onload =
+        loadSummary;
 
 
 </script>
-
-
 
 
 </body>

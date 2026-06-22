@@ -6,155 +6,94 @@ from fastapi.responses import StreamingResponse
 router = APIRouter()
 
 
-
 @router.post("/tts")
-async def generate_tts(
-    request: Request,
-    data: dict
-):
+async def generate_tts(request: Request, data: dict):
 
     text = data.get("text")
 
-
     if not text:
 
-        raise HTTPException(
-            status_code=400,
-            detail="Text required"
-        )
-
-
+        raise HTTPException(status_code=400, detail="Text required")
 
     hkl_inference = request.app.state.hkl_inference
-
-
 
     wav = hkl_inference.synthesize(text)
 
-
-
     audio_buffer = BytesIO()
 
-
-
-    sf.write(
-        audio_buffer,
-        wav,
-        16000,
-        format="WAV"
-    )
-
-
+    sf.write(audio_buffer, wav, hkl_inference.config.sample_rate, format="WAV")
 
     audio_buffer.seek(0)
 
-
-
-    return StreamingResponse(
-
-        audio_buffer,
-
-        media_type="audio/wav"
-
-    )
-
-
-
-
+    return StreamingResponse(audio_buffer, media_type="audio/wav")
 
 
 @router.get("/model-summary")
-async def model_summary(
-    request: Request
-):
-
+async def model_summary(request: Request):
 
     hkl_inference = request.app.state.hkl_inference
 
+    config = hkl_inference.config
 
+    model = hkl_inference.model
 
-    model = getattr(
-        hkl_inference,
-        "model",
-        None
-    )
-
-
+    mms = getattr(model, "mms", None)
 
     summary = {
-
-
-        "name":
-        "HKL-VITS Hybrid Kannada TTS",
-
-
-        "status":
-        "Loaded",
-
-
-        "sample_rate":
-        16000,
-
-
-        "description":
-        (
-            "Hybrid Kannada Text To Speech system "
-            "combining MMS-VITS backbone with "
-            "Kannada linguistic encoder, phoneme "
-            "processing and prosody modeling."
-        ),
-
-
-        "architecture":[
-
-            "Facebook MMS Kannada VITS Backbone",
-
-            "Kannada Grapheme Encoder",
-
-            "Kannada Phoneme Encoder",
-
-            "Fusion Attention Layer",
-
-            "Kannada Prosody Predictor"
-
-        ]
-
+        # -----------------------
+        # Runtime
+        # -----------------------
+        "status": "Loaded",
+        "device": hkl_inference.device,
+        # -----------------------
+        # Model
+        # -----------------------
+        "model": {
+            "class": model.__class__.__name__,
+            "base_model": config.mms_model_name,
+            "checkpoint": config.checkpoint_path,
+            "parameters": sum(p.numel() for p in model.parameters()),
+            "trainable_parameters": sum(
+                p.numel() for p in model.parameters() if p.requires_grad
+            ),
+        },
+        # -----------------------
+        # MMS Details
+        # -----------------------
+        "mms": {
+            "loaded": mms is not None,
+            "class": (mms.__class__.__name__ if mms else None),
+        },
+        # -----------------------
+        # Audio
+        # -----------------------
+        "audio": {"sample_rate": config.sample_rate, "format": config.audio_format},
+        # -----------------------
+        # Tokenizer
+        # -----------------------
+        "tokenizer": {
+            "class": hkl_inference.tokenizer.__class__.__name__,
+            "model": config.mms_model_name,
+        },
+        # -----------------------
+        # Normalization
+        # -----------------------
+        "text_normalization": {
+            "enabled": config.normalize_text,
+            "numbers": config.expand_numbers,
+            "symbols": config.expand_symbols,
+            "punctuation": config.preserve_punctuation,
+        },
+        # -----------------------
+        # Architecture
+        # -----------------------
+        "pipeline": [
+            "Kannada Text Normalizer",
+            "MMS Kannada Tokenizer",
+            "Facebook MMS VITS Backbone",
+            "HKLTrainerModel Wrapper",
+            "VITS Waveform Decoder",
+        ],
     }
-
-
-
-
-
-    if model:
-
-
-        summary["model_class"] = (
-            model.__class__.__name__
-        )
-
-
-        summary["parameters"] = (
-
-            sum(
-                p.numel()
-                for p in model.parameters()
-            )
-
-        )
-
-
-
-    else:
-
-
-        summary["model_class"] = (
-
-            hkl_inference
-            .__class__
-            .__name__
-
-        )
-
-
 
     return summary
