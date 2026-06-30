@@ -1,315 +1,360 @@
 # HKL-VITS Implementation Details Report
 
-## Part 2 — Detailed Architecture, Integrated Models, Data Flow, and Module Responsibilities
+# Part 2 — Integrated Model Architecture, Neural Components, Implementation Details, and Data Flow
 
-## 4. HKL-VITS Complete Hybrid Architecture
+---
 
-HKL-VITS (Hybrid Kannada Linguistic-enhanced VITS) is not a single neural network. It is a combination of multiple specialized models where each model solves a specific problem in Kannada Text-to-Speech.
+# 4. HKL-VITS Complete Hybrid Architecture
 
-A normal TTS model tries to learn everything:
+## 4.1 Overview
+
+HKL-VITS (Hybrid Kannada Linguistic Enhanced VITS) is a hybrid Text-to-Speech architecture where different components solve different parts of Kannada speech generation.
+
+A traditional TTS system:
+
+```
+Text
+ |
+Text Encoder
+ |
+VITS
+ |
+Speech
+```
+
+The encoder must learn everything:
+
+* Kannada spelling rules
+* pronunciation
+* consonant clusters
+* vowel changes
+* rhythm
+* pauses
+* speech generation
+
+This is difficult because Kannada has complex linguistic rules.
+
+HKL-VITS separates the responsibilities:
+
+```
+                 Kannada Text
+                      |
+                      |
+          Text Normalization Layer
+                      |
+                      |
+        --------------------------------
+        |                              |
+        |                              |
+ Grapheme Representation        G2P Conversion
+        |                              |
+        |                              |
+        |                        Phoneme Tokens
+        |                              |
+        |                              |
+ Transformer Encoder             BiLSTM Encoder
+        |                              |
+        |                              |
+        --------------------------------
+                      |
+             Fusion Attention
+                      |
+                      |
+          Hybrid Kannada Features
+                      |
+                      |
+          Prosody Prediction Model
+                      |
+        --------------------------------
+        |              |               |
+      Pitch        Duration        Energy
+                      |
+                      |
+              MMS-VITS Backbone
+                      |
+                      |
+              Generated Waveform
+                      |
+                      |
+              Kannada Speech Audio
+```
+
+---
+
+# 5. Complete Data Flow in Current Implementation
+
+The actual implementation pipeline:
+
+```
+Input Text
+
+"ನಿಮ್ಮ ಖಾತೆಯಲ್ಲಿ ₹250 ಇದೆ"
+
+        |
+        ↓
+
+KannadaTextNormalizer
+
+"ನಿಮ್ಮ ಖಾತೆಯಲ್ಲಿ ರೂಪಾಯಿ ಎರಡು ನೂರು ಐವತ್ತು ಇದೆ"
+
+        |
+        ↓
+
+HKLKannadaG2P
+
+"ni mːa kha te ye lli ru paa yi..."
+
+        |
+        ↓
+
+Two Representations
+
+
+1. Grapheme
+
+Original Kannada characters
+
+        |
+        ↓
+
+KannadaGraphemeEncoder
+
+
+2. Phoneme
+
+Pronunciation sequence
+
+        |
+        ↓
+
+KannadaPhonemeEncoder
+
+
+        |
+        ↓
+
+HKLFusionAttention
+
+
+        |
+        ↓
+
+KannadaProsodyModel
+
+
+        |
+        ↓
+
+MMS-VITS
+
+
+        |
+        ↓
+
+Waveform
+
+```
+
+---
+
+# 6. Module 1 — Text Normalization Layer
+
+## Purpose
+
+Humans write text in a compact format.
+
+Speech models require pronunciation-ready text.
+
+Example:
+
+Input:
+
+```
+ನನ್ನ ಬಳಿ ₹250 ಇದೆ
+```
+
+The model should not learn:
+
+```
+₹
+250
+```
+
+directly.
+
+It should receive:
+
+```
+ನನ್ನ ಬಳಿ ರೂಪಾಯಿ ಎರಡು ನೂರು ಐವತ್ತು ಇದೆ
+```
+
+---
+
+# Implementation
+
+Class:
+
+```python
+class KannadaTextNormalizer
+```
+
+File responsibility:
 
 ```
 Text
  ↓
-Single Encoder
+Cleaning
  ↓
-VITS
+Symbol expansion
  ↓
-Audio
-```
-
-The problem is that Kannada has many linguistic challenges:
-
-* Same character can have different pronunciations
-* Vowel length changes meaning
-* Consonant doubling changes pronunciation
-* Compound words become very long
-* Numbers and symbols are difficult
-* Emotional expression requires correct pauses and pitch
-
-HKL-VITS separates these problems into different intelligent modules.
-
-The complete architecture:
-
-```
-                 Kannada Input Text
-                         |
-                         |
-             Text Normalization Layer
-                         |
-        --------------------------------
-        |                              |
- Grapheme Processing              G2P Conversion
-        |                              |
-        |                         Phoneme Sequence
-        |                              |
-        |                              |
-        |                    Phoneme Encoder
-        |                         (BiLSTM)
-        |                              |
-        |
- Grapheme Encoder
- (Transformer)
-        |
-        |
-        -------------------------------
-                         |
-                  Fusion Attention
-                         |
-             Hybrid Linguistic Feature
-                         |
-                         |
-              Prosody Prediction Model
-                   (BiLSTM)
-                         |
-          --------------------------------
-          |              |               |
-        Pitch        Duration        Energy
-          |
-          |
-      Emotion Embedding
-          |
-          |
-       MMS-VITS Backbone
-       (Fine-tuned Kannada Model)
-          |
-          |
-      Neural Vocoder
-          |
-          |
-        Waveform
-          |
-          |
-    Audio Post Processing
-          |
-          |
-       Final Kannada Speech
+Number expansion
+ ↓
+Punctuation handling
 ```
 
 ---
 
-# 5. Module 1 — Text Normalization Layer
+## Number Expansion
 
-## Purpose
+Implementation:
 
-The first problem in TTS is that humans write text in a compact form, but speech requires expanded pronunciation.
+```python
+num2words(value, lang="kn")
+```
+
+Library:
+
+```
+indic_numtowords
+```
 
 Example:
+
+```python
+250
+```
+
+becomes:
+
+```
+ಎರಡು ನೂರು ಐವತ್ತು
+```
+
+---
+
+## Symbol Expansion
+
+Configuration:
+
+```python
+symbol_map
+```
+
+Example:
+
+```python
+"₹": "ರೂಪಾಯಿ"
+"%": "ಶೇಕಡಾ"
+"+": "ಪ್ಲಸ್"
+```
 
 Input:
 
 ```
-ನಾನು 123 ಪುಸ್ತಕಗಳನ್ನು ಓದಿದೆ
+50%
 ```
 
-A human reads:
+Output:
 
 ```
-ನಾನು ಒಂದು ಎರಡು ಮೂರು ಪುಸ್ತಕಗಳನ್ನು ಓದಿದೆ
-```
-
-The model should not learn every possible number combination.
-
-Therefore HKL-VITS uses a deterministic preprocessing layer.
-
----
-
-## Responsibilities
-
-### 1. Number Expansion
-
-Digits:
-
-```
-1 → ಒಂದು
-2 → ಎರಡು
-3 → ಮೂರು
-```
-
-Example:
-
-Input:
-
-```
-ನನ್ನ ಬಳಿ 25 ರೂಪಾಯಿ ಇದೆ
-```
-
-Converted:
-
-```
-ನನ್ನ ಬಳಿ ಎರಡು ಐದು ರೂಪಾಯಿ ಇದೆ
+ಐವತ್ತು ಶೇಕಡಾ
 ```
 
 ---
 
-### 2. Symbol Expansion
+## Why Rule Based?
 
-Symbols do not have natural pronunciation.
+Numbers and symbols are deterministic.
 
-Example:
-
-Input:
+The neural model should not waste learning:
 
 ```
-A+B=C
+250 = two hundred fifty
 ```
 
-Normalization:
-
-```
-A ಪ್ಲಸ್ B ಸಮಾನ C
-```
-
-Mapping:
-
-```
-+
-ಪ್ಲಸ್
-
-=
-ಸಮಾನ
-
-%
-ಶೇಕಡಾ
-
-&
-ಮತ್ತು
-```
+This should be solved before training.
 
 ---
 
-### 3. Punctuation Preservation
+# 7. Module 2 — Kannada G2P Engine
 
-Punctuation contains speech information.
+## What is G2P?
+
+G2P means:
+
+```
+Grapheme
+(Text character)
+
+        ↓
+
+Phoneme
+(Speech sound)
+```
 
 Example:
 
-Without punctuation:
-
-```
-ನೀನು ಬಂದೆಯಾ
-```
-
-With question:
-
-```
-ನೀನು ಬಂದೆಯಾ?
-```
-
-The second one requires:
-
-* higher pitch ending
-* different intonation
-
-HKL-VITS keeps punctuation information for prosody prediction.
-
----
-
-# 6. Module 2 — Kannada G2P Engine
-
-## Grapheme To Phoneme Conversion
-
-G2P converts written Kannada characters into pronunciation units.
-
-Example:
-
-Input:
+Kannada:
 
 ```
 ಕನ್ನಡ
 ```
 
-Grapheme:
+Characters:
 
 ```
 ಕ ಣ್ ಣ ಡ
 ```
 
-Phoneme:
+Sound:
 
 ```
 ka nː na ɖa
 ```
 
-The neural model receives pronunciation information instead of only characters.
-
 ---
 
-# Why G2P is Important for Kannada?
+## Why Kannada Needs G2P?
 
-English:
+Because Kannada spelling and pronunciation are not always equal.
 
-```
-cat
-```
+Examples:
 
-Almost always:
-
-```
-k æ t
-```
-
-Kannada:
+## Consonant length
 
 ```
 ಕ
 ```
 
-can have different contexts.
-
-Also Kannada has:
-
-## Vowel Length
-
-Short:
-
-```
-ಕಿ
-```
-
-Long:
-
-```
-ಕೀ
-```
-
-They are different sounds.
-
-Representation:
-
-```
-i
-i:
-```
-
----
-
-## Gemination
-
-Single consonant:
-
-```
-ಕ
-```
-
-Double consonant:
+short sound
 
 ```
 ಕ್ಕ
 ```
 
-Pronunciation:
+long consonant
+
+Speech difference:
 
 ```
 ka
+
 kːa
 ```
 
-The duration changes.
-
 ---
 
-## Consonant Clusters
+## Conjunct characters
 
 Example:
 
@@ -317,13 +362,13 @@ Example:
 ಕ್ಷ
 ```
 
-Not:
+A character model may see:
 
 ```
-ka + sha
+ಕ + ಷ
 ```
 
-Actual:
+but speech requires:
 
 ```
 ksha
@@ -331,69 +376,102 @@ ksha
 
 ---
 
-HKL G2P handles:
+# Current Implementation
 
-```
-ಕನ್ನಡ
-→ ka nː na ɖa
+Class:
 
-
-ಅಣ್ಣ
-→ a ṇː ṇa
-
-
-ಪ್ರ
-→ pra
-
-
-ಕ್ಷ
-→ ksha
-
-
-ಕ್ರ
-→ kra
+```python
+HKLKannadaG2P
 ```
 
----
+Main functions:
 
-# 7. Module 3 — Grapheme Encoder
-
-## Technology
-
-Transformer Encoder
-
----
-
-## Purpose
-
-The grapheme encoder understands the original Kannada writing structure.
-
-Input:
-
+```python
+convert_word()
+convert_sentence()
+to_phoneme_string()
 ```
-ಕನ್ನಡ
-```
-
-Character sequence:
-
-```
-ಕ ಣ್ ಣ ಡ
-```
-
-The encoder learns:
-
-* spelling pattern
-* character relationships
-* script structure
-* visual similarity
-
----
-
-## Why Transformer?
-
-Kannada words can be long.
 
 Example:
+
+```python
+g2p.convert_sentence("ಕನ್ನಡ")
+```
+
+Output:
+
+```
+ka nː na ɖa
+```
+
+---
+
+# 8. Module 3 — Grapheme Encoder
+
+## What is a Grapheme Encoder?
+
+Grapheme means:
+
+```
+written form
+```
+
+Example:
+
+```
+ಕನ್ನಡ
+```
+
+The grapheme encoder learns:
+
+* character relationships
+* spelling structure
+* Kannada script patterns
+
+---
+
+# Technology Used
+
+Implementation:
+
+```python
+nn.TransformerEncoder
+```
+
+Library:
+
+```
+PyTorch
+torch.nn
+```
+
+---
+
+# What is Transformer?
+
+A Transformer is a neural network that understands relationships between tokens.
+
+Traditional models:
+
+```
+ಕ → ಣ → ಡ
+```
+
+read one by one.
+
+Transformer:
+
+```
+ಕ ↔ ಣ ↔ ಡ
+```
+
+looks at the complete sequence.
+
+---
+
+Example:
+
+Word:
 
 ```
 ಮನೆಗಳಿಂದ
@@ -405,314 +483,47 @@ Contains:
 ಮನೆ + ಗಳ + ಇಂದ
 ```
 
-The meaning depends on relationships between distant characters.
-
-Transformer uses attention:
-
-Example:
-
-```
-ಮನೆಗಳಿಂದ
-```
-
-The character:
+The ending:
 
 ```
 ಇಂದ
 ```
 
-depends on:
+depends on the beginning:
 
 ```
 ಮನೆ
 ```
 
-Attention connects them.
+Attention connects these parts.
 
 ---
 
-Transformer gives:
+# Current Implementation
 
-```
-Grapheme Feature
+Class:
 
-(batch, sequence, hidden)
-
-Example:
-
-[2, 50, 256]
+```python
+KannadaGraphemeEncoder
 ```
 
-Meaning:
+Code:
 
-2 sentences
-
-50 tokens
-
-256 feature dimensions
-
----
-
-# 8. Module 4 — Phoneme Encoder
-
-## Technology
-
-Bi-directional LSTM (BiLSTM)
-
----
-
-## Why BiLSTM?
-
-Speech pronunciation is sequential.
-
-Example:
-
-```
-ಕನ್ನಡ
+```python
+self.embed = nn.Embedding(
+    vocab,
+    hidden
+)
 ```
 
-Pronunciation:
+Embedding converts:
 
 ```
-ka nː na ɖa
-```
+Kannada character ID
 
-Each sound affects the next sound.
+        ↓
 
-A normal LSTM reads:
-
-```
-ka → nː → na → ɖa
-```
-
-Only previous information is available.
-
-A BiLSTM reads both directions.
-
-Forward:
-
-```
-ka → nː → na → ɖa
-```
-
-Backward:
-
-```
-ɖa → na → nː → ka
-```
-
-So each phoneme receives:
-
-* previous context
-* future context
-
----
-
-## BiLSTM Internal Working
-
-A BiLSTM has two LSTMs.
-
-### Forward LSTM
-
-Input:
-
-```
-k a n n a
-```
-
-Learning:
-
-```
-what came before
-```
-
-Example:
-
-While processing:
-
-```
-na
-```
-
-it knows:
-
-```
-ka
-```
-
-came earlier.
-
----
-
-### Backward LSTM
-
-Reads:
-
-```
-a n n a k
-```
-
-Learning:
-
-```
-what comes after
-```
-
-Example:
-
-While processing:
-
-```
-na
-```
-
-it knows:
-
-```
-ɖa
-```
-
-comes later.
-
----
-
-The outputs are combined:
-
-```
-Forward Hidden
-        +
-Backward Hidden
-        |
-        |
-Combined Phoneme Feature
-```
-
----
-
-## Why BiLSTM instead of Transformer for phoneme?
-
-Transformer is excellent for long text relationships.
-
-But phoneme sequences require:
-
-* pronunciation continuity
-* local sound transitions
-* timing relationships
-
-BiLSTM naturally captures speech sequence behavior.
-
----
-
-Example:
-
-Without BiLSTM:
-
-```
-ka n na
-```
-
-may sound:
-
-```
-ka-na-na
-```
-
-With BiLSTM:
-
-```
-ka-nːa
-```
-
-because it understands:
-
-```
-double consonant duration
-```
-
----
-
-# 9. Module 5 — Fusion Attention Layer
-
-Now HKL-VITS has two different knowledge sources.
-
-## Grapheme Encoder knows:
-
-```
-How the word is written
-```
-
-## Phoneme Encoder knows:
-
-```
-How the word should sound
-```
-
-Both are important.
-
----
-
-Simple combination:
-
-```
-grapheme + phoneme
-```
-
-is not enough.
-
-Because sometimes:
-
-Grapheme is more reliable.
-
-Example:
-
-technical words
-
-```
-AI
-```
-
-Need spelling information.
-
-Sometimes phoneme is more reliable.
-
-Example:
-
-```
-ಕನ್ನಡ
-```
-
-Pronunciation is more important.
-
----
-
-Therefore HKL-VITS uses:
-
-## Multi-Head Attention Fusion
-
-The model learns:
-
-```
-For this position:
-
-70% phoneme
-30% grapheme
-```
-
-or
-
-```
-40% phoneme
-60% grapheme
-```
-
-depending on the word.
-
----
-
-Output:
-
-```
-Hybrid Linguistic Representation
+256 dimensional vector
 ```
 
 Example:
@@ -720,44 +531,382 @@ Example:
 Before:
 
 ```
-Grapheme:
-
-[batch,49,256]
-
-
-Phoneme:
-
-[batch,49,256]
+ಕ = 45
 ```
 
-After fusion:
+After:
 
 ```
-HKL Feature:
-
-[batch,49,256]
+[
+0.21,
+0.54,
+...
+256 values
+]
 ```
-
-This becomes the main linguistic representation.
 
 ---
 
-# 10. Module 6 — Prosody Prediction Network
+Transformer:
 
-## Purpose
+```python
+nn.TransformerEncoderLayer(
+    hidden,
+    4,
+    batch_first=True
+)
+```
 
-Correct words are not enough.
+Parameters:
 
-Speech requires:
+| Parameter | Value | Meaning            |
+| --------- | ----- | ------------------ |
+| hidden    | 256   | feature size       |
+| heads     | 4     | attention groups   |
+| layers    | 4     | transformer blocks |
 
-* where to pause
-* how long to speak
-* pitch movement
+Output:
+
+```
+(batch, text_length, 256)
+```
+
+Example:
+
+```
+(2,50,256)
+```
+
+Meaning:
+
+```
+2 sentences
+50 characters
+256 features
+```
+
+---
+
+# 9. Module 4 — Phoneme Encoder (BiLSTM)
+
+## What is LSTM?
+
+LSTM:
+
+Long Short-Term Memory
+
+It is a neural network designed for sequences.
+
+Speech is sequential:
+
+```
+ka → n → na → ɖa
+```
+
+Every sound depends on previous and future sounds.
+
+---
+
+# Problem with Normal RNN
+
+Long sequences:
+
+```
+ಮನೆಗಳಿಂದ
+```
+
+contain:
+
+```
+ಮನೆ + ಗಳ + ಇಂದ
+```
+
+A simple RNN may forget:
+
+```
+ಮನೆ
+```
+
+when reaching:
+
+```
+ಇಂದ
+```
+
+---
+
+# LSTM Solution
+
+LSTM has memory.
+
+It uses three gates.
+
+---
+
+## Forget Gate
+
+Question:
+
+"What old information should I remove?"
+
+Example:
+
+Remove irrelevant pronunciation history.
+
+---
+
+## Input Gate
+
+Question:
+
+"What new information should I remember?"
+
+Example:
+
+Store suffix information.
+
+---
+
+## Output Gate
+
+Question:
+
+"What information should continue?"
+
+---
+
+# What is BiLSTM?
+
+BiLSTM =
+
+```
+Forward LSTM
++
+Backward LSTM
+```
+
+---
+
+Forward direction:
+
+```
+ka → nː → na → ɖa
+```
+
+Learns:
+
+"What came before?"
+
+---
+
+Backward direction:
+
+```
+ɖa → na → nː → ka
+```
+
+Learns:
+
+"What comes after?"
+
+---
+
+Final:
+
+```
+Forward hidden
+
++
+
+Backward hidden
+
+=
+
+Complete phoneme understanding
+```
+
+---
+
+# Current Implementation
+
+Class:
+
+```python
+KannadaPhonemeEncoder
+```
+
+Code:
+
+```python
+nn.LSTM(
+ hidden,
+ hidden//2,
+ num_layers=2,
+ bidirectional=True
+)
+```
+
+Parameters:
+
+| Parameter   | Value         |
+| ----------- | ------------- |
+| input size  | 256           |
+| hidden size | 128           |
+| layers      | 2             |
+| direction   | bidirectional |
+
+Why hidden//2?
+
+Because:
+
+Forward:
+
+```
+128
+```
+
+Backward:
+
+```
+128
+```
+
+Combined:
+
+```
+256
+```
+
+which matches the grapheme encoder.
+
+---
+
+Output:
+
+```
+(batch, phoneme_length,256)
+```
+
+---
+
+# 10. Module 5 — Fusion Attention Layer
+
+Now we have:
+
+Grapheme knowledge:
+
+```
+How word is written
+```
+
+Phoneme knowledge:
+
+```
+How word sounds
+```
+
+Need to combine them.
+
+---
+
+Simple addition:
+
+```
+grapheme + phoneme
+```
+
+does not know importance.
+
+---
+
+Attention solves this.
+
+---
+
+# What is Attention?
+
+Attention asks:
+
+"Which information is more important here?"
+
+Example:
+
+Word:
+
+```
+ಟೆಕ್ನಾಲಜಿ
+```
+
+Need spelling:
+
+```
+Grapheme importance ↑
+```
+
+Word:
+
+```
+ಕನ್ನಡ
+```
+
+Need pronunciation:
+
+```
+Phoneme importance ↑
+```
+
+---
+
+# Current Implementation
+
+Class:
+
+```python
+HKLFusionAttention
+```
+
+Code:
+
+```python
+nn.MultiheadAttention(
+256,
+4
+)
+```
+
+Parameters:
+
+| Parameter       | Value |
+| --------------- | ----- |
+| hidden size     | 256   |
+| attention heads | 4     |
+
+---
+
+Output:
+
+```
+Hybrid Kannada Feature
+
+(batch,sequence,256)
+```
+
+---
+
+# 11. Module 6 — Prosody Prediction Model
+
+Correct pronunciation is not enough.
+
+Human speech needs:
+
+* pause
+* speed
+* pitch
 * energy
 
 Example:
 
-Same sentence:
+Same text:
 
 ```
 ನೀನು ಬಂದೆ
@@ -775,124 +924,226 @@ Question:
 ನೀನು ಬಂದೆ?
 ```
 
-Different prosody.
+Different:
+
+* pitch
+* ending
+* pause
 
 ---
 
-HKL-VITS predicts:
+# Current Implementation
 
-```
-Pause
-Duration
-Pitch
-Energy
-```
+Class:
 
----
+```python
+KannadaProsodyModel
+```
 
 Architecture:
 
 ```
-HKL Features
+HKL Feature
 
-      |
-      |
+     ↓
 
-BiLSTM Prosody Encoder
+BiLSTM
 
-      |
-      |
+     ↓
 
-Linear Prediction Heads
+Linear Layers
 
-      |
- -----------------
- |       |        |
-Pause Duration Pitch Energy
+     ↓
+
+Pause
+Duration
+Pitch
+Energy
+
 ```
 
 ---
+
+Parameters:
+
+```python
+hidden_dim=256
+
+prosody_dim=4
+```
 
 Output:
 
 ```
-pause:
-
-[batch, tokens]
-
-
-duration:
-
-[batch,tokens]
-
-
-pitch:
-
-[batch,tokens]
-
-
-energy:
-
-[batch,tokens]
+pause
+duration
+pitch
+energy
 ```
 
 ---
 
-This information controls MMS-VITS synthesis.
+# 12. MMS-VITS Backbone Integration
+
+## What is MMS-VITS?
+
+MMS-VITS is a multilingual VITS speech generation model from HuggingFace.
+
+Library:
+
+```
+transformers
+```
+
+Implementation:
+
+```python
+VitsModel.from_pretrained()
+```
+
+Model:
+
+```
+facebook/mms-tts-kan
+```
 
 ---
 
-# 11. Module 7 — Emotion Embedding
+# Role of MMS-VITS
 
-Optional module.
+HKL modules understand Kannada language.
 
-Supported:
+MMS-VITS converts:
 
 ```
-neutral
-happy
-sad
-angry
-questioning
+linguistic features
+
+        ↓
+
+audio waveform
 ```
 
-Emotion vector is added:
+---
+
+# Freezing Backbone
+
+Configuration:
+
+```python
+freeze_mms=True
+```
+
+Meaning:
+
+MMS weights are not updated.
+
+Only HKL layers learn.
+
+Advantages:
+
+* less GPU memory
+* faster training
+* preserves pretrained speech quality
+
+---
+
+# 13. Complete Training Flow
+
+```
+Dataset
+
+WAV + Text
+
+      ↓
+
+HKLDataset
+
+      ↓
+
+Tokenizer
+
+      ↓
+
+Grapheme Encoder
+
+      ↓
+
+Phoneme Encoder
+
+      ↓
+
+Fusion Attention
+
+      ↓
+
+Prosody Model
+
+      ↓
+
+Loss
+
+      ↓
+
+AdamW Optimizer
+
+      ↓
+
+Checkpoint
+```
+
+---
+
+# 14. Current Implementation Validation
+
+Your API test confirms the pipeline is working:
 
 Example:
 
-Neutral:
+Input:
 
 ```
-linguistic feature
-+
-neutral embedding
+ನಿಮ್ಮ ಉಳಿತಾಯ ಖಾತೆಯಲ್ಲಿ 2500 ರೂಪಾಯಿಗಳು
 ```
 
-Happy:
+Normalization:
 
 ```
-linguistic feature
-+
-happy embedding
+ನಿಮ್ಮ ಉಳಿತಾಯ ಖಾತೆಯಲ್ಲಿ ಎರಡು ಸಾವಿರದ ಐನೂರು ರೂಪಾಯಿಗಳು
 ```
 
-The model changes:
+Generated:
 
-* pitch
-* energy
-* speaking style
+```
+Samples: 230912
+```
+
+The complete chain is working:
+
+```
+Text
+
+↓
+
+Normalization
+
+↓
+
+G2P
+
+↓
+
+HKL Features
+
+↓
+
+MMS-VITS
+
+↓
+
+Waveform
+
+```
 
 ---
 
 # End of Part 2
-
-Part 3 will cover:
-
-* MMS-VITS fine-tuned backbone integration
-* Training pipeline
-* Loss functions
-* Parameter details
-* Colab T4 implementation
-* Inference flow
-* Comparison with existing TTS models
-* Why HKL-VITS is different academically and technically

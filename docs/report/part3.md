@@ -1,919 +1,237 @@
-# HKL-VITS Implementation Details Report
-
-# Part 3 — Fine-Tuned MMS-VITS Integration, Training Pipeline, Parameters, Inference, and Research Comparison
+Here’s the **Markdown‑formatted documentation** for **HKL‑VITS Implementation Details — Part 3**, ready for inclusion in your project repository or technical wiki.
 
 ---
 
-# 12. Module 8 — Fine-Tuned MMS-VITS Acoustic Backbone
 
-## Purpose
-
-The final stage of HKL-VITS converts linguistic information into actual Kannada speech waveform.
-
-The previous modules only understand language:
-
-```
-Text
- |
-G2P
- |
-Grapheme Encoder
- |
-Phoneme Encoder
- |
-Fusion
- |
-Prosody
-```
-
-Output:
-
-```
-Linguistic Features
-```
-
-But this is not audio yet.
-
-A neural speech synthesizer is required.
-
-For this purpose HKL-VITS integrates a fine-tuned:
-
-```
-MMS-VITS Kannada Acoustic Model
-```
+# HKL‑VITS Implementation Details Report  
+### Part 3 — Fine‑Tuned MMS‑VITS Integration, Training Pipeline, Parameters, Inference, and Research Comparison
 
 ---
 
-# Why MMS-VITS was selected?
+## 12. Fine‑Tuned MMS‑VITS Acoustic Backbone
 
-Training a complete TTS model from zero requires:
+### Purpose
+The final stage of HKL‑VITS converts linguistic features into actual Kannada speech.  
+Earlier modules handle language understanding (normalization, G2P, grapheme/phoneme encoding, fusion, prosody).  
+To generate audio, HKL‑VITS integrates a **fine‑tuned MMS‑VITS Kannada acoustic model**.
 
-* thousands of hours of speech
-* powerful GPUs
-* long training time
-* complex alignment learning
+### Why MMS‑VITS?
+Training a full TTS model from scratch requires huge datasets and GPU resources.  
+MMS‑VITS already provides:
+- Pretrained VITS architecture  
+- Neural acoustic generation  
+- Waveform synthesis  
+- Kannada language support  
 
-MMS-VITS already provides:
-
-* VITS architecture
-* neural acoustic generation
-* waveform synthesis
-* Kannada language capability
-
-Instead of rebuilding VITS, HKL-VITS improves the linguistic front-end.
-
----
-
-## Original VITS Pipeline
-
-Traditional VITS:
-
-```
-Text
- |
-Text Encoder
- |
-Posterior Encoder
- |
-Flow
- |
-HiFi-GAN Decoder
- |
-Audio
-```
-
-The text encoder is generic.
-
-For Kannada this creates limitations.
+HKL‑VITS enhances the **linguistic front‑end** while reusing MMS‑VITS for acoustic decoding.
 
 ---
 
-## HKL-VITS Modified Pipeline
+## 13. MMS Adapter Layer
+
+The HKL encoder outputs 256‑dimensional features, while MMS expects 192‑dimensional inputs.  
+A **linear projection layer** bridges this mismatch:
 
 ```
-Kannada Text
-
-     |
-     |
-
-HKL Linguistic Front-End
-
-     |
-     |
-
-Hybrid Representation
-
-     |
-     |
-
-Adapter Layer
-
-     |
-     |
-
-Fine-tuned MMS-VITS
-
-     |
-     |
-
-Waveform
-
+HKL Feature [B,T,256] → MMS Feature [B,T,192]
 ```
 
----
-
-# 13. MMS Adapter Layer
-
-The HKL encoder dimension and MMS dimension are different.
-
-Example:
-
-HKL:
-
-```
-hidden size = 256
-```
-
-MMS:
-
-```
-hidden size = 192
-```
-
-They cannot directly connect.
-
-Therefore:
-
-```
-HKL Feature
-
-[batch, tokens, 256]
-
-
-        |
-        |
-
-Linear Projection
-
-
-        |
-        |
-
-
-MMS Feature
-
-[batch,tokens,192]
-
-```
-
-Implementation concept:
-
+Implementation:
 ```python
-nn.Linear(256,192)
+nn.Linear(256, 192)
 ```
 
 Purpose:
-
-* feature compatibility
-* dimensional conversion
-* preserve learned linguistic information
+- Feature compatibility  
+- Dimensional conversion  
+- Preserve linguistic information  
 
 ---
 
-# 14. Complete HKL-VITS Data Flow
-
-Final complete architecture:
+## 14. Complete HKL‑VITS Data Flow
 
 ```
-                 Input Kannada Text
-
-                         |
-
-             Text Normalization
-
-                         |
-
-              Kannada G2P Engine
-
-                         |
-
-          ----------------------------
-
-          |                          |
-
-   Grapheme Encoder           Phoneme Encoder
-
-    Transformer                 BiLSTM
-
-
-          |                          |
-
-          ----------------------------
-
-                    Fusion Attention
-
-                         |
-
-              HKL Linguistic Feature
-
-                    [B,T,256]
-
-                         |
-
-              Prosody Predictor
-
-                         |
-
-      ---------------------------------
-
-      |              |                |
-
-    Pitch        Duration          Energy
-
-                         |
-
-                  Emotion Layer
-
-                         |
-
-                Adapter Projection
-
-                    [B,T,192]
-
-                         |
-
-              Fine-tuned MMS-VITS
-
-                         |
-
-                 Neural Decoder
-
-                         |
-
-                    Waveform
-
-                         |
-
-                 Final Kannada Audio
-
+Input Kannada Text
+      ↓
+Text Normalization
+      ↓
+Kannada G2P Engine
+      ↓
+ ┌───────────────┬───────────────┐
+ │ Grapheme Enc. │ Phoneme Enc. │
+ │ Transformer   │ BiLSTM       │
+ └───────────────┴───────────────┘
+      ↓
+Fusion Attention
+      ↓
+HKL Linguistic Feature [B,T,256]
+      ↓
+Prosody Predictor → Pitch | Duration | Energy
+      ↓
+Emotion Layer
+      ↓
+Adapter Projection [B,T,192]
+      ↓
+Fine‑Tuned MMS‑VITS
+      ↓
+Neural Decoder
+      ↓
+Waveform → Final Kannada Audio
 ```
 
 ---
 
-# 15. Training Pipeline
+## 15. Training Pipeline
 
-## Dataset
-
-HKL-VITS uses:
-
-Kannada Speech Dataset
-
-Structure:
-
+### Dataset Structure
 ```
 dataset/
-
- wavs/
-
-    audio001.wav
-
-    audio002.wav
-
-
- text/
-
-    audio001.txt
-
-    audio002.txt
-
+ ├── wavs/
+ │   ├── audio001.wav
+ │   └── audio002.wav
+ └── text/
+     ├── audio001.txt
+     └── audio002.txt
 ```
 
-Each sample:
+Each pair contains **text + corresponding speech**.
 
-```
-Text
-+
-Corresponding speech
-```
-
-Example:
-
-Text:
-
-```
-ನಾನು ಕನ್ನಡ ಮಾತನಾಡುತ್ತೇನೆ
-```
-
-Audio:
-
-```
-speaker recording
-```
+### Processing Steps
+1. **Audio Loading** → 16 kHz waveform tensor  
+2. **Text Normalization** → expands numbers/symbols  
+3. **G2P Conversion** → phoneme sequence  
+4. **Feature Generation** → grapheme, phoneme, prosody, emotion embeddings  
 
 ---
 
-# Dataset Processing
+## 16. Training Objectives
 
-## Step 1 — Audio Loading
+HKL‑VITS optimizes multiple objectives:
 
-Audio:
-
-```
-16 kHz sampling rate
-```
-
-Converted:
-
-```
-Waveform Tensor
-```
-
-Example:
-
-```
-[16000 samples/sec]
-```
+| Objective | Purpose | Effect |
+|------------|----------|--------|
+| Acoustic Reconstruction Loss | Match generated Mel‑spectrogram to real audio | Improves clarity & quality |
+| Prosody Loss | Learn pitch, duration, energy | Enhances rhythm & expressiveness |
+| Phoneme Clarity Loss | Distinguish similar sounds (e.g., ಕ vs ಕ್ಕ, ಕಿ vs ಕೀ) | Improves pronunciation accuracy |
 
 ---
 
-## Step 2 — Text Processing
-
-Original:
-
-```
-ನಾನು 123 ಮಾತನಾಡುತ್ತೇನೆ
-```
-
-After normalization:
-
-```
-ನಾನು ಒಂದು ಎರಡು ಮೂರು ಮಾತನಾಡುತ್ತೇನೆ
-```
-
----
-
-## Step 3 — G2P Conversion
-
-Output:
-
-```
-naa nu
-
-ka nː na ɖa
-
-maa ta naa ɖu
-
-```
-
----
-
-## Step 4 — Feature Generation
-
-Generate:
-
-```
-Grapheme embeddings
-
-Phoneme embeddings
-
-Prosody targets
-
-Emotion embeddings
-```
-
----
-
-# 16. HKL-VITS Training Objective
-
-Training does not optimize only audio quality.
-
-It learns multiple objectives.
-
----
-
-## 1. Acoustic Reconstruction Loss
-
-Purpose:
-
-Make generated audio close to real audio.
-
-Formula:
-
-```
-L_reconstruction
-
-=
-
-Generated Mel
-
--
-
-Real Mel
-
-```
-
-Improves:
-
-* speech clarity
-* pronunciation
-* voice quality
-
----
-
-# 2. Prosody Loss
-
-The model learns:
-
-* pitch
-* duration
-* energy
-
-Example:
-
-Real:
-
-```
-ಕನ್ನಡ
-```
-
-Duration:
-
-```
-ka nː na ɖa
-
-```
-
-Generated:
-
-```
-ka na na da
-
-```
-
-Loss teaches:
-
-```
-nː must be longer
-```
-
----
-
-# 3. Phoneme Clarity Loss
-
-Kannada-specific improvement.
-
-Purpose:
-
-Separate similar sounds.
-
-Examples:
-
-```
-ಕಿ
-
-vs
-
-ಕೀ
-```
-
-Short and long vowel.
-
-And:
-
-```
-ಕ
-
-vs
-
-ಕ್ಕ
-```
-
-Single vs gemination.
-
-The model learns:
-
-```
-Different phonemes
-=
-Different acoustic representation
-```
-
----
-
-# 17. Training Configuration
-
-Example HKL-VITS configuration:
+## 17. Training Configuration
 
 ```json
 {
-"model":
-
-{
-
-"grapheme_hidden":256,
-
-"phoneme_hidden":256,
-
-"mms_hidden":192,
-
-"phoneme_encoder":"BiLSTM",
-
-"fusion":"Multi Head Attention"
-
-},
-
-
-"training":
-
-{
-
-"batch_size":2,
-
-"gradient_accumulation":8,
-
-"learning_rate":0.0002,
-
-"epochs":10
-
-}
-
+  "model": {
+    "grapheme_hidden": 256,
+    "phoneme_hidden": 256,
+    "mms_hidden": 192,
+    "phoneme_encoder": "BiLSTM",
+    "fusion": "Multi Head Attention"
+  },
+  "training": {
+    "batch_size": 2,
+    "gradient_accumulation": 8,
+    "learning_rate": 0.0002,
+    "epochs": 10
+  }
 }
 ```
 
 ---
 
-# 18. Why BiLSTM in HKL-VITS Prosody Model?
+## 18. Why BiLSTM for Prosody
 
-Speech timing depends on sequence.
+Speech timing depends on both past and future context.  
+BiLSTM captures this bidirectional dependency, predicting pauses and pitch more naturally than one‑directional models.
 
-Example:
-
-Sentence:
-
-```
-ನಾನು ಇಂದು ಮನೆಗೆ ಹೋಗುತ್ತೇನೆ
-```
-
-The pause after:
-
-```
-ಇಂದು
-```
-
-depends on upcoming words.
-
-BiLSTM sees:
-
-Previous:
-
-```
-ನಾನು ಇಂದು
-```
-
-Future:
-
-```
-ಮನೆಗೆ ಹೋಗುತ್ತೇನೆ
-```
-
-Therefore it predicts:
-
-```
-Pause = low
-Duration = normal
-Pitch = rising
-```
-
-Better than independent token prediction.
+Example:  
+Sentence → “ನಾನು ಇಂದು ಮನೆಗೆ ಹೋಗುತ್ತೇನೆ”  
+BiLSTM learns that the pause after “ಇಂದು” depends on upcoming words.
 
 ---
 
-# 19. Inference Pipeline
+## 19. Inference Pipeline
 
-User input:
-
-```
-ನಾನು ಇಂದು ತುಂಬಾ ಸಂತೋಷವಾಗಿದ್ದೇನೆ
-```
-
----
-
-## Step 1
-
-Normalize:
-
-```
-same text
-```
+1. **Normalize text**  
+2. **G2P conversion**  
+3. **Generate HKL representation** → `[1,63,256]`  
+4. **Predict prosody** → pitch, duration, energy tensors  
+5. **Add emotion embedding** (e.g., *happy*)  
+6. **MMS synthesis** → waveform `[70000 samples]` → `hkl_happy.wav`
 
 ---
 
-## Step 2
+## 20. Hardware Requirements
 
-G2P:
-
-```
-naa nu
-
-i ndu
-
-tu mba
-
-sa nto sha
-
-```
+| Stage | Recommended Hardware |
+|--------|----------------------|
+| Development | Google Colab T4 GPU (16 GB VRAM, CUDA 12.x, PyTorch 2.x) |
+| Training | Batch 2, Grad Accum 8 → Effective Batch 16, Epoch ≥ 10 |
 
 ---
 
-## Step 3
+## 21. Comparison With Existing TTS Models
 
-Generate HKL representation:
-
-Output:
-
-```
-[1,63,256]
-```
-
----
-
-## Step 4
-
-Generate prosody:
-
-Output:
-
-```
-pause:
-
-[1,63]
-
-
-duration:
-
-[1,63]
-
-
-pitch:
-
-[1,63]
-
-
-energy:
-
-[1,63]
-
-```
+| Feature | Tacotron 2 | FastSpeech 2 | Generic VITS | MMS‑TTS | **HKL‑VITS** |
+|----------|-------------|---------------|---------------|-----------|---------------|
+| End‑to‑End | ✅ | ⚠️ | ✅ | ✅ | ✅ |
+| Kannada Optimized | ❌ | ❌ | ❌ | Basic | ✅ |
+| G2P Support | Limited | Limited | Basic | Basic | **Advanced** |
+| Morphology Handling | Low | Medium | Low | Medium | **High** |
+| Vowel Length | Weak | Medium | Medium | Medium | **Explicit** |
+| Gemination | Weak | Medium | Medium | Medium | **Explicit** |
+| Grapheme Encoder | Yes | Yes | Yes | Yes | **Transformer** |
+| Phoneme Encoder | No | Optional | No | No | **BiLSTM** |
+| Dual Representation | No | No | No | No | **Yes** |
+| Prosody Control | Limited | Good | Medium | Medium | **Advanced** |
+| Emotion Control | Limited | Optional | Limited | Limited | **Integrated** |
+| Training Cost | High | Medium | High | Lower | **Lower** |
+| Kannada Adaptability | Low | Medium | Medium | Medium | **High** |
 
 ---
 
-## Step 5
-
-Emotion selection:
-
-Example:
-
-```
-happy
-```
-
-Emotion embedding added.
-
----
-
-## Step 6
-
-MMS synthesis:
-
-Output:
-
-```
-waveform
-
-[70000 samples]
-
-```
-
-Saved:
-
-```
-hkl_happy.wav
-```
-
----
-
-# 20. Hardware Requirement
-
-Development:
-
-```
-Google Colab T4
-
-GPU:
-Tesla T4
-
-VRAM:
-16GB
-
-CUDA:
-12.x
-
-PyTorch:
-2.x
-
-```
-
----
-
-Training:
-
-Recommended:
-
-```
-Batch:
-2
-
-Gradient accumulation:
-8
-
-Effective batch:
-16
-
-Epoch:
-10+
-
-```
-
----
-
-# 21. Comparison With Existing TTS Models
-
-| Feature               | Tacotron2 | FastSpeech2 | Generic VITS | MMS-TTS | HKL-VITS    |
-| --------------------- | --------- | ----------- | ------------ | ------- | ----------- |
-| End-to-end            | Yes       | Partial     | Yes          | Yes     | Yes         |
-| Kannada optimized     | No        | No          | No           | Basic   | Yes         |
-| G2P support           | Limited   | Limited     | Basic        | Basic   | Advanced    |
-| Morphology handling   | Low       | Medium      | Low          | Medium  | High        |
-| Vowel length handling | Weak      | Medium      | Medium       | Medium  | Explicit    |
-| Gemination handling   | Weak      | Medium      | Medium       | Medium  | Explicit    |
-| Grapheme encoder      | Yes       | Yes         | Yes          | Yes     | Transformer |
-| Phoneme encoder       | No        | Optional    | No           | No      | BiLSTM      |
-| Dual representation   | No        | No          | No           | No      | Yes         |
-| Prosody control       | Limited   | Good        | Medium       | Medium  | Advanced    |
-| Emotion control       | Limited   | Optional    | Limited      | Limited | Integrated  |
-| Training cost         | High      | Medium      | High         | Lower   | Lower       |
-| Kannada adaptability  | Low       | Medium      | Medium       | Medium  | High        |
-
----
-
-# 22. Why HKL-VITS is Different
+## 22. Why HKL‑VITS Is Different
 
 Traditional TTS:
-
 ```
-Text
- |
-One encoder
- |
-Audio
+Text → One Encoder → Audio
 ```
 
-HKL-VITS:
-
+HKL‑VITS:
 ```
-Text
-
-+
-
-Kannada Linguistic Rules
-
-+
-
-G2P
-
-+
-
-Grapheme Understanding
-
-+
-
-Phoneme Understanding
-
-+
-
-Prosody Learning
-
-+
-
-Emotion Control
-
-+
-
-Fine-tuned VITS Generation
-
-=
-
-Kannada Optimized Speech
+Text + Linguistic Rules + G2P + Grapheme + Phoneme + Prosody + Emotion + Fine‑Tuned VITS → Kannada Speech
 ```
 
 ---
 
-# 23. Research Contribution Summary
+## 23. Research Contributions
 
-HKL-VITS contributes:
-
-## 1. Hybrid Linguistic Architecture
-
-Combines:
-
-* rule based NLP
-* Transformer
-* BiLSTM
-* Attention
-* VITS
+1. **Hybrid Linguistic Architecture** — combines rule‑based NLP, Transformer, BiLSTM, Attention, and VITS.  
+2. **Kannada Phonological Modeling** — handles vowel length, gemination, conjuncts, and Sanskrit‑origin words.  
+3. **Prosody Enhancement** — predicts pause, pitch, duration, and energy.  
+4. **Emotion‑Aware Speech** — supports *neutral, happy, sad, angry,* and *questioning* tones.
 
 ---
 
-## 2. Kannada Phonological Modeling
+## 24. Final Definition
 
-Handles:
+**HKL‑VITS = Kannada Linguistic Intelligence + Neural Speech Generation**
 
-* vowel length
-* gemination
-* conjunct letters
-* Sanskrit-origin words
+It merges:
+- Linguistic preprocessing  
+- Custom G2P conversion  
+- Transformer + BiLSTM modeling  
+- Attention‑based fusion  
+- Prosody + Emotion conditioning  
+- Fine‑tuned MMS‑VITS synthesis  
 
----
-
-## 3. Prosody Enhancement
-
-Predicts:
-
-* pause
-* pitch
-* duration
-* energy
+Result:
+✅ Better pronunciation  
+✅ Natural timing  
+✅ Emotional expressiveness  
+✅ Deep Kannada linguistic understanding  
 
 ---
 
-## 4. Emotion-Aware Kannada Speech
-
-Supports:
-
-```
-neutral
-
-happy
-
-sad
-
-angry
-
-questioning
 ```
 
 ---
-
-# 24. Final HKL-VITS Definition
-
-HKL-VITS is a hybrid Kannada Text-to-Speech architecture that combines:
-
-* Kannada linguistic preprocessing
-* custom G2P conversion
-* Transformer-based grapheme understanding
-* BiLSTM phoneme modeling
-* attention-based feature fusion
-* prosody prediction
-* emotion conditioning
-* fine-tuned MMS-VITS acoustic synthesis
-
-The goal is not to replace VITS, but to enhance a powerful speech synthesis backbone with Kannada-specific intelligence.
-
-The final system provides:
-
-* better pronunciation
-* better timing
-* better emotional expression
-* better handling of Kannada linguistic complexity
-
----
-
-## Final Architecture Statement
-
-**HKL-VITS = Kannada Linguistic Intelligence + Neural Speech Generation**
-
-or:
-
-```
-Language Understanding
-        +
-Speech Intelligence
-        +
-VITS Generation
-
-        =
-
-High Quality Kannada TTS System
-```
-
-**End of Part 3 — Complete HKL-VITS Implementation Report**

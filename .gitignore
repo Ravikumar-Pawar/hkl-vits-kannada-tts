@@ -40,7 +40,7 @@ dataset/*.tsv
 # =================================
 
 # trained models
-checkpoints/
+checkpoints/mms-tts-kan
 
 # keep empty folder
 !checkpoints/.gitkeep
