@@ -131,3 +131,127 @@
 | Audio Quality Evaluation  | MOS, PESQ, STOI, Mel-Cepstral Distortion (MCD)  |
 | Experiment Tracking       | TensorBoard, MLflow or Weights & Biases         |
 
+
+
+
+---
+# Speech Quality Evaluation Test Cases
+
+## Test Case 1: Mean Opinion Score (MOS)
+
+| **Test ID**         | SQ-001                                                                                               |
+| ------------------- | ---------------------------------------------------------------------------------------------------- |
+| **Test Name**       | Mean Opinion Score (MOS) Evaluation                                                                  |
+| **Objective**       | Evaluate the naturalness and overall quality of synthesized Kannada speech.                          |
+| **Testing Method**  | Human listening evaluation                                                                           |
+| **Tool**            | Human evaluators (10–20 native Kannada speakers)                                                     |
+| **Input**           | 50 synthesized Kannada sentences covering numbers, currency, symbols, conjuncts, and long paragraphs |
+| **Procedure**       | Each evaluator listens to every audio sample and rates it on a 1–5 scale.                            |
+| **Rating Scale**    | 5 – Excellent, 4 – Good, 3 – Fair, 2 – Poor, 1 – Bad                                                 |
+| **Expected Result** | Average MOS ≥ 4.0                                                                                    |
+| **Output**          | Mean Opinion Score                                                                                   |
+| **Status**          | Pass/Fail                                                                                            |
+
+### Example Results
+
+| Audio Sample    | Average MOS    |
+| --------------- | -------------- |
+| Sentence 1      | 4.6            |
+| Sentence 2      | 4.4            |
+| Sentence 3      | 4.5            |
+| Sentence 4      | 4.3            |
+| **Overall MOS** | **4.45 / 5.0** |
+
+---
+
+# Test Case 2: PESQ (Perceptual Evaluation of Speech Quality)
+
+| **Test ID**         | SQ-002                                                                         |
+| ------------------- | ------------------------------------------------------------------------------ |
+| **Test Name**       | Speech Quality Evaluation                                                      |
+| **Objective**       | Measure perceptual similarity between synthesized speech and reference speech. |
+| **Tool**            | `pesq` Python package                                                          |
+| **Input**           | Reference WAV + Synthesized WAV                                                |
+| **Procedure**       | Compare generated speech with ground-truth recordings.                         |
+| **Metric Range**    | -0.5 to 4.5                                                                    |
+| **Expected Result** | PESQ ≥ 3.5                                                                     |
+| **Status**          | Pass/Fail                                                                      |
+
+### Example Result
+
+| Audio       | PESQ Score |
+| ----------- | ---------- |
+| Sample 1    | 3.82       |
+| Sample 2    | 3.91       |
+| Sample 3    | 3.77       |
+| **Average** | **3.83**   |
+
+---
+
+# Test Case 3: STOI (Short-Time Objective Intelligibility)
+
+| **Test ID**         | SQ-003                                                      |
+| ------------------- | ----------------------------------------------------------- |
+| **Test Name**       | Speech Intelligibility Evaluation                           |
+| **Objective**       | Measure intelligibility of synthesized speech.              |
+| **Tool**            | `pystoi`                                                    |
+| **Input**           | Reference speech + Generated speech                         |
+| **Procedure**       | Compute STOI score between reference and synthesized audio. |
+| **Metric Range**    | 0.0 – 1.0                                                   |
+| **Expected Result** | STOI ≥ 0.90                                                 |
+| **Status**          | Pass/Fail                                                   |
+
+### Example Result
+
+| Audio       | STOI     |
+| ----------- | -------- |
+| Sample 1    | 0.95     |
+| Sample 2    | 0.94     |
+| Sample 3    | 0.96     |
+| **Average** | **0.95** |
+
+---
+
+# Test Case 4: Mel-Cepstral Distortion (MCD)
+
+| **Test ID**         | SQ-004                                                                   |
+| ------------------- | ------------------------------------------------------------------------ |
+| **Test Name**       | Acoustic Similarity Evaluation                                           |
+| **Objective**       | Measure acoustic distance between synthesized and reference speech.      |
+| **Tool**            | `pyworld`, `pysptk`, or equivalent MCD implementation                    |
+| **Input**           | Reference speech + Generated speech                                      |
+| **Procedure**       | Calculate Mel-Cepstral Distortion (dB) between corresponding utterances. |
+| **Metric**          | Lower values indicate better quality                                     |
+| **Expected Result** | MCD ≤ 5.0 dB                                                             |
+| **Status**          | Pass/Fail                                                                |
+
+### Example Result
+
+| Audio       | MCD (dB)    |
+| ----------- | ----------- |
+| Sample 1    | 4.61        |
+| Sample 2    | 4.54        |
+| Sample 3    | 4.72        |
+| **Average** | **4.62 dB** |
+
+---
+
+# Overall Speech Quality Evaluation
+
+| Test ID | Evaluation Metric                              | Tool Used            | Acceptance Criteria |
+| ------- | ---------------------------------------------- | -------------------- | ------------------- |
+| SQ-001  | Mean Opinion Score (MOS)                       | Human Evaluation     | MOS ≥ 4.0           |
+| SQ-002  | Perceptual Evaluation of Speech Quality (PESQ) | `pesq`               | PESQ ≥ 3.5          |
+| SQ-003  | Short-Time Objective Intelligibility (STOI)    | `pystoi`             | STOI ≥ 0.90         |
+| SQ-004  | Mel-Cepstral Distortion (MCD)                  | `pyworld` / `pysptk` | MCD ≤ 5.0 dB        |
+
+## Python Tools
+
+| Metric | Python Library                                       | Installation                 |
+| ------ | ---------------------------------------------------- | ---------------------------- |
+| MOS    | Human evaluation (no library)                        | N/A                          |
+| PESQ   | `pesq`                                               | `pip install pesq`           |
+| STOI   | `pystoi`                                             | `pip install pystoi`         |
+| MCD    | `pyworld` + `pysptk` (or another MCD implementation) | `pip install pyworld pysptk` |
+
+
