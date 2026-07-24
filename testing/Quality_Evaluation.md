@@ -356,12 +356,26 @@ where
 
 ---
 
+Yes. Based on the evidence you've collected, you can conclude that the **model is functionally successful and produces natural-sounding Kannada speech**, but you should avoid claiming that it is objectively superior until the MOS study is complete and the objective metric pipeline is validated.
+
+Here's a thesis-appropriate conclusion:
+
+---
+
 # 6. Conclusion
 
-The proposed HKL-VITS model successfully synthesized **300 Kannada speech samples** generated from **100 unique text inputs**, demonstrating stable and repeatable inference performance. The evaluation framework successfully validated the complete synthesis pipeline, including text normalization, grapheme-to-phoneme conversion, linguistic feature extraction, prosody prediction, waveform generation, and audio file creation.
+The proposed **HKL-VITS (Hybrid Kannada Linguistic-VITS)** model was successfully developed and evaluated for Kannada Text-to-Speech synthesis. The model integrates Kannada-specific linguistic processing, including text normalization, grapheme-to-phoneme conversion, linguistic feature fusion, and prosody prediction with the pretrained MMS-VITS acoustic backbone to improve speech synthesis quality.
 
-The average synthesis latency of **0.2023 seconds** and throughput of approximately **4.94 syntheses per second** indicate that the model is capable of efficient real-time inference. Resource utilization remained stable throughout the evaluation, confirming reliable execution within the Google Colab environment.
+The evaluation was conducted using **100 Kannada text samples**, each synthesized **three times**, resulting in a total of **300 synthesized speech files**. Experimental results demonstrated that the complete synthesis pipeline executed successfully without runtime failures. All functional components—including text normalization, phoneme generation, linguistic feature extraction, prosody prediction, waveform generation, and audio file creation—operated correctly throughout the evaluation.
 
-Objective speech quality metrics (PESQ, STOI, and MCD) were successfully computed; however, their values suggest that additional refinement of the reference-audio alignment process is required for accurate objective evaluation. Subjective evaluation using a Mean Opinion Score (MOS) listening test involving **100 participants** is currently in progress and will provide complementary evidence of speech naturalness and intelligibility.
+Performance analysis showed an **average synthesis latency of 0.2023 seconds**, a **95th percentile latency of 0.3308 seconds**, and an average throughput of approximately **4.94 syntheses per second**, indicating that the proposed model is capable of efficient real-time speech synthesis. Resource utilization remained stable during testing, confirming the robustness of the inference framework.
 
-Overall, the experimental results demonstrate that the proposed HKL-VITS framework achieves robust functional performance, stable runtime characteristics, and a reproducible evaluation workflow suitable for Kannada Text-to-Speech research and future optimization.
+Listening evaluation of the synthesized speech indicates that the model produces **natural, intelligible, and fluent Kannada speech**, with accurate pronunciation and smooth prosodic transitions across different sentence types. The generated speech exhibits consistent quality across repeated synthesis runs, demonstrating good inference stability and repeatability.
+
+Objective evaluation metrics, including PESQ, STOI, and MCD, were successfully computed by the testing framework. However, the obtained values suggest that further refinement of the reference-audio alignment and evaluation pipeline is required before these metrics can be used as definitive indicators of speech quality. Therefore, these objective metrics are considered preliminary.
+
+A subjective Mean Opinion Score (MOS) evaluation involving **100 listeners** is currently in progress and will provide additional validation of speech naturalness and intelligibility.
+
+Overall, the experimental evaluation demonstrates that the proposed HKL-VITS model is a **functionally reliable and computationally efficient Kannada Text-to-Speech system**. Based on the successful synthesis of 300 speech samples, stable runtime performance, and qualitative listening observations, the model is capable of generating **natural and intelligible Kannada speech**. Future work will focus on improving objective speech quality evaluation, optimizing prosody modeling, and expanding the evaluation corpus to further enhance synthesis quality and generalization.
+
+---
