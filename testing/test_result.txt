@@ -1,0 +1,2454 @@
+Running notebook quality samples: 100% 100/100 [04:34<00:00,  2.95s/it]
+Input: ಅವನು ಬರೆದಿರುವುದು ಈಗಿನ ತಿಳಿವಿಗೆ ಹೆಚ್ಚು ಕಡಿಮೆ ಸರಿಹೋಗುತ್ತದೆ.
+Normalized: ಅವನು ಬರೆದಿರುವುದು ಈಗಿನ ತಿಳಿವಿಗೆ ಹೆಚ್ಚು ಕಡಿಮೆ ಸರಿಹೋಗುತ್ತದೆ ...
+Phoneme: a va nu ba re di ru vu du ii gi na ti vi ge he chː chu ka ɖi me sa ri hoo gu tː ta de 
+HKL features: torch.Size([1, 113, 256])
+Prosody hidden: torch.Size([1, 113, 256])
+Waveform: (98816,)
+Saved audio: /content/quality_eval/knm_00180_00011382081/knm_00180_00011382081_1.wav
+
+Input: ಅವನು ಬರೆದಿರುವುದು ಈಗಿನ ತಿಳಿವಿಗೆ ಹೆಚ್ಚು ಕಡಿಮೆ ಸರಿಹೋಗುತ್ತದೆ.
+Normalized: ಅವನು ಬರೆದಿರುವುದು ಈಗಿನ ತಿಳಿವಿಗೆ ಹೆಚ್ಚು ಕಡಿಮೆ ಸರಿಹೋಗುತ್ತದೆ ...
+Phoneme: a va nu ba re di ru vu du ii gi na ti vi ge he chː chu ka ɖi me sa ri hoo gu tː ta de 
+HKL features: torch.Size([1, 113, 256])
+Prosody hidden: torch.Size([1, 113, 256])
+Waveform: (96768,)
+Saved audio: /content/quality_eval/knm_00180_00011382081/knm_00180_00011382081_2.wav
+
+Input: ಅವನು ಬರೆದಿರುವುದು ಈಗಿನ ತಿಳಿವಿಗೆ ಹೆಚ್ಚು ಕಡಿಮೆ ಸರಿಹೋಗುತ್ತದೆ.
+Normalized: ಅವನು ಬರೆದಿರುವುದು ಈಗಿನ ತಿಳಿವಿಗೆ ಹೆಚ್ಚು ಕಡಿಮೆ ಸರಿಹೋಗುತ್ತದೆ ...
+Phoneme: a va nu ba re di ru vu du ii gi na ti vi ge he chː chu ka ɖi me sa ri hoo gu tː ta de 
+HKL features: torch.Size([1, 113, 256])
+Prosody hidden: torch.Size([1, 113, 256])
+Waveform: (106496,)
+Saved audio: /content/quality_eval/knm_00180_00011382081/knm_00180_00011382081_3.wav
+
+Input: ಅಲ್ಲದೇ ವರ್ಲ್ಡ್ ಚ್ಯಾಂಪಿಯನ್ಷಿಪ್ಸ್ ಇನ್ ಅಥ್ಲೆಟಿಕ್ಸ್ ನಲ್ಲಿ ಪದಕ ವಿಜೇತ ಮೊದಲ ಭಾರತೀಯರು ಎಂಬ ಹೆಗ್ಗಳಿಕೆಗೆ ಪಾತ್ರರಾದರು
+Normalized: ಅಲ್ಲದೇ ವರ್ಲ್ಡ್ ಚ್ಯಾಂಪಿಯನ್ಷಿಪ್ಸ್ ಇನ್ ಅಥ್ಲೆಟಿಕ್ಸ್ ನಲ್ಲಿ ಪದಕ ವಿಜೇತ ಮೊದಲ ಭಾರತೀಯರು ಎಂಬ ಹೆಗ್ಗಳಿಕೆಗೆ ಪಾತ್ರರಾದರು
+Phoneme: a lː la dee va rː lː ɖː chː yaa m pi ya nː ṣi pː sː i nː a thː le ṭi kː sː na lː li pa da ka vi jee ta mo da la bhaa ra tii ya ru m ba he gː ga ke ge paa tra raa da ru
+HKL features: torch.Size([1, 209, 256])
+Prosody hidden: torch.Size([1, 209, 256])
+Waveform: (165120,)
+Saved audio: /content/quality_eval/knm_00180_00012816557/knm_00180_00012816557_1.wav
+
+Input: ಅಲ್ಲದೇ ವರ್ಲ್ಡ್ ಚ್ಯಾಂಪಿಯನ್ಷಿಪ್ಸ್ ಇನ್ ಅಥ್ಲೆಟಿಕ್ಸ್ ನಲ್ಲಿ ಪದಕ ವಿಜೇತ ಮೊದಲ ಭಾರತೀಯರು ಎಂಬ ಹೆಗ್ಗಳಿಕೆಗೆ ಪಾತ್ರರಾದರು
+Normalized: ಅಲ್ಲದೇ ವರ್ಲ್ಡ್ ಚ್ಯಾಂಪಿಯನ್ಷಿಪ್ಸ್ ಇನ್ ಅಥ್ಲೆಟಿಕ್ಸ್ ನಲ್ಲಿ ಪದಕ ವಿಜೇತ ಮೊದಲ ಭಾರತೀಯರು ಎಂಬ ಹೆಗ್ಗಳಿಕೆಗೆ ಪಾತ್ರರಾದರು
+Phoneme: a lː la dee va rː lː ɖː chː yaa m pi ya nː ṣi pː sː i nː a thː le ṭi kː sː na lː li pa da ka vi jee ta mo da la bhaa ra tii ya ru m ba he gː ga ke ge paa tra raa da ru
+HKL features: torch.Size([1, 209, 256])
+Prosody hidden: torch.Size([1, 209, 256])
+Waveform: (151296,)
+Saved audio: /content/quality_eval/knm_00180_00012816557/knm_00180_00012816557_2.wav
+
+Input: ಅಲ್ಲದೇ ವರ್ಲ್ಡ್ ಚ್ಯಾಂಪಿಯನ್ಷಿಪ್ಸ್ ಇನ್ ಅಥ್ಲೆಟಿಕ್ಸ್ ನಲ್ಲಿ ಪದಕ ವಿಜೇತ ಮೊದಲ ಭಾರತೀಯರು ಎಂಬ ಹೆಗ್ಗಳಿಕೆಗೆ ಪಾತ್ರರಾದರು
+Normalized: ಅಲ್ಲದೇ ವರ್ಲ್ಡ್ ಚ್ಯಾಂಪಿಯನ್ಷಿಪ್ಸ್ ಇನ್ ಅಥ್ಲೆಟಿಕ್ಸ್ ನಲ್ಲಿ ಪದಕ ವಿಜೇತ ಮೊದಲ ಭಾರತೀಯರು ಎಂಬ ಹೆಗ್ಗಳಿಕೆಗೆ ಪಾತ್ರರಾದರು
+Phoneme: a lː la dee va rː lː ɖː chː yaa m pi ya nː ṣi pː sː i nː a thː le ṭi kː sː na lː li pa da ka vi jee ta mo da la bhaa ra tii ya ru m ba he gː ga ke ge paa tra raa da ru
+HKL features: torch.Size([1, 209, 256])
+Prosody hidden: torch.Size([1, 209, 256])
+Waveform: (137984,)
+Saved audio: /content/quality_eval/knm_00180_00012816557/knm_00180_00012816557_3.wav
+
+Input: ಇದರಿಂದಾಗಿ ವಿದೇಶಿ ವ್ಯವಹಾರ ಬೆಳವಣಿಗೆಗೆ ಕಾರಣವಾಗಿದೆ
+Normalized: ಇದರಿಂದಾಗಿ ವಿದೇಶಿ ವ್ಯವಹಾರ ಬೆಳವಣಿಗೆಗೆ ಕಾರಣವಾಗಿದೆ
+Phoneme: i da ri m daa gi vi dee shi vː ya va haa ra be va ṇi ge ge kaa ra ṇa vaa gi de
+HKL features: torch.Size([1, 93, 256])
+Prosody hidden: torch.Size([1, 93, 256])
+Waveform: (90880,)
+Saved audio: /content/quality_eval/knm_00180_00028931935/knm_00180_00028931935_1.wav
+
+Input: ಇದರಿಂದಾಗಿ ವಿದೇಶಿ ವ್ಯವಹಾರ ಬೆಳವಣಿಗೆಗೆ ಕಾರಣವಾಗಿದೆ
+Normalized: ಇದರಿಂದಾಗಿ ವಿದೇಶಿ ವ್ಯವಹಾರ ಬೆಳವಣಿಗೆಗೆ ಕಾರಣವಾಗಿದೆ
+Phoneme: i da ri m daa gi vi dee shi vː ya va haa ra be va ṇi ge ge kaa ra ṇa vaa gi de
+HKL features: torch.Size([1, 93, 256])
+Prosody hidden: torch.Size([1, 93, 256])
+Waveform: (88320,)
+Saved audio: /content/quality_eval/knm_00180_00028931935/knm_00180_00028931935_2.wav
+
+Input: ಇದರಿಂದಾಗಿ ವಿದೇಶಿ ವ್ಯವಹಾರ ಬೆಳವಣಿಗೆಗೆ ಕಾರಣವಾಗಿದೆ
+Normalized: ಇದರಿಂದಾಗಿ ವಿದೇಶಿ ವ್ಯವಹಾರ ಬೆಳವಣಿಗೆಗೆ ಕಾರಣವಾಗಿದೆ
+Phoneme: i da ri m daa gi vi dee shi vː ya va haa ra be va ṇi ge ge kaa ra ṇa vaa gi de
+HKL features: torch.Size([1, 93, 256])
+Prosody hidden: torch.Size([1, 93, 256])
+Waveform: (84736,)
+Saved audio: /content/quality_eval/knm_00180_00028931935/knm_00180_00028931935_3.wav
+
+Input: ನೀರನ್ನು ಉಳಿಸಲು ಸಿಬ್ಬಂದಿಗಳಿಗೆ ನೀರನ್ನು ಬಳಸದೆ ಇರುವ ಶ್ಯಾಂಪುವನ್ನು ಮತ್ತು ಖಾದ್ಯ ಮೂಲದ ಟೂತ್ ಪೇಸ್ಟ್ ಅನ್ನು ಕೂಡ ಒದಗಿಸಲಾಗುತ್ತದೆ.
+Normalized: ನೀರನ್ನು ಉಳಿಸಲು ಸಿಬ್ಬಂದಿಗಳಿಗೆ ನೀರನ್ನು ಬಳಸದೆ ಇರುವ ಶ್ಯಾಂಪುವನ್ನು ಮತ್ತು ಖಾದ್ಯ ಮೂಲದ ಟೂತ್ ಪೇಸ್ಟ್ ಅನ್ನು ಕೂಡ ಒದಗಿಸಲಾಗುತ್ತದೆ ...
+Phoneme: nii ra nː nu u sa lu si bː ba m di ga ge nii ra nː nu ba sa de i ru va shː yaa m pu va nː nu ma tː tu khaa dː ya muu la da ṭuu tː pee sː ṭː a nː nu kuu ɖa da gi sa laa gu tː ta de 
+HKL features: torch.Size([1, 229, 256])
+Prosody hidden: torch.Size([1, 229, 256])
+Waveform: (156160,)
+Saved audio: /content/quality_eval/knm_00180_00031068402/knm_00180_00031068402_1.wav
+
+Input: ನೀರನ್ನು ಉಳಿಸಲು ಸಿಬ್ಬಂದಿಗಳಿಗೆ ನೀರನ್ನು ಬಳಸದೆ ಇರುವ ಶ್ಯಾಂಪುವನ್ನು ಮತ್ತು ಖಾದ್ಯ ಮೂಲದ ಟೂತ್ ಪೇಸ್ಟ್ ಅನ್ನು ಕೂಡ ಒದಗಿಸಲಾಗುತ್ತದೆ.
+Normalized: ನೀರನ್ನು ಉಳಿಸಲು ಸಿಬ್ಬಂದಿಗಳಿಗೆ ನೀರನ್ನು ಬಳಸದೆ ಇರುವ ಶ್ಯಾಂಪುವನ್ನು ಮತ್ತು ಖಾದ್ಯ ಮೂಲದ ಟೂತ್ ಪೇಸ್ಟ್ ಅನ್ನು ಕೂಡ ಒದಗಿಸಲಾಗುತ್ತದೆ ...
+Phoneme: nii ra nː nu u sa lu si bː ba m di ga ge nii ra nː nu ba sa de i ru va shː yaa m pu va nː nu ma tː tu khaa dː ya muu la da ṭuu tː pee sː ṭː a nː nu kuu ɖa da gi sa laa gu tː ta de 
+HKL features: torch.Size([1, 229, 256])
+Prosody hidden: torch.Size([1, 229, 256])
+Waveform: (164096,)
+Saved audio: /content/quality_eval/knm_00180_00031068402/knm_00180_00031068402_2.wav
+
+Input: ನೀರನ್ನು ಉಳಿಸಲು ಸಿಬ್ಬಂದಿಗಳಿಗೆ ನೀರನ್ನು ಬಳಸದೆ ಇರುವ ಶ್ಯಾಂಪುವನ್ನು ಮತ್ತು ಖಾದ್ಯ ಮೂಲದ ಟೂತ್ ಪೇಸ್ಟ್ ಅನ್ನು ಕೂಡ ಒದಗಿಸಲಾಗುತ್ತದೆ.
+Normalized: ನೀರನ್ನು ಉಳಿಸಲು ಸಿಬ್ಬಂದಿಗಳಿಗೆ ನೀರನ್ನು ಬಳಸದೆ ಇರುವ ಶ್ಯಾಂಪುವನ್ನು ಮತ್ತು ಖಾದ್ಯ ಮೂಲದ ಟೂತ್ ಪೇಸ್ಟ್ ಅನ್ನು ಕೂಡ ಒದಗಿಸಲಾಗುತ್ತದೆ ...
+Phoneme: nii ra nː nu u sa lu si bː ba m di ga ge nii ra nː nu ba sa de i ru va shː yaa m pu va nː nu ma tː tu khaa dː ya muu la da ṭuu tː pee sː ṭː a nː nu kuu ɖa da gi sa laa gu tː ta de 
+HKL features: torch.Size([1, 229, 256])
+Prosody hidden: torch.Size([1, 229, 256])
+Waveform: (166656,)
+Saved audio: /content/quality_eval/knm_00180_00031068402/knm_00180_00031068402_3.wav
+
+Input: ಸೈನ್ಯಬಲದ ಪ್ರಯೋಗದ ಕುರಿತು ನ್ಯಾಯಾಲಯವು ತನ್ನ ಕಾರ್ಯಕ್ಷೇತ್ರವನ್ನು ಪರಿಗಣಿಸಿ ಪ್ರಕರಣಗಳ ಕೈಗೆತ್ತಿಕೊಳ್ಳುತ್ತದೆ.
+Normalized: ಸೈನ್ಯಬಲದ ಪ್ರಯೋಗದ ಕುರಿತು ನ್ಯಾಯಾಲಯವು ತನ್ನ ಕಾರ್ಯಕ್ಷೇತ್ರವನ್ನು ಪರಿಗಣಿಸಿ ಪ್ರಕರಣಗಳ ಕೈಗೆತ್ತಿಕೊಳ್ಳುತ್ತದೆ ...
+Phoneme: sa nː ya ba la da pra yoo ga da ku ri tu nː yaa yaa la ya vu ta nː na kaa rː ya ksha tra va nː nu pa ri ga ṇi si pra ka ra ṇa ga ka ge tː ti ko tː ta de 
+HKL features: torch.Size([1, 191, 256])
+Prosody hidden: torch.Size([1, 191, 256])
+Waveform: (157952,)
+Saved audio: /content/quality_eval/knm_00180_00042410675/knm_00180_00042410675_1.wav
+
+Input: ಸೈನ್ಯಬಲದ ಪ್ರಯೋಗದ ಕುರಿತು ನ್ಯಾಯಾಲಯವು ತನ್ನ ಕಾರ್ಯಕ್ಷೇತ್ರವನ್ನು ಪರಿಗಣಿಸಿ ಪ್ರಕರಣಗಳ ಕೈಗೆತ್ತಿಕೊಳ್ಳುತ್ತದೆ.
+Normalized: ಸೈನ್ಯಬಲದ ಪ್ರಯೋಗದ ಕುರಿತು ನ್ಯಾಯಾಲಯವು ತನ್ನ ಕಾರ್ಯಕ್ಷೇತ್ರವನ್ನು ಪರಿಗಣಿಸಿ ಪ್ರಕರಣಗಳ ಕೈಗೆತ್ತಿಕೊಳ್ಳುತ್ತದೆ ...
+Phoneme: sa nː ya ba la da pra yoo ga da ku ri tu nː yaa yaa la ya vu ta nː na kaa rː ya ksha tra va nː nu pa ri ga ṇi si pra ka ra ṇa ga ka ge tː ti ko tː ta de 
+HKL features: torch.Size([1, 191, 256])
+Prosody hidden: torch.Size([1, 191, 256])
+Waveform: (166656,)
+Saved audio: /content/quality_eval/knm_00180_00042410675/knm_00180_00042410675_2.wav
+
+Input: ಸೈನ್ಯಬಲದ ಪ್ರಯೋಗದ ಕುರಿತು ನ್ಯಾಯಾಲಯವು ತನ್ನ ಕಾರ್ಯಕ್ಷೇತ್ರವನ್ನು ಪರಿಗಣಿಸಿ ಪ್ರಕರಣಗಳ ಕೈಗೆತ್ತಿಕೊಳ್ಳುತ್ತದೆ.
+Normalized: ಸೈನ್ಯಬಲದ ಪ್ರಯೋಗದ ಕುರಿತು ನ್ಯಾಯಾಲಯವು ತನ್ನ ಕಾರ್ಯಕ್ಷೇತ್ರವನ್ನು ಪರಿಗಣಿಸಿ ಪ್ರಕರಣಗಳ ಕೈಗೆತ್ತಿಕೊಳ್ಳುತ್ತದೆ ...
+Phoneme: sa nː ya ba la da pra yoo ga da ku ri tu nː yaa yaa la ya vu ta nː na kaa rː ya ksha tra va nː nu pa ri ga ṇi si pra ka ra ṇa ga ka ge tː ti ko tː ta de 
+HKL features: torch.Size([1, 191, 256])
+Prosody hidden: torch.Size([1, 191, 256])
+Waveform: (146688,)
+Saved audio: /content/quality_eval/knm_00180_00042410675/knm_00180_00042410675_3.wav
+
+Input: ಅಂತಃಸ್ರಾವ ಶಾಸ್ತ್ರದ ಅಭ್ಯಾಸದ ಎರಡನೇ ಅತಿಮುಖ್ಯ ಅಂಶವೆಂದರೆ ರೋಗದಿಂದ ಮಾನವ ಬದಲಾವಣೆಯನ್ನು ಪ್ರತ್ಯೇಕಿಸುವುದು.
+Normalized: ಅಂತಃಸ್ರಾವ ಶಾಸ್ತ್ರದ ಅಭ್ಯಾಸದ ಎರಡನೇ ಅತಿಮುಖ್ಯ ಅಂಶವೆಂದರೆ ರೋಗದಿಂದ ಮಾನವ ಬದಲಾವಣೆಯನ್ನು ಪ್ರತ್ಯೇಕಿಸುವುದು ...
+Phoneme: a m ta h sː raa va shaa sː tra da a bhː yaa sa da ra ɖa nee a ti mu khː ya a m sha ve m da re roo ga di m da maa na va ba da laa va ṇe ya nː nu pra tː yee ki su vu du 
+HKL features: torch.Size([1, 187, 256])
+Prosody hidden: torch.Size([1, 187, 256])
+Waveform: (162048,)
+Saved audio: /content/quality_eval/knm_00180_00079643205/knm_00180_00079643205_1.wav
+
+Input: ಅಂತಃಸ್ರಾವ ಶಾಸ್ತ್ರದ ಅಭ್ಯಾಸದ ಎರಡನೇ ಅತಿಮುಖ್ಯ ಅಂಶವೆಂದರೆ ರೋಗದಿಂದ ಮಾನವ ಬದಲಾವಣೆಯನ್ನು ಪ್ರತ್ಯೇಕಿಸುವುದು.
+Normalized: ಅಂತಃಸ್ರಾವ ಶಾಸ್ತ್ರದ ಅಭ್ಯಾಸದ ಎರಡನೇ ಅತಿಮುಖ್ಯ ಅಂಶವೆಂದರೆ ರೋಗದಿಂದ ಮಾನವ ಬದಲಾವಣೆಯನ್ನು ಪ್ರತ್ಯೇಕಿಸುವುದು ...
+Phoneme: a m ta h sː raa va shaa sː tra da a bhː yaa sa da ra ɖa nee a ti mu khː ya a m sha ve m da re roo ga di m da maa na va ba da laa va ṇe ya nː nu pra tː yee ki su vu du 
+HKL features: torch.Size([1, 187, 256])
+Prosody hidden: torch.Size([1, 187, 256])
+Waveform: (179456,)
+Saved audio: /content/quality_eval/knm_00180_00079643205/knm_00180_00079643205_2.wav
+
+Input: ಅಂತಃಸ್ರಾವ ಶಾಸ್ತ್ರದ ಅಭ್ಯಾಸದ ಎರಡನೇ ಅತಿಮುಖ್ಯ ಅಂಶವೆಂದರೆ ರೋಗದಿಂದ ಮಾನವ ಬದಲಾವಣೆಯನ್ನು ಪ್ರತ್ಯೇಕಿಸುವುದು.
+Normalized: ಅಂತಃಸ್ರಾವ ಶಾಸ್ತ್ರದ ಅಭ್ಯಾಸದ ಎರಡನೇ ಅತಿಮುಖ್ಯ ಅಂಶವೆಂದರೆ ರೋಗದಿಂದ ಮಾನವ ಬದಲಾವಣೆಯನ್ನು ಪ್ರತ್ಯೇಕಿಸುವುದು ...
+Phoneme: a m ta h sː raa va shaa sː tra da a bhː yaa sa da ra ɖa nee a ti mu khː ya a m sha ve m da re roo ga di m da maa na va ba da laa va ṇe ya nː nu pra tː yee ki su vu du 
+HKL features: torch.Size([1, 187, 256])
+Prosody hidden: torch.Size([1, 187, 256])
+Waveform: (169216,)
+Saved audio: /content/quality_eval/knm_00180_00079643205/knm_00180_00079643205_3.wav
+
+Input: ಅಷ್ಟೇ ಅಲ್ಲದೇ ಅವರು ವಿಶ್ವ ಅಥ್ಲೆಟಿಕ್ ಕೂಟದಲ್ಲಿ ಯಶಸ್ವಿಯಾದರು.
+Normalized: ಅಷ್ಟೇ ಅಲ್ಲದೇ ಅವರು ವಿಶ್ವ ಅಥ್ಲೆಟಿಕ್ ಕೂಟದಲ್ಲಿ ಯಶಸ್ವಿಯಾದರು ...
+Phoneme: a ṣː ṭee a lː la dee a va ru vi shː va a thː le ṭi kː kuu ṭa da lː li ya sha sː vi yaa da ru 
+HKL features: torch.Size([1, 109, 256])
+Prosody hidden: torch.Size([1, 109, 256])
+Waveform: (93184,)
+Saved audio: /content/quality_eval/knm_00180_00130644026/knm_00180_00130644026_1.wav
+
+Input: ಅಷ್ಟೇ ಅಲ್ಲದೇ ಅವರು ವಿಶ್ವ ಅಥ್ಲೆಟಿಕ್ ಕೂಟದಲ್ಲಿ ಯಶಸ್ವಿಯಾದರು.
+Normalized: ಅಷ್ಟೇ ಅಲ್ಲದೇ ಅವರು ವಿಶ್ವ ಅಥ್ಲೆಟಿಕ್ ಕೂಟದಲ್ಲಿ ಯಶಸ್ವಿಯಾದರು ...
+Phoneme: a ṣː ṭee a lː la dee a va ru vi shː va a thː le ṭi kː kuu ṭa da lː li ya sha sː vi yaa da ru 
+HKL features: torch.Size([1, 109, 256])
+Prosody hidden: torch.Size([1, 109, 256])
+Waveform: (79872,)
+Saved audio: /content/quality_eval/knm_00180_00130644026/knm_00180_00130644026_2.wav
+
+Input: ಅಷ್ಟೇ ಅಲ್ಲದೇ ಅವರು ವಿಶ್ವ ಅಥ್ಲೆಟಿಕ್ ಕೂಟದಲ್ಲಿ ಯಶಸ್ವಿಯಾದರು.
+Normalized: ಅಷ್ಟೇ ಅಲ್ಲದೇ ಅವರು ವಿಶ್ವ ಅಥ್ಲೆಟಿಕ್ ಕೂಟದಲ್ಲಿ ಯಶಸ್ವಿಯಾದರು ...
+Phoneme: a ṣː ṭee a lː la dee a va ru vi shː va a thː le ṭi kː kuu ṭa da lː li ya sha sː vi yaa da ru 
+HKL features: torch.Size([1, 109, 256])
+Prosody hidden: torch.Size([1, 109, 256])
+Waveform: (83456,)
+Saved audio: /content/quality_eval/knm_00180_00130644026/knm_00180_00130644026_3.wav
+
+Input: ಈ ತಂತ್ರಜ್ಞಾನವು ಸ್ಟೇಷನ್ ಕೀಪಿಂಗ್ ಅನ್ನು ಪ್ರಸ್ತುತಕ್ಕಿಂತ ಹೆಚ್ಚು ಕಡಿಮೆವೆಚ್ಚದಲ್ಲಿ ನೋಡಿಕೊಳ್ಳಲು ಅವಕಾಶ ನೀಡುತ್ತದೆ.
+Normalized: ಈ ತಂತ್ರಜ್ಞಾನವು ಸ್ಟೇಷನ್ ಕೀಪಿಂಗ್ ಅನ್ನು ಪ್ರಸ್ತುತಕ್ಕಿಂತ ಹೆಚ್ಚು ಕಡಿಮೆವೆಚ್ಚದಲ್ಲಿ ನೋಡಿಕೊಳ್ಳಲು ಅವಕಾಶ ನೀಡುತ್ತದೆ ...
+Phoneme: ii ta m tra jː na vu sː ṭee ṣa nː kii pi m gː a nː nu pra sː tu ta kː ki m ta he chː chu ka ɖi me ve chː cha da lː li noo ɖi ko lu a va kaa sha nii ɖu tː ta de 
+HKL features: torch.Size([1, 205, 256])
+Prosody hidden: torch.Size([1, 205, 256])
+Waveform: (159488,)
+Saved audio: /content/quality_eval/knm_00180_00148823892/knm_00180_00148823892_1.wav
+
+Input: ಈ ತಂತ್ರಜ್ಞಾನವು ಸ್ಟೇಷನ್ ಕೀಪಿಂಗ್ ಅನ್ನು ಪ್ರಸ್ತುತಕ್ಕಿಂತ ಹೆಚ್ಚು ಕಡಿಮೆವೆಚ್ಚದಲ್ಲಿ ನೋಡಿಕೊಳ್ಳಲು ಅವಕಾಶ ನೀಡುತ್ತದೆ.
+Normalized: ಈ ತಂತ್ರಜ್ಞಾನವು ಸ್ಟೇಷನ್ ಕೀಪಿಂಗ್ ಅನ್ನು ಪ್ರಸ್ತುತಕ್ಕಿಂತ ಹೆಚ್ಚು ಕಡಿಮೆವೆಚ್ಚದಲ್ಲಿ ನೋಡಿಕೊಳ್ಳಲು ಅವಕಾಶ ನೀಡುತ್ತದೆ ...
+Phoneme: ii ta m tra jː na vu sː ṭee ṣa nː kii pi m gː a nː nu pra sː tu ta kː ki m ta he chː chu ka ɖi me ve chː cha da lː li noo ɖi ko lu a va kaa sha nii ɖu tː ta de 
+HKL features: torch.Size([1, 205, 256])
+Prosody hidden: torch.Size([1, 205, 256])
+Waveform: (156672,)
+Saved audio: /content/quality_eval/knm_00180_00148823892/knm_00180_00148823892_2.wav
+
+Input: ಈ ತಂತ್ರಜ್ಞಾನವು ಸ್ಟೇಷನ್ ಕೀಪಿಂಗ್ ಅನ್ನು ಪ್ರಸ್ತುತಕ್ಕಿಂತ ಹೆಚ್ಚು ಕಡಿಮೆವೆಚ್ಚದಲ್ಲಿ ನೋಡಿಕೊಳ್ಳಲು ಅವಕಾಶ ನೀಡುತ್ತದೆ.
+Normalized: ಈ ತಂತ್ರಜ್ಞಾನವು ಸ್ಟೇಷನ್ ಕೀಪಿಂಗ್ ಅನ್ನು ಪ್ರಸ್ತುತಕ್ಕಿಂತ ಹೆಚ್ಚು ಕಡಿಮೆವೆಚ್ಚದಲ್ಲಿ ನೋಡಿಕೊಳ್ಳಲು ಅವಕಾಶ ನೀಡುತ್ತದೆ ...
+Phoneme: ii ta m tra jː na vu sː ṭee ṣa nː kii pi m gː a nː nu pra sː tu ta kː ki m ta he chː chu ka ɖi me ve chː cha da lː li noo ɖi ko lu a va kaa sha nii ɖu tː ta de 
+HKL features: torch.Size([1, 205, 256])
+Prosody hidden: torch.Size([1, 205, 256])
+Waveform: (155904,)
+Saved audio: /content/quality_eval/knm_00180_00148823892/knm_00180_00148823892_3.wav
+
+Input: ಬ್ರಿಟಿಷರು ಇದನ್ನು ವಾರ್ಷಿಕ ಕಪ್ಪಕ್ಕೆ ಬದಲಾಗಿ ಪುನಃ ಜಡೇಜ ವಂಶಸ್ಥರಿಗೆ ಬಿಟ್ಟುಕೊಟ್ಟರು.
+Normalized: ಬ್ರಿಟಿಷರು ಇದನ್ನು ವಾರ್ಷಿಕ ಕಪ್ಪಕ್ಕೆ ಬದಲಾಗಿ ಪುನಃ ಜಡೇಜ ವಂಶಸ್ಥರಿಗೆ ಬಿಟ್ಟುಕೊಟ್ಟರು ...
+Phoneme: bː ri ṭi ṣa ru i da nː nu vaa rː ṣi ka ka pː pa kː ke ba da laa gi pu na h ja ɖee ja va m sha sː tha ri ge bi ṭː ṭu ko ṭː ṭa ru 
+HKL features: torch.Size([1, 151, 256])
+Prosody hidden: torch.Size([1, 151, 256])
+Waveform: (121344,)
+Saved audio: /content/quality_eval/knm_00180_00220532003/knm_00180_00220532003_1.wav
+
+Input: ಬ್ರಿಟಿಷರು ಇದನ್ನು ವಾರ್ಷಿಕ ಕಪ್ಪಕ್ಕೆ ಬದಲಾಗಿ ಪುನಃ ಜಡೇಜ ವಂಶಸ್ಥರಿಗೆ ಬಿಟ್ಟುಕೊಟ್ಟರು.
+Normalized: ಬ್ರಿಟಿಷರು ಇದನ್ನು ವಾರ್ಷಿಕ ಕಪ್ಪಕ್ಕೆ ಬದಲಾಗಿ ಪುನಃ ಜಡೇಜ ವಂಶಸ್ಥರಿಗೆ ಬಿಟ್ಟುಕೊಟ್ಟರು ...
+Phoneme: bː ri ṭi ṣa ru i da nː nu vaa rː ṣi ka ka pː pa kː ke ba da laa gi pu na h ja ɖee ja va m sha sː tha ri ge bi ṭː ṭu ko ṭː ṭa ru 
+HKL features: torch.Size([1, 151, 256])
+Prosody hidden: torch.Size([1, 151, 256])
+Waveform: (139008,)
+Saved audio: /content/quality_eval/knm_00180_00220532003/knm_00180_00220532003_2.wav
+
+Input: ಬ್ರಿಟಿಷರು ಇದನ್ನು ವಾರ್ಷಿಕ ಕಪ್ಪಕ್ಕೆ ಬದಲಾಗಿ ಪುನಃ ಜಡೇಜ ವಂಶಸ್ಥರಿಗೆ ಬಿಟ್ಟುಕೊಟ್ಟರು.
+Normalized: ಬ್ರಿಟಿಷರು ಇದನ್ನು ವಾರ್ಷಿಕ ಕಪ್ಪಕ್ಕೆ ಬದಲಾಗಿ ಪುನಃ ಜಡೇಜ ವಂಶಸ್ಥರಿಗೆ ಬಿಟ್ಟುಕೊಟ್ಟರು ...
+Phoneme: bː ri ṭi ṣa ru i da nː nu vaa rː ṣi ka ka pː pa kː ke ba da laa gi pu na h ja ɖee ja va m sha sː tha ri ge bi ṭː ṭu ko ṭː ṭa ru 
+HKL features: torch.Size([1, 151, 256])
+Prosody hidden: torch.Size([1, 151, 256])
+Waveform: (113408,)
+Saved audio: /content/quality_eval/knm_00180_00220532003/knm_00180_00220532003_3.wav
+
+Input: ಅಲ್ಲದೇ ಸಾವಿರದೊಂಬೈನೂರ ತೊಂಬತ್ತಾರರ ದೆಹಲಿ ಕಿರಿಯರ ಏಷ್ಯನ್ ಚಾಂಪಿಯನ್‌ಶಿಪ್‌‌ನಲ್ಲಿ ಲಾಂಗ್ ಜಂಪ್ ಪದಕ ಗೆದ್ದರು
+Normalized: ಅಲ್ಲದೇ ಸಾವಿರದೊಂಬೈನೂರ ತೊಂಬತ್ತಾರರ ದೆಹಲಿ ಕಿರಿಯರ ಏಷ್ಯನ್ ಚಾಂಪಿಯನ್‌ಶಿಪ್‌‌ನಲ್ಲಿ ಲಾಂಗ್ ಜಂಪ್ ಪದಕ ಗೆದ್ದರು
+Phoneme: a lː la dee saa vi ra do m ba nuu ra to m ba tː taa ra ra de ha li ki ri ya ra ṣː ya nː chaa m pi ya nː shi pː na lː li laa m gː ja m pː pa da ka ge dː da ru
+HKL features: torch.Size([1, 185, 256])
+Prosody hidden: torch.Size([1, 185, 256])
+Waveform: (130560,)
+Saved audio: /content/quality_eval/knm_00180_00221372875/knm_00180_00221372875_1.wav
+
+Input: ಅಲ್ಲದೇ ಸಾವಿರದೊಂಬೈನೂರ ತೊಂಬತ್ತಾರರ ದೆಹಲಿ ಕಿರಿಯರ ಏಷ್ಯನ್ ಚಾಂಪಿಯನ್‌ಶಿಪ್‌‌ನಲ್ಲಿ ಲಾಂಗ್ ಜಂಪ್ ಪದಕ ಗೆದ್ದರು
+Normalized: ಅಲ್ಲದೇ ಸಾವಿರದೊಂಬೈನೂರ ತೊಂಬತ್ತಾರರ ದೆಹಲಿ ಕಿರಿಯರ ಏಷ್ಯನ್ ಚಾಂಪಿಯನ್‌ಶಿಪ್‌‌ನಲ್ಲಿ ಲಾಂಗ್ ಜಂಪ್ ಪದಕ ಗೆದ್ದರು
+Phoneme: a lː la dee saa vi ra do m ba nuu ra to m ba tː taa ra ra de ha li ki ri ya ra ṣː ya nː chaa m pi ya nː shi pː na lː li laa m gː ja m pː pa da ka ge dː da ru
+HKL features: torch.Size([1, 185, 256])
+Prosody hidden: torch.Size([1, 185, 256])
+Waveform: (145408,)
+Saved audio: /content/quality_eval/knm_00180_00221372875/knm_00180_00221372875_2.wav
+
+Input: ಅಲ್ಲದೇ ಸಾವಿರದೊಂಬೈನೂರ ತೊಂಬತ್ತಾರರ ದೆಹಲಿ ಕಿರಿಯರ ಏಷ್ಯನ್ ಚಾಂಪಿಯನ್‌ಶಿಪ್‌‌ನಲ್ಲಿ ಲಾಂಗ್ ಜಂಪ್ ಪದಕ ಗೆದ್ದರು
+Normalized: ಅಲ್ಲದೇ ಸಾವಿರದೊಂಬೈನೂರ ತೊಂಬತ್ತಾರರ ದೆಹಲಿ ಕಿರಿಯರ ಏಷ್ಯನ್ ಚಾಂಪಿಯನ್‌ಶಿಪ್‌‌ನಲ್ಲಿ ಲಾಂಗ್ ಜಂಪ್ ಪದಕ ಗೆದ್ದರು
+Phoneme: a lː la dee saa vi ra do m ba nuu ra to m ba tː taa ra ra de ha li ki ri ya ra ṣː ya nː chaa m pi ya nː shi pː na lː li laa m gː ja m pː pa da ka ge dː da ru
+HKL features: torch.Size([1, 185, 256])
+Prosody hidden: torch.Size([1, 185, 256])
+Waveform: (139008,)
+Saved audio: /content/quality_eval/knm_00180_00221372875/knm_00180_00221372875_3.wav
+
+Input: ಅನೇಕ ಉಪ ವ್ಯವಸ್ಥೆಗಳು ನಿಂತುಹೋದವು.
+Normalized: ಅನೇಕ ಉಪ ವ್ಯವಸ್ಥೆಗಳು ನಿಂತುಹೋದವು ...
+Phoneme: a nee ka u pa vː ya va sː the ga ni m tu hoo da vu 
+HKL features: torch.Size([1, 61, 256])
+Prosody hidden: torch.Size([1, 61, 256])
+Waveform: (60160,)
+Saved audio: /content/quality_eval/knm_00180_00222916560/knm_00180_00222916560_1.wav
+
+Input: ಅನೇಕ ಉಪ ವ್ಯವಸ್ಥೆಗಳು ನಿಂತುಹೋದವು.
+Normalized: ಅನೇಕ ಉಪ ವ್ಯವಸ್ಥೆಗಳು ನಿಂತುಹೋದವು ...
+Phoneme: a nee ka u pa vː ya va sː the ga ni m tu hoo da vu 
+HKL features: torch.Size([1, 61, 256])
+Prosody hidden: torch.Size([1, 61, 256])
+Waveform: (59904,)
+Saved audio: /content/quality_eval/knm_00180_00222916560/knm_00180_00222916560_2.wav
+
+Input: ಅನೇಕ ಉಪ ವ್ಯವಸ್ಥೆಗಳು ನಿಂತುಹೋದವು.
+Normalized: ಅನೇಕ ಉಪ ವ್ಯವಸ್ಥೆಗಳು ನಿಂತುಹೋದವು ...
+Phoneme: a nee ka u pa vː ya va sː the ga ni m tu hoo da vu 
+HKL features: torch.Size([1, 61, 256])
+Prosody hidden: torch.Size([1, 61, 256])
+Waveform: (65024,)
+Saved audio: /content/quality_eval/knm_00180_00222916560/knm_00180_00222916560_3.wav
+2026-07-24 15:42:45,808 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ಇದೊಂದು ಪೌಷ್ಟಿಕವಾದ ಹಣ್ಣು.
+Normalized: ಇದೊಂದು ಪೌಷ್ಟಿಕವಾದ ಹಣ್ಣು ...
+Phoneme: i do m du pa ṣː ṭi ka vaa da ha ṇː ṇu 
+HKL features: torch.Size([1, 47, 256])
+Prosody hidden: torch.Size([1, 47, 256])
+Waveform: (41984,)
+Saved audio: /content/quality_eval/knm_00180_00250075112/knm_00180_00250075112_1.wav
+2026-07-24 15:42:46,098 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ಇದೊಂದು ಪೌಷ್ಟಿಕವಾದ ಹಣ್ಣು.
+Normalized: ಇದೊಂದು ಪೌಷ್ಟಿಕವಾದ ಹಣ್ಣು ...
+Phoneme: i do m du pa ṣː ṭi ka vaa da ha ṇː ṇu 
+HKL features: torch.Size([1, 47, 256])
+Prosody hidden: torch.Size([1, 47, 256])
+Waveform: (47104,)
+Saved audio: /content/quality_eval/knm_00180_00250075112/knm_00180_00250075112_2.wav
+2026-07-24 15:42:46,379 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ಇದೊಂದು ಪೌಷ್ಟಿಕವಾದ ಹಣ್ಣು.
+Normalized: ಇದೊಂದು ಪೌಷ್ಟಿಕವಾದ ಹಣ್ಣು ...
+Phoneme: i do m du pa ṣː ṭi ka vaa da ha ṇː ṇu 
+HKL features: torch.Size([1, 47, 256])
+Prosody hidden: torch.Size([1, 47, 256])
+Waveform: (46080,)
+Saved audio: /content/quality_eval/knm_00180_00250075112/knm_00180_00250075112_3.wav
+
+Input: ಆದರೆ ಗೋಡೆಯ ಮೇಲೆ ಜಾಗವಿರುವಷ್ಟು ಸ್ಥಳದಲ್ಲಿಯೇ ನಿದ್ರಿಸುವ ಚೀಲವನ್ನು ಕಟ್ಟಲಾಗಿರುತ್ತದೆ.
+Normalized: ಆದರೆ ಗೋಡೆಯ ಮೇಲೆ ಜಾಗವಿರುವಷ್ಟು ಸ್ಥಳದಲ್ಲಿಯೇ ನಿದ್ರಿಸುವ ಚೀಲವನ್ನು ಕಟ್ಟಲಾಗಿರುತ್ತದೆ ...
+Phoneme: aa da re goo ɖe ya mee le jaa ga vi ru va ṣː ṭu sː tha da lː li yee ni dː ri su va chii la va nː nu ka ṭː ṭa laa gi ru tː ta de 
+HKL features: torch.Size([1, 151, 256])
+Prosody hidden: torch.Size([1, 151, 256])
+Waveform: (115456,)
+Saved audio: /content/quality_eval/knm_00180_00266045925/knm_00180_00266045925_1.wav
+
+Input: ಆದರೆ ಗೋಡೆಯ ಮೇಲೆ ಜಾಗವಿರುವಷ್ಟು ಸ್ಥಳದಲ್ಲಿಯೇ ನಿದ್ರಿಸುವ ಚೀಲವನ್ನು ಕಟ್ಟಲಾಗಿರುತ್ತದೆ.
+Normalized: ಆದರೆ ಗೋಡೆಯ ಮೇಲೆ ಜಾಗವಿರುವಷ್ಟು ಸ್ಥಳದಲ್ಲಿಯೇ ನಿದ್ರಿಸುವ ಚೀಲವನ್ನು ಕಟ್ಟಲಾಗಿರುತ್ತದೆ ...
+Phoneme: aa da re goo ɖe ya mee le jaa ga vi ru va ṣː ṭu sː tha da lː li yee ni dː ri su va chii la va nː nu ka ṭː ṭa laa gi ru tː ta de 
+HKL features: torch.Size([1, 151, 256])
+Prosody hidden: torch.Size([1, 151, 256])
+Waveform: (127232,)
+Saved audio: /content/quality_eval/knm_00180_00266045925/knm_00180_00266045925_2.wav
+
+Input: ಆದರೆ ಗೋಡೆಯ ಮೇಲೆ ಜಾಗವಿರುವಷ್ಟು ಸ್ಥಳದಲ್ಲಿಯೇ ನಿದ್ರಿಸುವ ಚೀಲವನ್ನು ಕಟ್ಟಲಾಗಿರುತ್ತದೆ.
+Normalized: ಆದರೆ ಗೋಡೆಯ ಮೇಲೆ ಜಾಗವಿರುವಷ್ಟು ಸ್ಥಳದಲ್ಲಿಯೇ ನಿದ್ರಿಸುವ ಚೀಲವನ್ನು ಕಟ್ಟಲಾಗಿರುತ್ತದೆ ...
+Phoneme: aa da re goo ɖe ya mee le jaa ga vi ru va ṣː ṭu sː tha da lː li yee ni dː ri su va chii la va nː nu ka ṭː ṭa laa gi ru tː ta de 
+HKL features: torch.Size([1, 151, 256])
+Prosody hidden: torch.Size([1, 151, 256])
+Waveform: (117760,)
+Saved audio: /content/quality_eval/knm_00180_00266045925/knm_00180_00266045925_3.wav
+
+Input: ರಾಮಣ್ಣ
+Normalized: ರಾಮಣ್ಣ
+Phoneme: raa ma ṇː ṇa
+HKL features: torch.Size([1, 13, 256])
+Prosody hidden: torch.Size([1, 13, 256])
+Waveform: (23296,)
+Saved audio: /content/quality_eval/knm_00180_00291521475/knm_00180_00291521475_1.wav
+
+Input: ರಾಮಣ್ಣ
+Normalized: ರಾಮಣ್ಣ
+Phoneme: raa ma ṇː ṇa
+HKL features: torch.Size([1, 13, 256])
+Prosody hidden: torch.Size([1, 13, 256])
+Waveform: (23552,)
+Saved audio: /content/quality_eval/knm_00180_00291521475/knm_00180_00291521475_2.wav
+
+Input: ರಾಮಣ್ಣ
+Normalized: ರಾಮಣ್ಣ
+Phoneme: raa ma ṇː ṇa
+HKL features: torch.Size([1, 13, 256])
+Prosody hidden: torch.Size([1, 13, 256])
+Waveform: (23552,)
+Saved audio: /content/quality_eval/knm_00180_00291521475/knm_00180_00291521475_3.wav
+
+Input: ಈ ಬಗೆಯ ಚಿಲುಮೆಗಳು ತಮಿಳುನಾಡಿನ ನೈವೇಲಿಯ ಸುತ್ತಮುತ್ತ ಹೆಚ್ಚು ಕಂಡುಬರುತ್ತದೆ.
+Normalized: ಈ ಬಗೆಯ ಚಿಲುಮೆಗಳು ತಮಿಳುನಾಡಿನ ನೈವೇಲಿಯ ಸುತ್ತಮುತ್ತ ಹೆಚ್ಚು ಕಂಡುಬರುತ್ತದೆ ...
+Phoneme: ii ba ge ya chi lu me ga ta mi naa ɖi na na vee li ya su tː ta mu tː ta he chː chu ka m ɖu ba ru tː ta de 
+HKL features: torch.Size([1, 133, 256])
+Prosody hidden: torch.Size([1, 133, 256])
+Waveform: (134400,)
+Saved audio: /content/quality_eval/knm_00180_00297370869/knm_00180_00297370869_1.wav
+
+Input: ಈ ಬಗೆಯ ಚಿಲುಮೆಗಳು ತಮಿಳುನಾಡಿನ ನೈವೇಲಿಯ ಸುತ್ತಮುತ್ತ ಹೆಚ್ಚು ಕಂಡುಬರುತ್ತದೆ.
+Normalized: ಈ ಬಗೆಯ ಚಿಲುಮೆಗಳು ತಮಿಳುನಾಡಿನ ನೈವೇಲಿಯ ಸುತ್ತಮುತ್ತ ಹೆಚ್ಚು ಕಂಡುಬರುತ್ತದೆ ...
+Phoneme: ii ba ge ya chi lu me ga ta mi naa ɖi na na vee li ya su tː ta mu tː ta he chː chu ka m ɖu ba ru tː ta de 
+HKL features: torch.Size([1, 133, 256])
+Prosody hidden: torch.Size([1, 133, 256])
+Waveform: (132864,)
+Saved audio: /content/quality_eval/knm_00180_00297370869/knm_00180_00297370869_2.wav
+
+Input: ಈ ಬಗೆಯ ಚಿಲುಮೆಗಳು ತಮಿಳುನಾಡಿನ ನೈವೇಲಿಯ ಸುತ್ತಮುತ್ತ ಹೆಚ್ಚು ಕಂಡುಬರುತ್ತದೆ.
+Normalized: ಈ ಬಗೆಯ ಚಿಲುಮೆಗಳು ತಮಿಳುನಾಡಿನ ನೈವೇಲಿಯ ಸುತ್ತಮುತ್ತ ಹೆಚ್ಚು ಕಂಡುಬರುತ್ತದೆ ...
+Phoneme: ii ba ge ya chi lu me ga ta mi naa ɖi na na vee li ya su tː ta mu tː ta he chː chu ka m ɖu ba ru tː ta de 
+HKL features: torch.Size([1, 133, 256])
+Prosody hidden: torch.Size([1, 133, 256])
+Waveform: (137984,)
+Saved audio: /content/quality_eval/knm_00180_00297370869/knm_00180_00297370869_3.wav
+
+Input: ಗಿಡದಿಂದ ತಾವಾಗಿಯೇ ಮಾಗಿ ಬಿದ್ದ ಹಣ್ಣುಗಳನ್ನಾರಿಸಿ ಅಗಲವಾದ ತಟ್ಟೆಗಳಲ್ಲಿಟ್ಟು ಒಣಗಿಸುತ್ತಾರೆ
+Normalized: ಗಿಡದಿಂದ ತಾವಾಗಿಯೇ ಮಾಗಿ ಬಿದ್ದ ಹಣ್ಣುಗಳನ್ನಾರಿಸಿ ಅಗಲವಾದ ತಟ್ಟೆಗಳಲ್ಲಿಟ್ಟು ಒಣಗಿಸುತ್ತಾರೆ
+Phoneme: gi ɖa di m da taa vaa gi yee maa gi bi dː da ha ṇː ṇu ga nː naa ri si a ga la vaa da ta ṭː ṭe ga lː li ṭː ṭu ṇa gi su tː taa re
+HKL features: torch.Size([1, 159, 256])
+Prosody hidden: torch.Size([1, 159, 256])
+Waveform: (137984,)
+Saved audio: /content/quality_eval/knm_00180_00304524174/knm_00180_00304524174_1.wav
+
+Input: ಗಿಡದಿಂದ ತಾವಾಗಿಯೇ ಮಾಗಿ ಬಿದ್ದ ಹಣ್ಣುಗಳನ್ನಾರಿಸಿ ಅಗಲವಾದ ತಟ್ಟೆಗಳಲ್ಲಿಟ್ಟು ಒಣಗಿಸುತ್ತಾರೆ
+Normalized: ಗಿಡದಿಂದ ತಾವಾಗಿಯೇ ಮಾಗಿ ಬಿದ್ದ ಹಣ್ಣುಗಳನ್ನಾರಿಸಿ ಅಗಲವಾದ ತಟ್ಟೆಗಳಲ್ಲಿಟ್ಟು ಒಣಗಿಸುತ್ತಾರೆ
+Phoneme: gi ɖa di m da taa vaa gi yee maa gi bi dː da ha ṇː ṇu ga nː naa ri si a ga la vaa da ta ṭː ṭe ga lː li ṭː ṭu ṇa gi su tː taa re
+HKL features: torch.Size([1, 159, 256])
+Prosody hidden: torch.Size([1, 159, 256])
+Waveform: (137472,)
+Saved audio: /content/quality_eval/knm_00180_00304524174/knm_00180_00304524174_2.wav
+
+Input: ಗಿಡದಿಂದ ತಾವಾಗಿಯೇ ಮಾಗಿ ಬಿದ್ದ ಹಣ್ಣುಗಳನ್ನಾರಿಸಿ ಅಗಲವಾದ ತಟ್ಟೆಗಳಲ್ಲಿಟ್ಟು ಒಣಗಿಸುತ್ತಾರೆ
+Normalized: ಗಿಡದಿಂದ ತಾವಾಗಿಯೇ ಮಾಗಿ ಬಿದ್ದ ಹಣ್ಣುಗಳನ್ನಾರಿಸಿ ಅಗಲವಾದ ತಟ್ಟೆಗಳಲ್ಲಿಟ್ಟು ಒಣಗಿಸುತ್ತಾರೆ
+Phoneme: gi ɖa di m da taa vaa gi yee maa gi bi dː da ha ṇː ṇu ga nː naa ri si a ga la vaa da ta ṭː ṭe ga lː li ṭː ṭu ṇa gi su tː taa re
+HKL features: torch.Size([1, 159, 256])
+Prosody hidden: torch.Size([1, 159, 256])
+Waveform: (131328,)
+Saved audio: /content/quality_eval/knm_00180_00304524174/knm_00180_00304524174_3.wav
+
+Input: ಈ ಅರ್ಜಿಯನ್ನು ಮೊದಲು ಅಂತರರಾಷ್ಟ್ರೀಯ ಹಣಕಾಸು ನಿಧಿನ ಕಾರ್ಯನಿರ್ವಾಹಕ ಮಂಡಳಿಯು ಪರಿಗಣನೆ ಮಾಡುತ್ತದೆ.
+Normalized: ಈ ಅರ್ಜಿಯನ್ನು ಮೊದಲು ಅಂತರರಾಷ್ಟ್ರೀಯ ಹಣಕಾಸು ನಿಧಿನ ಕಾರ್ಯನಿರ್ವಾಹಕ ಮಂಡಳಿಯು ಪರಿಗಣನೆ ಮಾಡುತ್ತದೆ ...
+Phoneme: ii a rː ji ya nː nu mo da lu a m ta ra raa ṣː ṭː rii ya ha ṇa kaa su ni dhi na kaa rː ya ni rː vaa ha ka ma m ɖa yu pa ri ga ṇa ne maa ɖu tː ta de 
+HKL features: torch.Size([1, 171, 256])
+Prosody hidden: torch.Size([1, 171, 256])
+Waveform: (162048,)
+Saved audio: /content/quality_eval/knm_00180_00315697229/knm_00180_00315697229_1.wav
+
+Input: ಈ ಅರ್ಜಿಯನ್ನು ಮೊದಲು ಅಂತರರಾಷ್ಟ್ರೀಯ ಹಣಕಾಸು ನಿಧಿನ ಕಾರ್ಯನಿರ್ವಾಹಕ ಮಂಡಳಿಯು ಪರಿಗಣನೆ ಮಾಡುತ್ತದೆ.
+Normalized: ಈ ಅರ್ಜಿಯನ್ನು ಮೊದಲು ಅಂತರರಾಷ್ಟ್ರೀಯ ಹಣಕಾಸು ನಿಧಿನ ಕಾರ್ಯನಿರ್ವಾಹಕ ಮಂಡಳಿಯು ಪರಿಗಣನೆ ಮಾಡುತ್ತದೆ ...
+Phoneme: ii a rː ji ya nː nu mo da lu a m ta ra raa ṣː ṭː rii ya ha ṇa kaa su ni dhi na kaa rː ya ni rː vaa ha ka ma m ɖa yu pa ri ga ṇa ne maa ɖu tː ta de 
+HKL features: torch.Size([1, 171, 256])
+Prosody hidden: torch.Size([1, 171, 256])
+Waveform: (146944,)
+Saved audio: /content/quality_eval/knm_00180_00315697229/knm_00180_00315697229_2.wav
+
+Input: ಈ ಅರ್ಜಿಯನ್ನು ಮೊದಲು ಅಂತರರಾಷ್ಟ್ರೀಯ ಹಣಕಾಸು ನಿಧಿನ ಕಾರ್ಯನಿರ್ವಾಹಕ ಮಂಡಳಿಯು ಪರಿಗಣನೆ ಮಾಡುತ್ತದೆ.
+Normalized: ಈ ಅರ್ಜಿಯನ್ನು ಮೊದಲು ಅಂತರರಾಷ್ಟ್ರೀಯ ಹಣಕಾಸು ನಿಧಿನ ಕಾರ್ಯನಿರ್ವಾಹಕ ಮಂಡಳಿಯು ಪರಿಗಣನೆ ಮಾಡುತ್ತದೆ ...
+Phoneme: ii a rː ji ya nː nu mo da lu a m ta ra raa ṣː ṭː rii ya ha ṇa kaa su ni dhi na kaa rː ya ni rː vaa ha ka ma m ɖa yu pa ri ga ṇa ne maa ɖu tː ta de 
+HKL features: torch.Size([1, 171, 256])
+Prosody hidden: torch.Size([1, 171, 256])
+Waveform: (148992,)
+Saved audio: /content/quality_eval/knm_00180_00315697229/knm_00180_00315697229_3.wav
+
+Input: ಇದು ಮುದ್ರಣ
+Normalized: ಇದು ಮುದ್ರಣ
+Phoneme: i du mu dː ra ṇa
+HKL features: torch.Size([1, 21, 256])
+Prosody hidden: torch.Size([1, 21, 256])
+Waveform: (24832,)
+Saved audio: /content/quality_eval/knm_00180_00378960913/knm_00180_00378960913_1.wav
+
+Input: ಇದು ಮುದ್ರಣ
+Normalized: ಇದು ಮುದ್ರಣ
+Phoneme: i du mu dː ra ṇa
+HKL features: torch.Size([1, 21, 256])
+Prosody hidden: torch.Size([1, 21, 256])
+Waveform: (24320,)
+Saved audio: /content/quality_eval/knm_00180_00378960913/knm_00180_00378960913_2.wav
+
+Input: ಇದು ಮುದ್ರಣ
+Normalized: ಇದು ಮುದ್ರಣ
+Phoneme: i du mu dː ra ṇa
+HKL features: torch.Size([1, 21, 256])
+Prosody hidden: torch.Size([1, 21, 256])
+Waveform: (23552,)
+Saved audio: /content/quality_eval/knm_00180_00378960913/knm_00180_00378960913_3.wav
+
+Input: ಇದರಲ್ಲಿ ದೊರೆಯುವ ಶೇಷವನ್ನು ತೊಂಬತ್ತೆಂಟರಿಂದ ಕಳೆಯಿರಿ.
+Normalized: ಇದರಲ್ಲಿ ದೊರೆಯುವ ಶೇಷವನ್ನು ತೊಂಬತ್ತೆಂಟರಿಂದ ಕಳೆಯಿರಿ ...
+Phoneme: i da ra lː li do re yu va shee ṣa va nː nu to m ba tː te m ṭa ri m da ka yi ri 
+HKL features: torch.Size([1, 95, 256])
+Prosody hidden: torch.Size([1, 95, 256])
+Waveform: (83968,)
+Saved audio: /content/quality_eval/knm_00180_00393491840/knm_00180_00393491840_1.wav
+
+Input: ಇದರಲ್ಲಿ ದೊರೆಯುವ ಶೇಷವನ್ನು ತೊಂಬತ್ತೆಂಟರಿಂದ ಕಳೆಯಿರಿ.
+Normalized: ಇದರಲ್ಲಿ ದೊರೆಯುವ ಶೇಷವನ್ನು ತೊಂಬತ್ತೆಂಟರಿಂದ ಕಳೆಯಿರಿ ...
+Phoneme: i da ra lː li do re yu va shee ṣa va nː nu to m ba tː te m ṭa ri m da ka yi ri 
+HKL features: torch.Size([1, 95, 256])
+Prosody hidden: torch.Size([1, 95, 256])
+Waveform: (87552,)
+Saved audio: /content/quality_eval/knm_00180_00393491840/knm_00180_00393491840_2.wav
+
+Input: ಇದರಲ್ಲಿ ದೊರೆಯುವ ಶೇಷವನ್ನು ತೊಂಬತ್ತೆಂಟರಿಂದ ಕಳೆಯಿರಿ.
+Normalized: ಇದರಲ್ಲಿ ದೊರೆಯುವ ಶೇಷವನ್ನು ತೊಂಬತ್ತೆಂಟರಿಂದ ಕಳೆಯಿರಿ ...
+Phoneme: i da ra lː li do re yu va shee ṣa va nː nu to m ba tː te m ṭa ri m da ka yi ri 
+HKL features: torch.Size([1, 95, 256])
+Prosody hidden: torch.Size([1, 95, 256])
+Waveform: (81408,)
+Saved audio: /content/quality_eval/knm_00180_00393491840/knm_00180_00393491840_3.wav
+
+Input: ಆದುದರಿಂದ ಸಾವಿರದೊಂಬೈನೂರ ನಲ್ವತ್ತಮೂರರಲ್ಲಿ ಇದು ವಿಸರ್ಜನೆಯಾಯಿತು.
+Normalized: ಆದುದರಿಂದ ಸಾವಿರದೊಂಬೈನೂರ ನಲ್ವತ್ತಮೂರರಲ್ಲಿ ಇದು ವಿಸರ್ಜನೆಯಾಯಿತು ...
+Phoneme: aa du da ri m da saa vi ra do m ba nuu ra na lː va tː ta muu ra ra lː li i du vi sa rː ja ne yaa yi tu 
+HKL features: torch.Size([1, 115, 256])
+Prosody hidden: torch.Size([1, 115, 256])
+Waveform: (109056,)
+Saved audio: /content/quality_eval/knm_00180_00398565905/knm_00180_00398565905_1.wav
+
+Input: ಆದುದರಿಂದ ಸಾವಿರದೊಂಬೈನೂರ ನಲ್ವತ್ತಮೂರರಲ್ಲಿ ಇದು ವಿಸರ್ಜನೆಯಾಯಿತು.
+Normalized: ಆದುದರಿಂದ ಸಾವಿರದೊಂಬೈನೂರ ನಲ್ವತ್ತಮೂರರಲ್ಲಿ ಇದು ವಿಸರ್ಜನೆಯಾಯಿತು ...
+Phoneme: aa du da ri m da saa vi ra do m ba nuu ra na lː va tː ta muu ra ra lː li i du vi sa rː ja ne yaa yi tu 
+HKL features: torch.Size([1, 115, 256])
+Prosody hidden: torch.Size([1, 115, 256])
+Waveform: (113152,)
+Saved audio: /content/quality_eval/knm_00180_00398565905/knm_00180_00398565905_2.wav
+
+Input: ಆದುದರಿಂದ ಸಾವಿರದೊಂಬೈನೂರ ನಲ್ವತ್ತಮೂರರಲ್ಲಿ ಇದು ವಿಸರ್ಜನೆಯಾಯಿತು.
+Normalized: ಆದುದರಿಂದ ಸಾವಿರದೊಂಬೈನೂರ ನಲ್ವತ್ತಮೂರರಲ್ಲಿ ಇದು ವಿಸರ್ಜನೆಯಾಯಿತು ...
+Phoneme: aa du da ri m da saa vi ra do m ba nuu ra na lː va tː ta muu ra ra lː li i du vi sa rː ja ne yaa yi tu 
+HKL features: torch.Size([1, 115, 256])
+Prosody hidden: torch.Size([1, 115, 256])
+Waveform: (103424,)
+Saved audio: /content/quality_eval/knm_00180_00398565905/knm_00180_00398565905_3.wav
+
+Input: ಇದು ಅತ್ಯಂತ ಅನೈಜವಾದದ್ದು
+Normalized: ಇದು ಅತ್ಯಂತ ಅನೈಜವಾದದ್ದು
+Phoneme: i du a tː ya m ta a na ja vaa da dː du
+HKL features: torch.Size([1, 45, 256])
+Prosody hidden: torch.Size([1, 45, 256])
+Waveform: (50688,)
+Saved audio: /content/quality_eval/knm_00180_00458223984/knm_00180_00458223984_1.wav
+
+Input: ಇದು ಅತ್ಯಂತ ಅನೈಜವಾದದ್ದು
+Normalized: ಇದು ಅತ್ಯಂತ ಅನೈಜವಾದದ್ದು
+Phoneme: i du a tː ya m ta a na ja vaa da dː du
+HKL features: torch.Size([1, 45, 256])
+Prosody hidden: torch.Size([1, 45, 256])
+Waveform: (50688,)
+Saved audio: /content/quality_eval/knm_00180_00458223984/knm_00180_00458223984_2.wav
+
+Input: ಇದು ಅತ್ಯಂತ ಅನೈಜವಾದದ್ದು
+Normalized: ಇದು ಅತ್ಯಂತ ಅನೈಜವಾದದ್ದು
+Phoneme: i du a tː ya m ta a na ja vaa da dː du
+HKL features: torch.Size([1, 45, 256])
+Prosody hidden: torch.Size([1, 45, 256])
+Waveform: (51200,)
+Saved audio: /content/quality_eval/knm_00180_00458223984/knm_00180_00458223984_3.wav
+
+Input: ಅಲ್ಲದೇ ಡೌಗ್ಲಾಸ್ ವೀಲಾಕ್ ರವರು ಈ ಕಾರ್ಯಕ್ಕೆ ನೆರವಾದರು
+Normalized: ಅಲ್ಲದೇ ಡೌಗ್ಲಾಸ್ ವೀಲಾಕ್ ರವರು ಈ ಕಾರ್ಯಕ್ಕೆ ನೆರವಾದರು
+Phoneme: a lː la dee ɖa gː laa sː vii laa kː ra va ru ii kaa rː ya kː ke ne ra vaa da ru
+HKL features: torch.Size([1, 97, 256])
+Prosody hidden: torch.Size([1, 97, 256])
+Waveform: (81152,)
+Saved audio: /content/quality_eval/knm_00180_00461290774/knm_00180_00461290774_1.wav
+
+Input: ಅಲ್ಲದೇ ಡೌಗ್ಲಾಸ್ ವೀಲಾಕ್ ರವರು ಈ ಕಾರ್ಯಕ್ಕೆ ನೆರವಾದರು
+Normalized: ಅಲ್ಲದೇ ಡೌಗ್ಲಾಸ್ ವೀಲಾಕ್ ರವರು ಈ ಕಾರ್ಯಕ್ಕೆ ನೆರವಾದರು
+Phoneme: a lː la dee ɖa gː laa sː vii laa kː ra va ru ii kaa rː ya kː ke ne ra vaa da ru
+HKL features: torch.Size([1, 97, 256])
+Prosody hidden: torch.Size([1, 97, 256])
+Waveform: (75776,)
+Saved audio: /content/quality_eval/knm_00180_00461290774/knm_00180_00461290774_2.wav
+
+Input: ಅಲ್ಲದೇ ಡೌಗ್ಲಾಸ್ ವೀಲಾಕ್ ರವರು ಈ ಕಾರ್ಯಕ್ಕೆ ನೆರವಾದರು
+Normalized: ಅಲ್ಲದೇ ಡೌಗ್ಲಾಸ್ ವೀಲಾಕ್ ರವರು ಈ ಕಾರ್ಯಕ್ಕೆ ನೆರವಾದರು
+Phoneme: a lː la dee ɖa gː laa sː vii laa kː ra va ru ii kaa rː ya kː ke ne ra vaa da ru
+HKL features: torch.Size([1, 97, 256])
+Prosody hidden: torch.Size([1, 97, 256])
+Waveform: (97024,)
+Saved audio: /content/quality_eval/knm_00180_00461290774/knm_00180_00461290774_3.wav
+
+Input: ಆಡಳಿತ ಹನ್ನೆರಡು ಮಂದಿ ಕಾರ್ಯನಿರ್ವಾಹಕ ನಿರ್ದೇಶಕರಿಗೆ ವಹಿಸಲ್ಪಟ್ಟಿದೆ.
+Normalized: ಆಡಳಿತ ಹನ್ನೆರಡು ಮಂದಿ ಕಾರ್ಯನಿರ್ವಾಹಕ ನಿರ್ದೇಶಕರಿಗೆ ವಹಿಸಲ್ಪಟ್ಟಿದೆ ...
+Phoneme: aa ɖa ta ha nː ne ra ɖu ma m di kaa rː ya ni rː vaa ha ka ni rː dee sha ka ri ge va hi sa lː pa ṭː ṭi de 
+HKL features: torch.Size([1, 121, 256])
+Prosody hidden: torch.Size([1, 121, 256])
+Waveform: (125696,)
+Saved audio: /content/quality_eval/knm_00180_00606527548/knm_00180_00606527548_1.wav
+
+Input: ಆಡಳಿತ ಹನ್ನೆರಡು ಮಂದಿ ಕಾರ್ಯನಿರ್ವಾಹಕ ನಿರ್ದೇಶಕರಿಗೆ ವಹಿಸಲ್ಪಟ್ಟಿದೆ.
+Normalized: ಆಡಳಿತ ಹನ್ನೆರಡು ಮಂದಿ ಕಾರ್ಯನಿರ್ವಾಹಕ ನಿರ್ದೇಶಕರಿಗೆ ವಹಿಸಲ್ಪಟ್ಟಿದೆ ...
+Phoneme: aa ɖa ta ha nː ne ra ɖu ma m di kaa rː ya ni rː vaa ha ka ni rː dee sha ka ri ge va hi sa lː pa ṭː ṭi de 
+HKL features: torch.Size([1, 121, 256])
+Prosody hidden: torch.Size([1, 121, 256])
+Waveform: (88320,)
+Saved audio: /content/quality_eval/knm_00180_00606527548/knm_00180_00606527548_2.wav
+
+Input: ಆಡಳಿತ ಹನ್ನೆರಡು ಮಂದಿ ಕಾರ್ಯನಿರ್ವಾಹಕ ನಿರ್ದೇಶಕರಿಗೆ ವಹಿಸಲ್ಪಟ್ಟಿದೆ.
+Normalized: ಆಡಳಿತ ಹನ್ನೆರಡು ಮಂದಿ ಕಾರ್ಯನಿರ್ವಾಹಕ ನಿರ್ದೇಶಕರಿಗೆ ವಹಿಸಲ್ಪಟ್ಟಿದೆ ...
+Phoneme: aa ɖa ta ha nː ne ra ɖu ma m di kaa rː ya ni rː vaa ha ka ni rː dee sha ka ri ge va hi sa lː pa ṭː ṭi de 
+HKL features: torch.Size([1, 121, 256])
+Prosody hidden: torch.Size([1, 121, 256])
+Waveform: (89088,)
+Saved audio: /content/quality_eval/knm_00180_00606527548/knm_00180_00606527548_3.wav
+
+Input: ಪರಿಶೋಧನಾ ಉದ್ದೇಶದ ಸಂಶೋಧನೆ
+Normalized: ಪರಿಶೋಧನಾ ಉದ್ದೇಶದ ಸಂಶೋಧನೆ
+Phoneme: pa ri shoo dha naa u dː dee sha da sa m shoo dha ne
+HKL features: torch.Size([1, 49, 256])
+Prosody hidden: torch.Size([1, 49, 256])
+Waveform: (51712,)
+Saved audio: /content/quality_eval/knm_00180_00606909868/knm_00180_00606909868_1.wav
+
+Input: ಪರಿಶೋಧನಾ ಉದ್ದೇಶದ ಸಂಶೋಧನೆ
+Normalized: ಪರಿಶೋಧನಾ ಉದ್ದೇಶದ ಸಂಶೋಧನೆ
+Phoneme: pa ri shoo dha naa u dː dee sha da sa m shoo dha ne
+HKL features: torch.Size([1, 49, 256])
+Prosody hidden: torch.Size([1, 49, 256])
+Waveform: (52480,)
+Saved audio: /content/quality_eval/knm_00180_00606909868/knm_00180_00606909868_2.wav
+
+Input: ಪರಿಶೋಧನಾ ಉದ್ದೇಶದ ಸಂಶೋಧನೆ
+Normalized: ಪರಿಶೋಧನಾ ಉದ್ದೇಶದ ಸಂಶೋಧನೆ
+Phoneme: pa ri shoo dha naa u dː dee sha da sa m shoo dha ne
+HKL features: torch.Size([1, 49, 256])
+Prosody hidden: torch.Size([1, 49, 256])
+Waveform: (67328,)
+Saved audio: /content/quality_eval/knm_00180_00606909868/knm_00180_00606909868_3.wav
+
+Input: ಪ್ರತ್ಯಕ್ಷವಾಗಿ ಅಥವಾ ಪರೋಕ್ಷವಾಗಿ
+Normalized: ಪ್ರತ್ಯಕ್ಷವಾಗಿ ಅಥವಾ ಪರೋಕ್ಷವಾಗಿ
+Phoneme: pra tː ya ksha vaa gi a tha vaa pa roo ksha vaa gi
+HKL features: torch.Size([1, 59, 256])
+Prosody hidden: torch.Size([1, 59, 256])
+Waveform: (56576,)
+Saved audio: /content/quality_eval/knm_00180_00636639047/knm_00180_00636639047_1.wav
+
+Input: ಪ್ರತ್ಯಕ್ಷವಾಗಿ ಅಥವಾ ಪರೋಕ್ಷವಾಗಿ
+Normalized: ಪ್ರತ್ಯಕ್ಷವಾಗಿ ಅಥವಾ ಪರೋಕ್ಷವಾಗಿ
+Phoneme: pra tː ya ksha vaa gi a tha vaa pa roo ksha vaa gi
+HKL features: torch.Size([1, 59, 256])
+Prosody hidden: torch.Size([1, 59, 256])
+Waveform: (59136,)
+Saved audio: /content/quality_eval/knm_00180_00636639047/knm_00180_00636639047_2.wav
+
+Input: ಪ್ರತ್ಯಕ್ಷವಾಗಿ ಅಥವಾ ಪರೋಕ್ಷವಾಗಿ
+Normalized: ಪ್ರತ್ಯಕ್ಷವಾಗಿ ಅಥವಾ ಪರೋಕ್ಷವಾಗಿ
+Phoneme: pra tː ya ksha vaa gi a tha vaa pa roo ksha vaa gi
+HKL features: torch.Size([1, 59, 256])
+Prosody hidden: torch.Size([1, 59, 256])
+Waveform: (55040,)
+Saved audio: /content/quality_eval/knm_00180_00636639047/knm_00180_00636639047_3.wav
+
+Input: ದುಂಡಾಗಿರುವ ಇದರ ಕೆಳಭಾಗ ಭೂಮಿಯನ್ನು ಕೊರೆದುಕೊಂಡು ಹೋಗುವಂತಿದೆ
+Normalized: ದುಂಡಾಗಿರುವ ಇದರ ಕೆಳಭಾಗ ಭೂಮಿಯನ್ನು ಕೊರೆದುಕೊಂಡು ಹೋಗುವಂತಿದೆ
+Phoneme: du m ɖaa gi ru va i da ra ke bhaa ga bhuu mi ya nː nu ko re du ko m ɖu hoo gu va m ti de
+HKL features: torch.Size([1, 109, 256])
+Prosody hidden: torch.Size([1, 109, 256])
+Waveform: (93440,)
+Saved audio: /content/quality_eval/knm_00180_00638194660/knm_00180_00638194660_1.wav
+
+Input: ದುಂಡಾಗಿರುವ ಇದರ ಕೆಳಭಾಗ ಭೂಮಿಯನ್ನು ಕೊರೆದುಕೊಂಡು ಹೋಗುವಂತಿದೆ
+Normalized: ದುಂಡಾಗಿರುವ ಇದರ ಕೆಳಭಾಗ ಭೂಮಿಯನ್ನು ಕೊರೆದುಕೊಂಡು ಹೋಗುವಂತಿದೆ
+Phoneme: du m ɖaa gi ru va i da ra ke bhaa ga bhuu mi ya nː nu ko re du ko m ɖu hoo gu va m ti de
+HKL features: torch.Size([1, 109, 256])
+Prosody hidden: torch.Size([1, 109, 256])
+Waveform: (96256,)
+Saved audio: /content/quality_eval/knm_00180_00638194660/knm_00180_00638194660_2.wav
+
+Input: ದುಂಡಾಗಿರುವ ಇದರ ಕೆಳಭಾಗ ಭೂಮಿಯನ್ನು ಕೊರೆದುಕೊಂಡು ಹೋಗುವಂತಿದೆ
+Normalized: ದುಂಡಾಗಿರುವ ಇದರ ಕೆಳಭಾಗ ಭೂಮಿಯನ್ನು ಕೊರೆದುಕೊಂಡು ಹೋಗುವಂತಿದೆ
+Phoneme: du m ɖaa gi ru va i da ra ke bhaa ga bhuu mi ya nː nu ko re du ko m ɖu hoo gu va m ti de
+HKL features: torch.Size([1, 109, 256])
+Prosody hidden: torch.Size([1, 109, 256])
+Waveform: (108032,)
+Saved audio: /content/quality_eval/knm_00180_00638194660/knm_00180_00638194660_3.wav
+
+Input: ಇಂತಹ ಆಕ್ಷೇಪಣೆಗಳು ನ್ಯಾಯಾಲಯದ ಮುಂದೆ ಬಂದಾಗ ನ್ಯಾಯಾಲಯವು ಅರ್ಜಿದಾರರ ದೂರಿನ ಯೋಗ್ಯತೆ ಪರಿಶೀಲಿಸಿ ಅದನ್ನು ಸರಿಪಡಿಸಬಹುದು.
+Normalized: ಇಂತಹ ಆಕ್ಷೇಪಣೆಗಳು ನ್ಯಾಯಾಲಯದ ಮುಂದೆ ಬಂದಾಗ ನ್ಯಾಯಾಲಯವು ಅರ್ಜಿದಾರರ ದೂರಿನ ಯೋಗ್ಯತೆ ಪರಿಶೀಲಿಸಿ ಅದನ್ನು ಸರಿಪಡಿಸಬಹುದು ...
+Phoneme: i m ta ha aa ksha pa ṇe ga nː yaa yaa la ya da mu m de ba m daa ga nː yaa yaa la ya vu a rː ji daa ra ra duu ri na yoo gː ya te pa ri shii li si a da nː nu sa ri pa ɖi sa ba hu du 
+HKL features: torch.Size([1, 207, 256])
+Prosody hidden: torch.Size([1, 207, 256])
+Waveform: (193536,)
+Saved audio: /content/quality_eval/knm_00180_00709659375/knm_00180_00709659375_1.wav
+
+Input: ಇಂತಹ ಆಕ್ಷೇಪಣೆಗಳು ನ್ಯಾಯಾಲಯದ ಮುಂದೆ ಬಂದಾಗ ನ್ಯಾಯಾಲಯವು ಅರ್ಜಿದಾರರ ದೂರಿನ ಯೋಗ್ಯತೆ ಪರಿಶೀಲಿಸಿ ಅದನ್ನು ಸರಿಪಡಿಸಬಹುದು.
+Normalized: ಇಂತಹ ಆಕ್ಷೇಪಣೆಗಳು ನ್ಯಾಯಾಲಯದ ಮುಂದೆ ಬಂದಾಗ ನ್ಯಾಯಾಲಯವು ಅರ್ಜಿದಾರರ ದೂರಿನ ಯೋಗ್ಯತೆ ಪರಿಶೀಲಿಸಿ ಅದನ್ನು ಸರಿಪಡಿಸಬಹುದು ...
+Phoneme: i m ta ha aa ksha pa ṇe ga nː yaa yaa la ya da mu m de ba m daa ga nː yaa yaa la ya vu a rː ji daa ra ra duu ri na yoo gː ya te pa ri shii li si a da nː nu sa ri pa ɖi sa ba hu du 
+HKL features: torch.Size([1, 207, 256])
+Prosody hidden: torch.Size([1, 207, 256])
+Waveform: (189184,)
+Saved audio: /content/quality_eval/knm_00180_00709659375/knm_00180_00709659375_2.wav
+
+Input: ಇಂತಹ ಆಕ್ಷೇಪಣೆಗಳು ನ್ಯಾಯಾಲಯದ ಮುಂದೆ ಬಂದಾಗ ನ್ಯಾಯಾಲಯವು ಅರ್ಜಿದಾರರ ದೂರಿನ ಯೋಗ್ಯತೆ ಪರಿಶೀಲಿಸಿ ಅದನ್ನು ಸರಿಪಡಿಸಬಹುದು.
+Normalized: ಇಂತಹ ಆಕ್ಷೇಪಣೆಗಳು ನ್ಯಾಯಾಲಯದ ಮುಂದೆ ಬಂದಾಗ ನ್ಯಾಯಾಲಯವು ಅರ್ಜಿದಾರರ ದೂರಿನ ಯೋಗ್ಯತೆ ಪರಿಶೀಲಿಸಿ ಅದನ್ನು ಸರಿಪಡಿಸಬಹುದು ...
+Phoneme: i m ta ha aa ksha pa ṇe ga nː yaa yaa la ya da mu m de ba m daa ga nː yaa yaa la ya vu a rː ji daa ra ra duu ri na yoo gː ya te pa ri shii li si a da nː nu sa ri pa ɖi sa ba hu du 
+HKL features: torch.Size([1, 207, 256])
+Prosody hidden: torch.Size([1, 207, 256])
+Waveform: (179712,)
+Saved audio: /content/quality_eval/knm_00180_00709659375/knm_00180_00709659375_3.wav
+
+Input: ತೃತೀಯ ಅಂತಾರಾಷ್ಟ್ರೀಯದ ಎಲ್ಲ ಅಂಗಸಂಸ್ಥೆಗಳೂ ಕೇಂದ್ರ ಸಂಸ್ಥೆಯ ನಿರ್ಧಾರಗಳು ಮತ್ತು ಕಾರ್ಯಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸಿ ಕೆಲಸ ಮಾಡಬೇಕಾಗಿತ್ತು.
+Normalized: ತೃತೀಯ ಅಂತಾರಾಷ್ಟ್ರೀಯದ ಎಲ್ಲ ಅಂಗಸಂಸ್ಥೆಗಳೂ ಕೇಂದ್ರ ಸಂಸ್ಥೆಯ ನಿರ್ಧಾರಗಳು ಮತ್ತು ಕಾರ್ಯಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸಿ ಕೆಲಸ ಮಾಡಬೇಕಾಗಿತ್ತು ...
+Phoneme: ta tii ya a m taa raa ṣː ṭː rii ya da lː la a m ga sa m sː the ga kee m dː ra sa m sː the ya ni rː dhaa ra ga ma tː tu kaa rː ya kra ma ga nː nu a nu sa ri si ke la sa maa ɖa bee kaa gi tː tu 
+HKL features: torch.Size([1, 229, 256])
+Prosody hidden: torch.Size([1, 229, 256])
+Waveform: (187136,)
+Saved audio: /content/quality_eval/knm_00180_00726312040/knm_00180_00726312040_1.wav
+
+Input: ತೃತೀಯ ಅಂತಾರಾಷ್ಟ್ರೀಯದ ಎಲ್ಲ ಅಂಗಸಂಸ್ಥೆಗಳೂ ಕೇಂದ್ರ ಸಂಸ್ಥೆಯ ನಿರ್ಧಾರಗಳು ಮತ್ತು ಕಾರ್ಯಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸಿ ಕೆಲಸ ಮಾಡಬೇಕಾಗಿತ್ತು.
+Normalized: ತೃತೀಯ ಅಂತಾರಾಷ್ಟ್ರೀಯದ ಎಲ್ಲ ಅಂಗಸಂಸ್ಥೆಗಳೂ ಕೇಂದ್ರ ಸಂಸ್ಥೆಯ ನಿರ್ಧಾರಗಳು ಮತ್ತು ಕಾರ್ಯಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸಿ ಕೆಲಸ ಮಾಡಬೇಕಾಗಿತ್ತು ...
+Phoneme: ta tii ya a m taa raa ṣː ṭː rii ya da lː la a m ga sa m sː the ga kee m dː ra sa m sː the ya ni rː dhaa ra ga ma tː tu kaa rː ya kra ma ga nː nu a nu sa ri si ke la sa maa ɖa bee kaa gi tː tu 
+HKL features: torch.Size([1, 229, 256])
+Prosody hidden: torch.Size([1, 229, 256])
+Waveform: (194816,)
+Saved audio: /content/quality_eval/knm_00180_00726312040/knm_00180_00726312040_2.wav
+
+Input: ತೃತೀಯ ಅಂತಾರಾಷ್ಟ್ರೀಯದ ಎಲ್ಲ ಅಂಗಸಂಸ್ಥೆಗಳೂ ಕೇಂದ್ರ ಸಂಸ್ಥೆಯ ನಿರ್ಧಾರಗಳು ಮತ್ತು ಕಾರ್ಯಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸಿ ಕೆಲಸ ಮಾಡಬೇಕಾಗಿತ್ತು.
+Normalized: ತೃತೀಯ ಅಂತಾರಾಷ್ಟ್ರೀಯದ ಎಲ್ಲ ಅಂಗಸಂಸ್ಥೆಗಳೂ ಕೇಂದ್ರ ಸಂಸ್ಥೆಯ ನಿರ್ಧಾರಗಳು ಮತ್ತು ಕಾರ್ಯಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸಿ ಕೆಲಸ ಮಾಡಬೇಕಾಗಿತ್ತು ...
+Phoneme: ta tii ya a m taa raa ṣː ṭː rii ya da lː la a m ga sa m sː the ga kee m dː ra sa m sː the ya ni rː dhaa ra ga ma tː tu kaa rː ya kra ma ga nː nu a nu sa ri si ke la sa maa ɖa bee kaa gi tː tu 
+HKL features: torch.Size([1, 229, 256])
+Prosody hidden: torch.Size([1, 229, 256])
+Waveform: (192768,)
+Saved audio: /content/quality_eval/knm_00180_00726312040/knm_00180_00726312040_3.wav
+
+Input: ಮರುಭೂಮಿಗಳಲ್ಲಿ ಮಳೆಯ ಪ್ರಮಾಣ ಕಡಿಮೆಯಾದ್ದರಿಂದ ಅಂತರ್ಜಲದ ಮಟ್ಟ ತುಂಬ ಆಳದಲ್ಲಿರುತ್ತದೆ.
+Normalized: ಮರುಭೂಮಿಗಳಲ್ಲಿ ಮಳೆಯ ಪ್ರಮಾಣ ಕಡಿಮೆಯಾದ್ದರಿಂದ ಅಂತರ್ಜಲದ ಮಟ್ಟ ತುಂಬ ಆಳದಲ್ಲಿರುತ್ತದೆ ...
+Phoneme: ma ru bhuu mi ga lː li ma ya pra maa ṇa ka ɖi me yaa dː da ri m da a m ta rː ja la da ma ṭː ṭa tu m ba aa da lː li ru tː ta de 
+HKL features: torch.Size([1, 149, 256])
+Prosody hidden: torch.Size([1, 149, 256])
+Waveform: (130048,)
+Saved audio: /content/quality_eval/knm_00180_00742976223/knm_00180_00742976223_1.wav
+
+Input: ಮರುಭೂಮಿಗಳಲ್ಲಿ ಮಳೆಯ ಪ್ರಮಾಣ ಕಡಿಮೆಯಾದ್ದರಿಂದ ಅಂತರ್ಜಲದ ಮಟ್ಟ ತುಂಬ ಆಳದಲ್ಲಿರುತ್ತದೆ.
+Normalized: ಮರುಭೂಮಿಗಳಲ್ಲಿ ಮಳೆಯ ಪ್ರಮಾಣ ಕಡಿಮೆಯಾದ್ದರಿಂದ ಅಂತರ್ಜಲದ ಮಟ್ಟ ತುಂಬ ಆಳದಲ್ಲಿರುತ್ತದೆ ...
+Phoneme: ma ru bhuu mi ga lː li ma ya pra maa ṇa ka ɖi me yaa dː da ri m da a m ta rː ja la da ma ṭː ṭa tu m ba aa da lː li ru tː ta de 
+HKL features: torch.Size([1, 149, 256])
+Prosody hidden: torch.Size([1, 149, 256])
+Waveform: (132352,)
+Saved audio: /content/quality_eval/knm_00180_00742976223/knm_00180_00742976223_2.wav
+
+Input: ಮರುಭೂಮಿಗಳಲ್ಲಿ ಮಳೆಯ ಪ್ರಮಾಣ ಕಡಿಮೆಯಾದ್ದರಿಂದ ಅಂತರ್ಜಲದ ಮಟ್ಟ ತುಂಬ ಆಳದಲ್ಲಿರುತ್ತದೆ.
+Normalized: ಮರುಭೂಮಿಗಳಲ್ಲಿ ಮಳೆಯ ಪ್ರಮಾಣ ಕಡಿಮೆಯಾದ್ದರಿಂದ ಅಂತರ್ಜಲದ ಮಟ್ಟ ತುಂಬ ಆಳದಲ್ಲಿರುತ್ತದೆ ...
+Phoneme: ma ru bhuu mi ga lː li ma ya pra maa ṇa ka ɖi me yaa dː da ri m da a m ta rː ja la da ma ṭː ṭa tu m ba aa da lː li ru tː ta de 
+HKL features: torch.Size([1, 149, 256])
+Prosody hidden: torch.Size([1, 149, 256])
+Waveform: (128512,)
+Saved audio: /content/quality_eval/knm_00180_00742976223/knm_00180_00742976223_3.wav
+
+Input: ದುಷ್ಟಭಾವನೆಗಳನ್ನು ಇಟ್ಟುಕೊಂಡು ಮಾಡಿದ ಕಾರ್ಯಕ್ಕೆ ಕಠಿಣ ಶಿಕ್ಷೆಯನ್ನೇ ವಿಧಿಸಲಾಗುತ್ತದೆ.
+Normalized: ದುಷ್ಟಭಾವನೆಗಳನ್ನು ಇಟ್ಟುಕೊಂಡು ಮಾಡಿದ ಕಾರ್ಯಕ್ಕೆ ಕಠಿಣ ಶಿಕ್ಷೆಯನ್ನೇ ವಿಧಿಸಲಾಗುತ್ತದೆ ...
+Phoneme: du ṣː ṭa bhaa va ne ga nː nu i ṭː ṭu ko m ɖu maa ɖi da kaa rː ya kː ke ka ṭhi ṇa shi ksha ya nː nee vi dhi sa laa gu tː ta de 
+HKL features: torch.Size([1, 151, 256])
+Prosody hidden: torch.Size([1, 151, 256])
+Waveform: (119552,)
+Saved audio: /content/quality_eval/knm_00180_00781063792/knm_00180_00781063792_1.wav
+
+Input: ದುಷ್ಟಭಾವನೆಗಳನ್ನು ಇಟ್ಟುಕೊಂಡು ಮಾಡಿದ ಕಾರ್ಯಕ್ಕೆ ಕಠಿಣ ಶಿಕ್ಷೆಯನ್ನೇ ವಿಧಿಸಲಾಗುತ್ತದೆ.
+Normalized: ದುಷ್ಟಭಾವನೆಗಳನ್ನು ಇಟ್ಟುಕೊಂಡು ಮಾಡಿದ ಕಾರ್ಯಕ್ಕೆ ಕಠಿಣ ಶಿಕ್ಷೆಯನ್ನೇ ವಿಧಿಸಲಾಗುತ್ತದೆ ...
+Phoneme: du ṣː ṭa bhaa va ne ga nː nu i ṭː ṭu ko m ɖu maa ɖi da kaa rː ya kː ke ka ṭhi ṇa shi ksha ya nː nee vi dhi sa laa gu tː ta de 
+HKL features: torch.Size([1, 151, 256])
+Prosody hidden: torch.Size([1, 151, 256])
+Waveform: (154880,)
+Saved audio: /content/quality_eval/knm_00180_00781063792/knm_00180_00781063792_2.wav
+
+Input: ದುಷ್ಟಭಾವನೆಗಳನ್ನು ಇಟ್ಟುಕೊಂಡು ಮಾಡಿದ ಕಾರ್ಯಕ್ಕೆ ಕಠಿಣ ಶಿಕ್ಷೆಯನ್ನೇ ವಿಧಿಸಲಾಗುತ್ತದೆ.
+Normalized: ದುಷ್ಟಭಾವನೆಗಳನ್ನು ಇಟ್ಟುಕೊಂಡು ಮಾಡಿದ ಕಾರ್ಯಕ್ಕೆ ಕಠಿಣ ಶಿಕ್ಷೆಯನ್ನೇ ವಿಧಿಸಲಾಗುತ್ತದೆ ...
+Phoneme: du ṣː ṭa bhaa va ne ga nː nu i ṭː ṭu ko m ɖu maa ɖi da kaa rː ya kː ke ka ṭhi ṇa shi ksha ya nː nee vi dhi sa laa gu tː ta de 
+HKL features: torch.Size([1, 151, 256])
+Prosody hidden: torch.Size([1, 151, 256])
+Waveform: (125184,)
+Saved audio: /content/quality_eval/knm_00180_00781063792/knm_00180_00781063792_3.wav
+
+Input: ಕೂಸು ಹೆತ್ತವರನ್ನು ಗುರುತಿಸಲೂ ಅಪರಾಧದಲ್ಲಿ ರಕ್ತಕಲೆ ಯಾರದೆಂದು ನಿರ್ಧರಿಸಲೂ ರಕ್ತದ ಗುಂಪುಗಳು ನೆರವಾಗುತ್ತವೆ.
+Normalized: ಕೂಸು ಹೆತ್ತವರನ್ನು ಗುರುತಿಸಲೂ ಅಪರಾಧದಲ್ಲಿ ರಕ್ತಕಲೆ ಯಾರದೆಂದು ನಿರ್ಧರಿಸಲೂ ರಕ್ತದ ಗುಂಪುಗಳು ನೆರವಾಗುತ್ತವೆ ...
+Phoneme: kuu su he tː ta va ra nː nu gu ru ti sa luu a pa raa dha da lː li ra kː ta ka le yaa ra de m du ni rː dha ri sa luu ra kː ta da gu m pu ga ne ra vaa gu tː ta ve 
+HKL features: torch.Size([1, 187, 256])
+Prosody hidden: torch.Size([1, 187, 256])
+Waveform: (156928,)
+Saved audio: /content/quality_eval/knm_00180_00783813999/knm_00180_00783813999_1.wav
+
+Input: ಕೂಸು ಹೆತ್ತವರನ್ನು ಗುರುತಿಸಲೂ ಅಪರಾಧದಲ್ಲಿ ರಕ್ತಕಲೆ ಯಾರದೆಂದು ನಿರ್ಧರಿಸಲೂ ರಕ್ತದ ಗುಂಪುಗಳು ನೆರವಾಗುತ್ತವೆ.
+Normalized: ಕೂಸು ಹೆತ್ತವರನ್ನು ಗುರುತಿಸಲೂ ಅಪರಾಧದಲ್ಲಿ ರಕ್ತಕಲೆ ಯಾರದೆಂದು ನಿರ್ಧರಿಸಲೂ ರಕ್ತದ ಗುಂಪುಗಳು ನೆರವಾಗುತ್ತವೆ ...
+Phoneme: kuu su he tː ta va ra nː nu gu ru ti sa luu a pa raa dha da lː li ra kː ta ka le yaa ra de m du ni rː dha ri sa luu ra kː ta da gu m pu ga ne ra vaa gu tː ta ve 
+HKL features: torch.Size([1, 187, 256])
+Prosody hidden: torch.Size([1, 187, 256])
+Waveform: (168448,)
+Saved audio: /content/quality_eval/knm_00180_00783813999/knm_00180_00783813999_2.wav
+
+Input: ಕೂಸು ಹೆತ್ತವರನ್ನು ಗುರುತಿಸಲೂ ಅಪರಾಧದಲ್ಲಿ ರಕ್ತಕಲೆ ಯಾರದೆಂದು ನಿರ್ಧರಿಸಲೂ ರಕ್ತದ ಗುಂಪುಗಳು ನೆರವಾಗುತ್ತವೆ.
+Normalized: ಕೂಸು ಹೆತ್ತವರನ್ನು ಗುರುತಿಸಲೂ ಅಪರಾಧದಲ್ಲಿ ರಕ್ತಕಲೆ ಯಾರದೆಂದು ನಿರ್ಧರಿಸಲೂ ರಕ್ತದ ಗುಂಪುಗಳು ನೆರವಾಗುತ್ತವೆ ...
+Phoneme: kuu su he tː ta va ra nː nu gu ru ti sa luu a pa raa dha da lː li ra kː ta ka le yaa ra de m du ni rː dha ri sa luu ra kː ta da gu m pu ga ne ra vaa gu tː ta ve 
+HKL features: torch.Size([1, 187, 256])
+Prosody hidden: torch.Size([1, 187, 256])
+Waveform: (169216,)
+Saved audio: /content/quality_eval/knm_00180_00783813999/knm_00180_00783813999_3.wav
+
+Input: ಗಿಡವು ಬೇಸಗೆಯಲ್ಲಿ ಎಲೆ ಉದುರುವ ಬಗೆಯದು
+Normalized: ಗಿಡವು ಬೇಸಗೆಯಲ್ಲಿ ಎಲೆ ಉದುರುವ ಬಗೆಯದು
+Phoneme: gi ɖa vu bee sa ge ya lː li le u du ru va ba ge ya du
+HKL features: torch.Size([1, 69, 256])
+Prosody hidden: torch.Size([1, 69, 256])
+Waveform: (47104,)
+Saved audio: /content/quality_eval/knm_00180_00800270463/knm_00180_00800270463_1.wav
+
+Input: ಗಿಡವು ಬೇಸಗೆಯಲ್ಲಿ ಎಲೆ ಉದುರುವ ಬಗೆಯದು
+Normalized: ಗಿಡವು ಬೇಸಗೆಯಲ್ಲಿ ಎಲೆ ಉದುರುವ ಬಗೆಯದು
+Phoneme: gi ɖa vu bee sa ge ya lː li le u du ru va ba ge ya du
+HKL features: torch.Size([1, 69, 256])
+Prosody hidden: torch.Size([1, 69, 256])
+Waveform: (66560,)
+Saved audio: /content/quality_eval/knm_00180_00800270463/knm_00180_00800270463_2.wav
+
+Input: ಗಿಡವು ಬೇಸಗೆಯಲ್ಲಿ ಎಲೆ ಉದುರುವ ಬಗೆಯದು
+Normalized: ಗಿಡವು ಬೇಸಗೆಯಲ್ಲಿ ಎಲೆ ಉದುರುವ ಬಗೆಯದು
+Phoneme: gi ɖa vu bee sa ge ya lː li le u du ru va ba ge ya du
+HKL features: torch.Size([1, 69, 256])
+Prosody hidden: torch.Size([1, 69, 256])
+Waveform: (76288,)
+Saved audio: /content/quality_eval/knm_00180_00800270463/knm_00180_00800270463_3.wav
+
+Input: ಸತ್ವಗುಂದಿಸಿದ ಪ್ರಾಣಿಗಳಲ್ಲಿನ ಅವುಗಳ ಕಾರ್ಯಚಟುವಟಿಕೆಯನ್ನು ವೃಷಣಗಳ ಸಾರಸತ್ವವು ಬದಲಿಸಬಲ್ಲದು
+Normalized: ಸತ್ವಗುಂದಿಸಿದ ಪ್ರಾಣಿಗಳಲ್ಲಿನ ಅವುಗಳ ಕಾರ್ಯಚಟುವಟಿಕೆಯನ್ನು ವೃಷಣಗಳ ಸಾರಸತ್ವವು ಬದಲಿಸಬಲ್ಲದು
+Phoneme: sa tː va gu m di si da pra ṇi ga lː li na a vu ga kaa rː ya cha ṭu va ṭi ke ya nː nu va ṣa ṇa ga saa ra sa tː va vu ba da li sa ba lː la du
+HKL features: torch.Size([1, 161, 256])
+Prosody hidden: torch.Size([1, 161, 256])
+Waveform: (144640,)
+Saved audio: /content/quality_eval/knm_00180_00811702365/knm_00180_00811702365_1.wav
+
+Input: ಸತ್ವಗುಂದಿಸಿದ ಪ್ರಾಣಿಗಳಲ್ಲಿನ ಅವುಗಳ ಕಾರ್ಯಚಟುವಟಿಕೆಯನ್ನು ವೃಷಣಗಳ ಸಾರಸತ್ವವು ಬದಲಿಸಬಲ್ಲದು
+Normalized: ಸತ್ವಗುಂದಿಸಿದ ಪ್ರಾಣಿಗಳಲ್ಲಿನ ಅವುಗಳ ಕಾರ್ಯಚಟುವಟಿಕೆಯನ್ನು ವೃಷಣಗಳ ಸಾರಸತ್ವವು ಬದಲಿಸಬಲ್ಲದು
+Phoneme: sa tː va gu m di si da pra ṇi ga lː li na a vu ga kaa rː ya cha ṭu va ṭi ke ya nː nu va ṣa ṇa ga saa ra sa tː va vu ba da li sa ba lː la du
+HKL features: torch.Size([1, 161, 256])
+Prosody hidden: torch.Size([1, 161, 256])
+Waveform: (129792,)
+Saved audio: /content/quality_eval/knm_00180_00811702365/knm_00180_00811702365_2.wav
+
+Input: ಸತ್ವಗುಂದಿಸಿದ ಪ್ರಾಣಿಗಳಲ್ಲಿನ ಅವುಗಳ ಕಾರ್ಯಚಟುವಟಿಕೆಯನ್ನು ವೃಷಣಗಳ ಸಾರಸತ್ವವು ಬದಲಿಸಬಲ್ಲದು
+Normalized: ಸತ್ವಗುಂದಿಸಿದ ಪ್ರಾಣಿಗಳಲ್ಲಿನ ಅವುಗಳ ಕಾರ್ಯಚಟುವಟಿಕೆಯನ್ನು ವೃಷಣಗಳ ಸಾರಸತ್ವವು ಬದಲಿಸಬಲ್ಲದು
+Phoneme: sa tː va gu m di si da pra ṇi ga lː li na a vu ga kaa rː ya cha ṭu va ṭi ke ya nː nu va ṣa ṇa ga saa ra sa tː va vu ba da li sa ba lː la du
+HKL features: torch.Size([1, 161, 256])
+Prosody hidden: torch.Size([1, 161, 256])
+Waveform: (135424,)
+Saved audio: /content/quality_eval/knm_00180_00811702365/knm_00180_00811702365_3.wav
+
+Input: ಮಲೆನಾಡಿನ ಸಾಂಸ್ಕೃತಿಕ ಕನ್ನಡಿಯಂತಿರುವ ಈ ಸಂಪ್ರದಾಯವು ಅಜ್ಞಾನವನ್ನು ಅಳಿಸಿ ಹಾಕುತ್ತದೆ
+Normalized: ಮಲೆನಾಡಿನ ಸಾಂಸ್ಕೃತಿಕ ಕನ್ನಡಿಯಂತಿರುವ ಈ ಸಂಪ್ರದಾಯವು ಅಜ್ಞಾನವನ್ನು ಅಳಿಸಿ ಹಾಕುತ್ತದೆ
+Phoneme: ma le naa ɖi na saa m sː ka ti ka ka nː na ɖi ya m ti ru va ii sa m pra daa ya vu a jː na va nː nu a si haa ku tː ta de
+HKL features: torch.Size([1, 149, 256])
+Prosody hidden: torch.Size([1, 149, 256])
+Waveform: (136960,)
+Saved audio: /content/quality_eval/knm_00180_00820221766/knm_00180_00820221766_1.wav
+
+Input: ಮಲೆನಾಡಿನ ಸಾಂಸ್ಕೃತಿಕ ಕನ್ನಡಿಯಂತಿರುವ ಈ ಸಂಪ್ರದಾಯವು ಅಜ್ಞಾನವನ್ನು ಅಳಿಸಿ ಹಾಕುತ್ತದೆ
+Normalized: ಮಲೆನಾಡಿನ ಸಾಂಸ್ಕೃತಿಕ ಕನ್ನಡಿಯಂತಿರುವ ಈ ಸಂಪ್ರದಾಯವು ಅಜ್ಞಾನವನ್ನು ಅಳಿಸಿ ಹಾಕುತ್ತದೆ
+Phoneme: ma le naa ɖi na saa m sː ka ti ka ka nː na ɖi ya m ti ru va ii sa m pra daa ya vu a jː na va nː nu a si haa ku tː ta de
+HKL features: torch.Size([1, 149, 256])
+Prosody hidden: torch.Size([1, 149, 256])
+Waveform: (139520,)
+Saved audio: /content/quality_eval/knm_00180_00820221766/knm_00180_00820221766_2.wav
+
+Input: ಮಲೆನಾಡಿನ ಸಾಂಸ್ಕೃತಿಕ ಕನ್ನಡಿಯಂತಿರುವ ಈ ಸಂಪ್ರದಾಯವು ಅಜ್ಞಾನವನ್ನು ಅಳಿಸಿ ಹಾಕುತ್ತದೆ
+Normalized: ಮಲೆನಾಡಿನ ಸಾಂಸ್ಕೃತಿಕ ಕನ್ನಡಿಯಂತಿರುವ ಈ ಸಂಪ್ರದಾಯವು ಅಜ್ಞಾನವನ್ನು ಅಳಿಸಿ ಹಾಕುತ್ತದೆ
+Phoneme: ma le naa ɖi na saa m sː ka ti ka ka nː na ɖi ya m ti ru va ii sa m pra daa ya vu a jː na va nː nu a si haa ku tː ta de
+HKL features: torch.Size([1, 149, 256])
+Prosody hidden: torch.Size([1, 149, 256])
+Waveform: (135168,)
+Saved audio: /content/quality_eval/knm_00180_00820221766/knm_00180_00820221766_3.wav
+
+Input: ನಂತರ ಈ ಅಂದಾಜಿನ ಪ್ರದೇಶಗಳಿಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ಅಂಕಿ, ಅಂಶೀಯ ಜನಗಣತಿ ದತ್ತಾಂಶವನ್ನು ಒದಗಿಸಲಾಗುತ್ತದೆ.
+Normalized: ನಂತರ ಈ ಅಂದಾಜಿನ ಪ್ರದೇಶಗಳಿಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ಅಂಕಿ , ಅಂಶೀಯ ಜನಗಣತಿ ದತ್ತಾಂಶವನ್ನು ಒದಗಿಸಲಾಗುತ್ತದೆ ...
+Phoneme: na m ta ra ii a m daa ji na pra dee sha ga ge sa m ba m dhi si da m te a m ki  a m shii ya ja na ga ṇa ti da tː taa m sha va nː nu da gi sa laa gu tː ta de 
+HKL features: torch.Size([1, 173, 256])
+Prosody hidden: torch.Size([1, 173, 256])
+Waveform: (213248,)
+Saved audio: /content/quality_eval/knm_00180_00827448517/knm_00180_00827448517_1.wav
+
+Input: ನಂತರ ಈ ಅಂದಾಜಿನ ಪ್ರದೇಶಗಳಿಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ಅಂಕಿ, ಅಂಶೀಯ ಜನಗಣತಿ ದತ್ತಾಂಶವನ್ನು ಒದಗಿಸಲಾಗುತ್ತದೆ.
+Normalized: ನಂತರ ಈ ಅಂದಾಜಿನ ಪ್ರದೇಶಗಳಿಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ಅಂಕಿ , ಅಂಶೀಯ ಜನಗಣತಿ ದತ್ತಾಂಶವನ್ನು ಒದಗಿಸಲಾಗುತ್ತದೆ ...
+Phoneme: na m ta ra ii a m daa ji na pra dee sha ga ge sa m ba m dhi si da m te a m ki  a m shii ya ja na ga ṇa ti da tː taa m sha va nː nu da gi sa laa gu tː ta de 
+HKL features: torch.Size([1, 173, 256])
+Prosody hidden: torch.Size([1, 173, 256])
+Waveform: (169472,)
+Saved audio: /content/quality_eval/knm_00180_00827448517/knm_00180_00827448517_2.wav
+
+Input: ನಂತರ ಈ ಅಂದಾಜಿನ ಪ್ರದೇಶಗಳಿಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ಅಂಕಿ, ಅಂಶೀಯ ಜನಗಣತಿ ದತ್ತಾಂಶವನ್ನು ಒದಗಿಸಲಾಗುತ್ತದೆ.
+Normalized: ನಂತರ ಈ ಅಂದಾಜಿನ ಪ್ರದೇಶಗಳಿಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ಅಂಕಿ , ಅಂಶೀಯ ಜನಗಣತಿ ದತ್ತಾಂಶವನ್ನು ಒದಗಿಸಲಾಗುತ್ತದೆ ...
+Phoneme: na m ta ra ii a m daa ji na pra dee sha ga ge sa m ba m dhi si da m te a m ki  a m shii ya ja na ga ṇa ti da tː taa m sha va nː nu da gi sa laa gu tː ta de 
+HKL features: torch.Size([1, 173, 256])
+Prosody hidden: torch.Size([1, 173, 256])
+Waveform: (169984,)
+Saved audio: /content/quality_eval/knm_00180_00827448517/knm_00180_00827448517_3.wav
+
+Input: ಸಿಂಧೂ ನಾಗರಿಕತೆಯ ಲಿಪಿಯು ಇನ್ನೂ ಗೋಪ್ಯಲಿಪಿಯಾಗಿಯೇ ಉಳಿದಿರುವುದರಿಂದ ಆ ಕಾಲದ ಅಂಕಿಗಳ ವಿಚಾರದಲ್ಲಿ ನಮಗೆ ಏನೂ ತಿಳಿದಿಲ್ಲ.
+Normalized: ಸಿಂಧೂ ನಾಗರಿಕತೆಯ ಲಿಪಿಯು ಇನ್ನೂ ಗೋಪ್ಯಲಿಪಿಯಾಗಿಯೇ ಉಳಿದಿರುವುದರಿಂದ ಆ ಕಾಲದ ಅಂಕಿಗಳ ವಿಚಾರದಲ್ಲಿ ನಮಗೆ ಏನೂ ತಿಳಿದಿಲ್ಲ ...
+Phoneme: si m dhuu naa ga ri ka te ya li pi yu i nː nuu goo pː ya li pi yaa gi yee u di ru vu da ri m da aa kaa la da a m ki ga vi chaa ra da lː li na ma ge nuu ti di lː la 
+HKL features: torch.Size([1, 207, 256])
+Prosody hidden: torch.Size([1, 207, 256])
+Waveform: (167424,)
+Saved audio: /content/quality_eval/knm_00180_00853308368/knm_00180_00853308368_1.wav
+
+Input: ಸಿಂಧೂ ನಾಗರಿಕತೆಯ ಲಿಪಿಯು ಇನ್ನೂ ಗೋಪ್ಯಲಿಪಿಯಾಗಿಯೇ ಉಳಿದಿರುವುದರಿಂದ ಆ ಕಾಲದ ಅಂಕಿಗಳ ವಿಚಾರದಲ್ಲಿ ನಮಗೆ ಏನೂ ತಿಳಿದಿಲ್ಲ.
+Normalized: ಸಿಂಧೂ ನಾಗರಿಕತೆಯ ಲಿಪಿಯು ಇನ್ನೂ ಗೋಪ್ಯಲಿಪಿಯಾಗಿಯೇ ಉಳಿದಿರುವುದರಿಂದ ಆ ಕಾಲದ ಅಂಕಿಗಳ ವಿಚಾರದಲ್ಲಿ ನಮಗೆ ಏನೂ ತಿಳಿದಿಲ್ಲ ...
+Phoneme: si m dhuu naa ga ri ka te ya li pi yu i nː nuu goo pː ya li pi yaa gi yee u di ru vu da ri m da aa kaa la da a m ki ga vi chaa ra da lː li na ma ge nuu ti di lː la 
+HKL features: torch.Size([1, 207, 256])
+Prosody hidden: torch.Size([1, 207, 256])
+Waveform: (193792,)
+Saved audio: /content/quality_eval/knm_00180_00853308368/knm_00180_00853308368_2.wav
+
+Input: ಸಿಂಧೂ ನಾಗರಿಕತೆಯ ಲಿಪಿಯು ಇನ್ನೂ ಗೋಪ್ಯಲಿಪಿಯಾಗಿಯೇ ಉಳಿದಿರುವುದರಿಂದ ಆ ಕಾಲದ ಅಂಕಿಗಳ ವಿಚಾರದಲ್ಲಿ ನಮಗೆ ಏನೂ ತಿಳಿದಿಲ್ಲ.
+Normalized: ಸಿಂಧೂ ನಾಗರಿಕತೆಯ ಲಿಪಿಯು ಇನ್ನೂ ಗೋಪ್ಯಲಿಪಿಯಾಗಿಯೇ ಉಳಿದಿರುವುದರಿಂದ ಆ ಕಾಲದ ಅಂಕಿಗಳ ವಿಚಾರದಲ್ಲಿ ನಮಗೆ ಏನೂ ತಿಳಿದಿಲ್ಲ ...
+Phoneme: si m dhuu naa ga ri ka te ya li pi yu i nː nuu goo pː ya li pi yaa gi yee u di ru vu da ri m da aa kaa la da a m ki ga vi chaa ra da lː li na ma ge nuu ti di lː la 
+HKL features: torch.Size([1, 207, 256])
+Prosody hidden: torch.Size([1, 207, 256])
+Waveform: (196352,)
+Saved audio: /content/quality_eval/knm_00180_00853308368/knm_00180_00853308368_3.wav
+
+Input: ಏಕ
+Normalized: ಏಕ
+Phoneme: ka
+HKL features: torch.Size([1, 5, 256])
+Prosody hidden: torch.Size([1, 5, 256])
+Waveform: (12544,)
+Saved audio: /content/quality_eval/knm_00180_00854889100/knm_00180_00854889100_1.wav
+
+Input: ಏಕ
+Normalized: ಏಕ
+Phoneme: ka
+HKL features: torch.Size([1, 5, 256])
+Prosody hidden: torch.Size([1, 5, 256])
+Waveform: (9472,)
+Saved audio: /content/quality_eval/knm_00180_00854889100/knm_00180_00854889100_2.wav
+
+Input: ಏಕ
+Normalized: ಏಕ
+Phoneme: ka
+HKL features: torch.Size([1, 5, 256])
+Prosody hidden: torch.Size([1, 5, 256])
+Waveform: (13568,)
+Saved audio: /content/quality_eval/knm_00180_00854889100/knm_00180_00854889100_3.wav
+
+Input: ಇದರಿಂದ ಎರಡು ರೀತಿಯ ಲಾಭಗಳುಂಟು.
+Normalized: ಇದರಿಂದ ಎರಡು ರೀತಿಯ ಲಾಭಗಳುಂಟು ...
+Phoneme: i da ri m da ra ɖu rii ti ya laa bha ga m ṭu 
+HKL features: torch.Size([1, 55, 256])
+Prosody hidden: torch.Size([1, 55, 256])
+Waveform: (68608,)
+Saved audio: /content/quality_eval/knm_00180_00935481948/knm_00180_00935481948_1.wav
+
+Input: ಇದರಿಂದ ಎರಡು ರೀತಿಯ ಲಾಭಗಳುಂಟು.
+Normalized: ಇದರಿಂದ ಎರಡು ರೀತಿಯ ಲಾಭಗಳುಂಟು ...
+Phoneme: i da ri m da ra ɖu rii ti ya laa bha ga m ṭu 
+HKL features: torch.Size([1, 55, 256])
+Prosody hidden: torch.Size([1, 55, 256])
+Waveform: (54784,)
+Saved audio: /content/quality_eval/knm_00180_00935481948/knm_00180_00935481948_2.wav
+
+Input: ಇದರಿಂದ ಎರಡು ರೀತಿಯ ಲಾಭಗಳುಂಟು.
+Normalized: ಇದರಿಂದ ಎರಡು ರೀತಿಯ ಲಾಭಗಳುಂಟು ...
+Phoneme: i da ri m da ra ɖu rii ti ya laa bha ga m ṭu 
+HKL features: torch.Size([1, 55, 256])
+Prosody hidden: torch.Size([1, 55, 256])
+Waveform: (55040,)
+Saved audio: /content/quality_eval/knm_00180_00935481948/knm_00180_00935481948_3.wav
+
+Input: ರೋಮನ್ ಅಂಕಿಗಳು ಬಹು ಪ್ರಾಚೀನ ಕಾಲದಿಂದಲೂ ಬಳಕೆಯಲ್ಲಿದ್ದು
+Normalized: ರೋಮನ್ ಅಂಕಿಗಳು ಬಹು ಪ್ರಾಚೀನ ಕಾಲದಿಂದಲೂ ಬಳಕೆಯಲ್ಲಿದ್ದು
+Phoneme: roo ma nː a m ki ga ba hu pra chii na kaa la di m da luu ba ke ya lː li dː du
+HKL features: torch.Size([1, 99, 256])
+Prosody hidden: torch.Size([1, 99, 256])
+Waveform: (93184,)
+Saved audio: /content/quality_eval/knm_00180_00956427929/knm_00180_00956427929_1.wav
+
+Input: ರೋಮನ್ ಅಂಕಿಗಳು ಬಹು ಪ್ರಾಚೀನ ಕಾಲದಿಂದಲೂ ಬಳಕೆಯಲ್ಲಿದ್ದು
+Normalized: ರೋಮನ್ ಅಂಕಿಗಳು ಬಹು ಪ್ರಾಚೀನ ಕಾಲದಿಂದಲೂ ಬಳಕೆಯಲ್ಲಿದ್ದು
+Phoneme: roo ma nː a m ki ga ba hu pra chii na kaa la di m da luu ba ke ya lː li dː du
+HKL features: torch.Size([1, 99, 256])
+Prosody hidden: torch.Size([1, 99, 256])
+Waveform: (89856,)
+Saved audio: /content/quality_eval/knm_00180_00956427929/knm_00180_00956427929_2.wav
+
+Input: ರೋಮನ್ ಅಂಕಿಗಳು ಬಹು ಪ್ರಾಚೀನ ಕಾಲದಿಂದಲೂ ಬಳಕೆಯಲ್ಲಿದ್ದು
+Normalized: ರೋಮನ್ ಅಂಕಿಗಳು ಬಹು ಪ್ರಾಚೀನ ಕಾಲದಿಂದಲೂ ಬಳಕೆಯಲ್ಲಿದ್ದು
+Phoneme: roo ma nː a m ki ga ba hu pra chii na kaa la di m da luu ba ke ya lː li dː du
+HKL features: torch.Size([1, 99, 256])
+Prosody hidden: torch.Size([1, 99, 256])
+Waveform: (94720,)
+Saved audio: /content/quality_eval/knm_00180_00956427929/knm_00180_00956427929_3.wav
+
+Input: ಪ್ರಕೃತಿಯಲ್ಲಿ ಮತ್ತು ಜೀವರುಗಳಲ್ಲಿ ಒಂದೇ ರೀತಿಯಾಗಿ ಅಂತರ್ವ್ಯಾಪ್ತನಲ್ಲ.
+Normalized: ಪ್ರಕೃತಿಯಲ್ಲಿ ಮತ್ತು ಜೀವರುಗಳಲ್ಲಿ ಒಂದೇ ರೀತಿಯಾಗಿ ಅಂತರ್ವ್ಯಾಪ್ತನಲ್ಲ ...
+Phoneme: pra ka ti ya lː li ma tː tu jii va ru ga lː li m dee rii ti yaa gi a m ta rː vː yaa pː ta na lː la 
+HKL features: torch.Size([1, 123, 256])
+Prosody hidden: torch.Size([1, 123, 256])
+Waveform: (103936,)
+Saved audio: /content/quality_eval/knm_00180_01014382426/knm_00180_01014382426_1.wav
+
+Input: ಪ್ರಕೃತಿಯಲ್ಲಿ ಮತ್ತು ಜೀವರುಗಳಲ್ಲಿ ಒಂದೇ ರೀತಿಯಾಗಿ ಅಂತರ್ವ್ಯಾಪ್ತನಲ್ಲ.
+Normalized: ಪ್ರಕೃತಿಯಲ್ಲಿ ಮತ್ತು ಜೀವರುಗಳಲ್ಲಿ ಒಂದೇ ರೀತಿಯಾಗಿ ಅಂತರ್ವ್ಯಾಪ್ತನಲ್ಲ ...
+Phoneme: pra ka ti ya lː li ma tː tu jii va ru ga lː li m dee rii ti yaa gi a m ta rː vː yaa pː ta na lː la 
+HKL features: torch.Size([1, 123, 256])
+Prosody hidden: torch.Size([1, 123, 256])
+Waveform: (115712,)
+Saved audio: /content/quality_eval/knm_00180_01014382426/knm_00180_01014382426_2.wav
+
+Input: ಪ್ರಕೃತಿಯಲ್ಲಿ ಮತ್ತು ಜೀವರುಗಳಲ್ಲಿ ಒಂದೇ ರೀತಿಯಾಗಿ ಅಂತರ್ವ್ಯಾಪ್ತನಲ್ಲ.
+Normalized: ಪ್ರಕೃತಿಯಲ್ಲಿ ಮತ್ತು ಜೀವರುಗಳಲ್ಲಿ ಒಂದೇ ರೀತಿಯಾಗಿ ಅಂತರ್ವ್ಯಾಪ್ತನಲ್ಲ ...
+Phoneme: pra ka ti ya lː li ma tː tu jii va ru ga lː li m dee rii ti yaa gi a m ta rː vː yaa pː ta na lː la 
+HKL features: torch.Size([1, 123, 256])
+Prosody hidden: torch.Size([1, 123, 256])
+Waveform: (97536,)
+Saved audio: /content/quality_eval/knm_00180_01014382426/knm_00180_01014382426_3.wav
+
+Input: ತಾರ್ಕಿಕ ಸಿದ್ಧಾಂತ
+Normalized: ತಾರ್ಕಿಕ ಸಿದ್ಧಾಂತ
+Phoneme: taa rː ki ka si dː dhaa m ta
+HKL features: torch.Size([1, 33, 256])
+Prosody hidden: torch.Size([1, 33, 256])
+Waveform: (36352,)
+Saved audio: /content/quality_eval/knm_00180_01032527602/knm_00180_01032527602_1.wav
+
+Input: ತಾರ್ಕಿಕ ಸಿದ್ಧಾಂತ
+Normalized: ತಾರ್ಕಿಕ ಸಿದ್ಧಾಂತ
+Phoneme: taa rː ki ka si dː dhaa m ta
+HKL features: torch.Size([1, 33, 256])
+Prosody hidden: torch.Size([1, 33, 256])
+Waveform: (32256,)
+Saved audio: /content/quality_eval/knm_00180_01032527602/knm_00180_01032527602_2.wav
+
+Input: ತಾರ್ಕಿಕ ಸಿದ್ಧಾಂತ
+Normalized: ತಾರ್ಕಿಕ ಸಿದ್ಧಾಂತ
+Phoneme: taa rː ki ka si dː dhaa m ta
+HKL features: torch.Size([1, 33, 256])
+Prosody hidden: torch.Size([1, 33, 256])
+Waveform: (29696,)
+Saved audio: /content/quality_eval/knm_00180_01032527602/knm_00180_01032527602_3.wav
+
+Input: ಈ ಬರಹವನ್ನು ವಿಸ್ತರಿಸಲು ಸಹಕರಿಸಿ.
+Normalized: ಈ ಬರಹವನ್ನು ವಿಸ್ತರಿಸಲು ಸಹಕರಿಸಿ ...
+Phoneme: ii ba ra ha va nː nu vi sː ta ri sa lu sa ha ka ri si 
+HKL features: torch.Size([1, 59, 256])
+Prosody hidden: torch.Size([1, 59, 256])
+Waveform: (53248,)
+Saved audio: /content/quality_eval/knm_00180_01064219273/knm_00180_01064219273_1.wav
+
+Input: ಈ ಬರಹವನ್ನು ವಿಸ್ತರಿಸಲು ಸಹಕರಿಸಿ.
+Normalized: ಈ ಬರಹವನ್ನು ವಿಸ್ತರಿಸಲು ಸಹಕರಿಸಿ ...
+Phoneme: ii ba ra ha va nː nu vi sː ta ri sa lu sa ha ka ri si 
+HKL features: torch.Size([1, 59, 256])
+Prosody hidden: torch.Size([1, 59, 256])
+Waveform: (54784,)
+Saved audio: /content/quality_eval/knm_00180_01064219273/knm_00180_01064219273_2.wav
+
+Input: ಈ ಬರಹವನ್ನು ವಿಸ್ತರಿಸಲು ಸಹಕರಿಸಿ.
+Normalized: ಈ ಬರಹವನ್ನು ವಿಸ್ತರಿಸಲು ಸಹಕರಿಸಿ ...
+Phoneme: ii ba ra ha va nː nu vi sː ta ri sa lu sa ha ka ri si 
+HKL features: torch.Size([1, 59, 256])
+Prosody hidden: torch.Size([1, 59, 256])
+Waveform: (65024,)
+Saved audio: /content/quality_eval/knm_00180_01064219273/knm_00180_01064219273_3.wav
+
+Input: ಅಂತರ್ಯುದ್ಧಗಳಲ್ಲಿ ಮುಖ್ಯವಾಗಿ ಎರಡು ವಿಧಗಳುಂಟು.
+Normalized: ಅಂತರ್ಯುದ್ಧಗಳಲ್ಲಿ ಮುಖ್ಯವಾಗಿ ಎರಡು ವಿಧಗಳುಂಟು ...
+Phoneme: a m ta rː yu dː dha ga lː li mu khː ya vaa gi ra ɖu vi dha ga m ṭu 
+HKL features: torch.Size([1, 83, 256])
+Prosody hidden: torch.Size([1, 83, 256])
+Waveform: (85504,)
+Saved audio: /content/quality_eval/knm_00180_01078769316/knm_00180_01078769316_1.wav
+
+Input: ಅಂತರ್ಯುದ್ಧಗಳಲ್ಲಿ ಮುಖ್ಯವಾಗಿ ಎರಡು ವಿಧಗಳುಂಟು.
+Normalized: ಅಂತರ್ಯುದ್ಧಗಳಲ್ಲಿ ಮುಖ್ಯವಾಗಿ ಎರಡು ವಿಧಗಳುಂಟು ...
+Phoneme: a m ta rː yu dː dha ga lː li mu khː ya vaa gi ra ɖu vi dha ga m ṭu 
+HKL features: torch.Size([1, 83, 256])
+Prosody hidden: torch.Size([1, 83, 256])
+Waveform: (81152,)
+Saved audio: /content/quality_eval/knm_00180_01078769316/knm_00180_01078769316_2.wav
+
+Input: ಅಂತರ್ಯುದ್ಧಗಳಲ್ಲಿ ಮುಖ್ಯವಾಗಿ ಎರಡು ವಿಧಗಳುಂಟು.
+Normalized: ಅಂತರ್ಯುದ್ಧಗಳಲ್ಲಿ ಮುಖ್ಯವಾಗಿ ಎರಡು ವಿಧಗಳುಂಟು ...
+Phoneme: a m ta rː yu dː dha ga lː li mu khː ya vaa gi ra ɖu vi dha ga m ṭu 
+HKL features: torch.Size([1, 83, 256])
+Prosody hidden: torch.Size([1, 83, 256])
+Waveform: (83456,)
+Saved audio: /content/quality_eval/knm_00180_01078769316/knm_00180_01078769316_3.wav
+
+Input: ಅಂತರಿಕ್ಷಯಾನ ಇಲ್ಲಿ ಡಾಕ್ಟರೇಟ್ ಅತ್ಯುನ್ನತ ಪದವಿಯಾಗಿದೆ.
+Normalized: ಅಂತರಿಕ್ಷಯಾನ ಇಲ್ಲಿ ಡಾಕ್ಟರೇಟ್ ಅತ್ಯುನ್ನತ ಪದವಿಯಾಗಿದೆ ...
+Phoneme: a m ta ri ksha yaa na i lː li ɖaa kː ṭa ree ṭː a tː yu nː na ta pa da vi yaa gi de 
+HKL features: torch.Size([1, 97, 256])
+Prosody hidden: torch.Size([1, 97, 256])
+Waveform: (80896,)
+Saved audio: /content/quality_eval/knm_00180_01156982105/knm_00180_01156982105_1.wav
+
+Input: ಅಂತರಿಕ್ಷಯಾನ ಇಲ್ಲಿ ಡಾಕ್ಟರೇಟ್ ಅತ್ಯುನ್ನತ ಪದವಿಯಾಗಿದೆ.
+Normalized: ಅಂತರಿಕ್ಷಯಾನ ಇಲ್ಲಿ ಡಾಕ್ಟರೇಟ್ ಅತ್ಯುನ್ನತ ಪದವಿಯಾಗಿದೆ ...
+Phoneme: a m ta ri ksha yaa na i lː li ɖaa kː ṭa ree ṭː a tː yu nː na ta pa da vi yaa gi de 
+HKL features: torch.Size([1, 97, 256])
+Prosody hidden: torch.Size([1, 97, 256])
+Waveform: (87040,)
+Saved audio: /content/quality_eval/knm_00180_01156982105/knm_00180_01156982105_2.wav
+
+Input: ಅಂತರಿಕ್ಷಯಾನ ಇಲ್ಲಿ ಡಾಕ್ಟರೇಟ್ ಅತ್ಯುನ್ನತ ಪದವಿಯಾಗಿದೆ.
+Normalized: ಅಂತರಿಕ್ಷಯಾನ ಇಲ್ಲಿ ಡಾಕ್ಟರೇಟ್ ಅತ್ಯುನ್ನತ ಪದವಿಯಾಗಿದೆ ...
+Phoneme: a m ta ri ksha yaa na i lː li ɖaa kː ṭa ree ṭː a tː yu nː na ta pa da vi yaa gi de 
+HKL features: torch.Size([1, 97, 256])
+Prosody hidden: torch.Size([1, 97, 256])
+Waveform: (86784,)
+Saved audio: /content/quality_eval/knm_00180_01156982105/knm_00180_01156982105_3.wav
+
+Input: ಅದಲ್ಲದೇ ನೌರು ಕೂಡಾ ಸಾವಿರದ ಒಂಬೈನೂರ ಎಂಬತ್ತೆಂಟರಲ್ಲಿ ಪಕ್ಷಗಾರನಾಗಿತ್ತು.
+Normalized: ಅದಲ್ಲದೇ ನೌರು ಕೂಡಾ ಸಾವಿರದ ಒಂಬೈನೂರ ಎಂಬತ್ತೆಂಟರಲ್ಲಿ ಪಕ್ಷಗಾರನಾಗಿತ್ತು ...
+Phoneme: a da lː la dee na ru kuu ɖaa saa vi ra da m ba nuu ra m ba tː te m ṭa ra lː li pa ksha gaa ra naa gi tː tu 
+HKL features: torch.Size([1, 127, 256])
+Prosody hidden: torch.Size([1, 127, 256])
+Waveform: (124928,)
+Saved audio: /content/quality_eval/knm_00180_01176144035/knm_00180_01176144035_1.wav
+
+Input: ಅದಲ್ಲದೇ ನೌರು ಕೂಡಾ ಸಾವಿರದ ಒಂಬೈನೂರ ಎಂಬತ್ತೆಂಟರಲ್ಲಿ ಪಕ್ಷಗಾರನಾಗಿತ್ತು.
+Normalized: ಅದಲ್ಲದೇ ನೌರು ಕೂಡಾ ಸಾವಿರದ ಒಂಬೈನೂರ ಎಂಬತ್ತೆಂಟರಲ್ಲಿ ಪಕ್ಷಗಾರನಾಗಿತ್ತು ...
+Phoneme: a da lː la dee na ru kuu ɖaa saa vi ra da m ba nuu ra m ba tː te m ṭa ra lː li pa ksha gaa ra naa gi tː tu 
+HKL features: torch.Size([1, 127, 256])
+Prosody hidden: torch.Size([1, 127, 256])
+Waveform: (109056,)
+Saved audio: /content/quality_eval/knm_00180_01176144035/knm_00180_01176144035_2.wav
+
+Input: ಅದಲ್ಲದೇ ನೌರು ಕೂಡಾ ಸಾವಿರದ ಒಂಬೈನೂರ ಎಂಬತ್ತೆಂಟರಲ್ಲಿ ಪಕ್ಷಗಾರನಾಗಿತ್ತು.
+Normalized: ಅದಲ್ಲದೇ ನೌರು ಕೂಡಾ ಸಾವಿರದ ಒಂಬೈನೂರ ಎಂಬತ್ತೆಂಟರಲ್ಲಿ ಪಕ್ಷಗಾರನಾಗಿತ್ತು ...
+Phoneme: a da lː la dee na ru kuu ɖaa saa vi ra da m ba nuu ra m ba tː te m ṭa ra lː li pa ksha gaa ra naa gi tː tu 
+HKL features: torch.Size([1, 127, 256])
+Prosody hidden: torch.Size([1, 127, 256])
+Waveform: (96000,)
+Saved audio: /content/quality_eval/knm_00180_01176144035/knm_00180_01176144035_3.wav
+
+Input: ಮತ್ತೊಂದು ಪ್ರದೇಶ ವಿಸರ್ಜಕ ಪ್ರದೇಶ.
+Normalized: ಮತ್ತೊಂದು ಪ್ರದೇಶ ವಿಸರ್ಜಕ ಪ್ರದೇಶ ...
+Phoneme: ma tː to m du pra dee sha vi sa rː ja ka pra dee sha 
+HKL features: torch.Size([1, 61, 256])
+Prosody hidden: torch.Size([1, 61, 256])
+Waveform: (54016,)
+Saved audio: /content/quality_eval/knm_00180_01177479319/knm_00180_01177479319_1.wav
+
+Input: ಮತ್ತೊಂದು ಪ್ರದೇಶ ವಿಸರ್ಜಕ ಪ್ರದೇಶ.
+Normalized: ಮತ್ತೊಂದು ಪ್ರದೇಶ ವಿಸರ್ಜಕ ಪ್ರದೇಶ ...
+Phoneme: ma tː to m du pra dee sha vi sa rː ja ka pra dee sha 
+HKL features: torch.Size([1, 61, 256])
+Prosody hidden: torch.Size([1, 61, 256])
+Waveform: (53760,)
+Saved audio: /content/quality_eval/knm_00180_01177479319/knm_00180_01177479319_2.wav
+
+Input: ಮತ್ತೊಂದು ಪ್ರದೇಶ ವಿಸರ್ಜಕ ಪ್ರದೇಶ.
+Normalized: ಮತ್ತೊಂದು ಪ್ರದೇಶ ವಿಸರ್ಜಕ ಪ್ರದೇಶ ...
+Phoneme: ma tː to m du pra dee sha vi sa rː ja ka pra dee sha 
+HKL features: torch.Size([1, 61, 256])
+Prosody hidden: torch.Size([1, 61, 256])
+Waveform: (61184,)
+Saved audio: /content/quality_eval/knm_00180_01177479319/knm_00180_01177479319_3.wav
+2026-07-24 15:44:17,448 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ಹನ್ನೆರಡು ಇಂಚುಗಳಿಗೆ ಒಂದು ಅಡಿ.
+Normalized: ಹನ್ನೆರಡು ಇಂಚುಗಳಿಗೆ ಒಂದು ಅಡಿ ...
+Phoneme: ha nː ne ra ɖu i m chu ga ge m du a ɖi 
+HKL features: torch.Size([1, 55, 256])
+Prosody hidden: torch.Size([1, 55, 256])
+Waveform: (45056,)
+Saved audio: /content/quality_eval/knm_00180_01188180749/knm_00180_01188180749_1.wav
+
+Input: ಹನ್ನೆರಡು ಇಂಚುಗಳಿಗೆ ಒಂದು ಅಡಿ.
+Normalized: ಹನ್ನೆರಡು ಇಂಚುಗಳಿಗೆ ಒಂದು ಅಡಿ ...
+Phoneme: ha nː ne ra ɖu i m chu ga ge m du a ɖi 
+HKL features: torch.Size([1, 55, 256])
+Prosody hidden: torch.Size([1, 55, 256])
+Waveform: (47616,)
+Saved audio: /content/quality_eval/knm_00180_01188180749/knm_00180_01188180749_2.wav
+2026-07-24 15:44:18,217 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ಹನ್ನೆರಡು ಇಂಚುಗಳಿಗೆ ಒಂದು ಅಡಿ.
+Normalized: ಹನ್ನೆರಡು ಇಂಚುಗಳಿಗೆ ಒಂದು ಅಡಿ ...
+Phoneme: ha nː ne ra ɖu i m chu ga ge m du a ɖi 
+HKL features: torch.Size([1, 55, 256])
+Prosody hidden: torch.Size([1, 55, 256])
+Waveform: (51200,)
+Saved audio: /content/quality_eval/knm_00180_01188180749/knm_00180_01188180749_3.wav
+
+Input: ಅವರ ತಂದೆ ಪದಕ ದೂರ ಎಸೆದರು ಮತ್ತು ಸ್ಕೇಟಿಂಗ್ ಮರೆತು ಕ್ರಿಕೆಟ್ ಗಮನ ತಿಳಿಸಿದನು.
+Normalized: ಅವರ ತಂದೆ ಪದಕ ದೂರ ಎಸೆದರು ಮತ್ತು ಸ್ಕೇಟಿಂಗ್ ಮರೆತು ಕ್ರಿಕೆಟ್ ಗಮನ ತಿಳಿಸಿದನು ...
+Phoneme: a va ra ta m de pa da ka duu ra se da ru ma tː tu sː kee ṭi m gː ma re tu kra ke ṭː ga ma na ti si da nu 
+HKL features: torch.Size([1, 137, 256])
+Prosody hidden: torch.Size([1, 137, 256])
+Waveform: (105216,)
+Saved audio: /content/quality_eval/knm_00180_01240113716/knm_00180_01240113716_1.wav
+
+Input: ಅವರ ತಂದೆ ಪದಕ ದೂರ ಎಸೆದರು ಮತ್ತು ಸ್ಕೇಟಿಂಗ್ ಮರೆತು ಕ್ರಿಕೆಟ್ ಗಮನ ತಿಳಿಸಿದನು.
+Normalized: ಅವರ ತಂದೆ ಪದಕ ದೂರ ಎಸೆದರು ಮತ್ತು ಸ್ಕೇಟಿಂಗ್ ಮರೆತು ಕ್ರಿಕೆಟ್ ಗಮನ ತಿಳಿಸಿದನು ...
+Phoneme: a va ra ta m de pa da ka duu ra se da ru ma tː tu sː kee ṭi m gː ma re tu kra ke ṭː ga ma na ti si da nu 
+HKL features: torch.Size([1, 137, 256])
+Prosody hidden: torch.Size([1, 137, 256])
+Waveform: (112640,)
+Saved audio: /content/quality_eval/knm_00180_01240113716/knm_00180_01240113716_2.wav
+
+Input: ಅವರ ತಂದೆ ಪದಕ ದೂರ ಎಸೆದರು ಮತ್ತು ಸ್ಕೇಟಿಂಗ್ ಮರೆತು ಕ್ರಿಕೆಟ್ ಗಮನ ತಿಳಿಸಿದನು.
+Normalized: ಅವರ ತಂದೆ ಪದಕ ದೂರ ಎಸೆದರು ಮತ್ತು ಸ್ಕೇಟಿಂಗ್ ಮರೆತು ಕ್ರಿಕೆಟ್ ಗಮನ ತಿಳಿಸಿದನು ...
+Phoneme: a va ra ta m de pa da ka duu ra se da ru ma tː tu sː kee ṭi m gː ma re tu kra ke ṭː ga ma na ti si da nu 
+HKL features: torch.Size([1, 137, 256])
+Prosody hidden: torch.Size([1, 137, 256])
+Waveform: (112384,)
+Saved audio: /content/quality_eval/knm_00180_01240113716/knm_00180_01240113716_3.wav
+
+Input: ಒಂದೇ ವಸ್ತು ಏಕಕಾಲದಲ್ಲಿ ವಿರುದ್ಧ ಧರ್ಮಗಳನ್ನು ಹೊಂದಿರದು.
+Normalized: ಒಂದೇ ವಸ್ತು ಏಕಕಾಲದಲ್ಲಿ ವಿರುದ್ಧ ಧರ್ಮಗಳನ್ನು ಹೊಂದಿರದು ...
+Phoneme: m dee va sː tu ka kaa la da lː li vi ru dː dha dha rː ma ga nː nu ho m di ra du 
+HKL features: torch.Size([1, 99, 256])
+Prosody hidden: torch.Size([1, 99, 256])
+Waveform: (101888,)
+Saved audio: /content/quality_eval/knm_00180_01256537475/knm_00180_01256537475_1.wav
+
+Input: ಒಂದೇ ವಸ್ತು ಏಕಕಾಲದಲ್ಲಿ ವಿರುದ್ಧ ಧರ್ಮಗಳನ್ನು ಹೊಂದಿರದು.
+Normalized: ಒಂದೇ ವಸ್ತು ಏಕಕಾಲದಲ್ಲಿ ವಿರುದ್ಧ ಧರ್ಮಗಳನ್ನು ಹೊಂದಿರದು ...
+Phoneme: m dee va sː tu ka kaa la da lː li vi ru dː dha dha rː ma ga nː nu ho m di ra du 
+HKL features: torch.Size([1, 99, 256])
+Prosody hidden: torch.Size([1, 99, 256])
+Waveform: (86528,)
+Saved audio: /content/quality_eval/knm_00180_01256537475/knm_00180_01256537475_2.wav
+
+Input: ಒಂದೇ ವಸ್ತು ಏಕಕಾಲದಲ್ಲಿ ವಿರುದ್ಧ ಧರ್ಮಗಳನ್ನು ಹೊಂದಿರದು.
+Normalized: ಒಂದೇ ವಸ್ತು ಏಕಕಾಲದಲ್ಲಿ ವಿರುದ್ಧ ಧರ್ಮಗಳನ್ನು ಹೊಂದಿರದು ...
+Phoneme: m dee va sː tu ka kaa la da lː li vi ru dː dha dha rː ma ga nː nu ho m di ra du 
+HKL features: torch.Size([1, 99, 256])
+Prosody hidden: torch.Size([1, 99, 256])
+Waveform: (72960,)
+Saved audio: /content/quality_eval/knm_00180_01256537475/knm_00180_01256537475_3.wav
+
+Input: ವಾಸಸ್ಥಳವನ್ನು ಮತ್ತು ಸಾಮರ್ಥ್ಯವನ್ನು ಯೆಸ್ ಟಿ ಯೆಸ್ ನೂರ ಹದಿನೈದರ ಮೂಲಕ ಇನ್ನಷ್ಟು ವಿಸ್ತರಿಸುವ ಮೊದಲು
+Normalized: ವಾಸಸ್ಥಳವನ್ನು ಮತ್ತು ಸಾಮರ್ಥ್ಯವನ್ನು ಯೆಸ್ ಟಿ ಯೆಸ್ ನೂರ ಹದಿನೈದರ ಮೂಲಕ ಇನ್ನಷ್ಟು ವಿಸ್ತರಿಸುವ ಮೊದಲು
+Phoneme: vaa sa sː tha va nː nu ma tː tu saa ma rː thː ya va nː nu ye sː ṭi ye sː nuu ra ha di na da ra muu la ka i nː na ṣː ṭu vi sː ta ri su va mo da lu
+HKL features: torch.Size([1, 177, 256])
+Prosody hidden: torch.Size([1, 177, 256])
+Waveform: (145408,)
+Saved audio: /content/quality_eval/knm_00180_01326680003/knm_00180_01326680003_1.wav
+
+Input: ವಾಸಸ್ಥಳವನ್ನು ಮತ್ತು ಸಾಮರ್ಥ್ಯವನ್ನು ಯೆಸ್ ಟಿ ಯೆಸ್ ನೂರ ಹದಿನೈದರ ಮೂಲಕ ಇನ್ನಷ್ಟು ವಿಸ್ತರಿಸುವ ಮೊದಲು
+Normalized: ವಾಸಸ್ಥಳವನ್ನು ಮತ್ತು ಸಾಮರ್ಥ್ಯವನ್ನು ಯೆಸ್ ಟಿ ಯೆಸ್ ನೂರ ಹದಿನೈದರ ಮೂಲಕ ಇನ್ನಷ್ಟು ವಿಸ್ತರಿಸುವ ಮೊದಲು
+Phoneme: vaa sa sː tha va nː nu ma tː tu saa ma rː thː ya va nː nu ye sː ṭi ye sː nuu ra ha di na da ra muu la ka i nː na ṣː ṭu vi sː ta ri su va mo da lu
+HKL features: torch.Size([1, 177, 256])
+Prosody hidden: torch.Size([1, 177, 256])
+Waveform: (147456,)
+Saved audio: /content/quality_eval/knm_00180_01326680003/knm_00180_01326680003_2.wav
+
+Input: ವಾಸಸ್ಥಳವನ್ನು ಮತ್ತು ಸಾಮರ್ಥ್ಯವನ್ನು ಯೆಸ್ ಟಿ ಯೆಸ್ ನೂರ ಹದಿನೈದರ ಮೂಲಕ ಇನ್ನಷ್ಟು ವಿಸ್ತರಿಸುವ ಮೊದಲು
+Normalized: ವಾಸಸ್ಥಳವನ್ನು ಮತ್ತು ಸಾಮರ್ಥ್ಯವನ್ನು ಯೆಸ್ ಟಿ ಯೆಸ್ ನೂರ ಹದಿನೈದರ ಮೂಲಕ ಇನ್ನಷ್ಟು ವಿಸ್ತರಿಸುವ ಮೊದಲು
+Phoneme: vaa sa sː tha va nː nu ma tː tu saa ma rː thː ya va nː nu ye sː ṭi ye sː nuu ra ha di na da ra muu la ka i nː na ṣː ṭu vi sː ta ri su va mo da lu
+HKL features: torch.Size([1, 177, 256])
+Prosody hidden: torch.Size([1, 177, 256])
+Waveform: (164608,)
+Saved audio: /content/quality_eval/knm_00180_01326680003/knm_00180_01326680003_3.wav
+
+Input: ಕೇವಲ ಲಭ್ಯವಿರುವ ದತ್ತ ವಾಹಿನಿಯನ್ನು ಗೂಢಲಿಪೀಕರಣ ಹಾಗೂ ಪ್ರಮಾಣೀಕರಣ ಮಾತ್ರ ಅಳವಡಿಸಿದರೆ ಸುರಕ್ಷತೆ ಲಭ್ಯ.
+Normalized: ಕೇವಲ ಲಭ್ಯವಿರುವ ದತ್ತ ವಾಹಿನಿಯನ್ನು ಗೂಢಲಿಪೀಕರಣ ಹಾಗೂ ಪ್ರಮಾಣೀಕರಣ ಮಾತ್ರ ಅಳವಡಿಸಿದರೆ ಸುರಕ್ಷತೆ ಲಭ್ಯ ...
+Phoneme: kee va la la bhː ya vi ru va da tː ta vaa hi ni ya nː nu guu ɖha li pii ka ra ṇa haa guu pra maa ṇii ka ra ṇa maa tra a va ɖi si da re su ra ksha te la bhː ya 
+HKL features: torch.Size([1, 179, 256])
+Prosody hidden: torch.Size([1, 179, 256])
+Waveform: (167936,)
+Saved audio: /content/quality_eval/knm_00180_01365884707/knm_00180_01365884707_1.wav
+
+Input: ಕೇವಲ ಲಭ್ಯವಿರುವ ದತ್ತ ವಾಹಿನಿಯನ್ನು ಗೂಢಲಿಪೀಕರಣ ಹಾಗೂ ಪ್ರಮಾಣೀಕರಣ ಮಾತ್ರ ಅಳವಡಿಸಿದರೆ ಸುರಕ್ಷತೆ ಲಭ್ಯ.
+Normalized: ಕೇವಲ ಲಭ್ಯವಿರುವ ದತ್ತ ವಾಹಿನಿಯನ್ನು ಗೂಢಲಿಪೀಕರಣ ಹಾಗೂ ಪ್ರಮಾಣೀಕರಣ ಮಾತ್ರ ಅಳವಡಿಸಿದರೆ ಸುರಕ್ಷತೆ ಲಭ್ಯ ...
+Phoneme: kee va la la bhː ya vi ru va da tː ta vaa hi ni ya nː nu guu ɖha li pii ka ra ṇa haa guu pra maa ṇii ka ra ṇa maa tra a va ɖi si da re su ra ksha te la bhː ya 
+HKL features: torch.Size([1, 179, 256])
+Prosody hidden: torch.Size([1, 179, 256])
+Waveform: (161280,)
+Saved audio: /content/quality_eval/knm_00180_01365884707/knm_00180_01365884707_2.wav
+
+Input: ಕೇವಲ ಲಭ್ಯವಿರುವ ದತ್ತ ವಾಹಿನಿಯನ್ನು ಗೂಢಲಿಪೀಕರಣ ಹಾಗೂ ಪ್ರಮಾಣೀಕರಣ ಮಾತ್ರ ಅಳವಡಿಸಿದರೆ ಸುರಕ್ಷತೆ ಲಭ್ಯ.
+Normalized: ಕೇವಲ ಲಭ್ಯವಿರುವ ದತ್ತ ವಾಹಿನಿಯನ್ನು ಗೂಢಲಿಪೀಕರಣ ಹಾಗೂ ಪ್ರಮಾಣೀಕರಣ ಮಾತ್ರ ಅಳವಡಿಸಿದರೆ ಸುರಕ್ಷತೆ ಲಭ್ಯ ...
+Phoneme: kee va la la bhː ya vi ru va da tː ta vaa hi ni ya nː nu guu ɖha li pii ka ra ṇa haa guu pra maa ṇii ka ra ṇa maa tra a va ɖi si da re su ra ksha te la bhː ya 
+HKL features: torch.Size([1, 179, 256])
+Prosody hidden: torch.Size([1, 179, 256])
+Waveform: (165120,)
+Saved audio: /content/quality_eval/knm_00180_01365884707/knm_00180_01365884707_3.wav
+
+Input: ಅಷ್ಟರಲ್ಲಿ ಡಾಸ್ 8 ಅನ್ನು ನಿರ್ಮಿಸಲಾಗಿತ್ತು.
+Normalized: ಅಷ್ಟರಲ್ಲಿ ಡಾಸ್ ಎಂಟು ಅನ್ನು ನಿರ್ಮಿಸಲಾಗಿತ್ತು ...
+Phoneme: a ṣː ṭa ra lː li ɖaa sː m ṭu a nː nu ni rː mi sa laa gi tː tu 
+HKL features: torch.Size([1, 83, 256])
+Prosody hidden: torch.Size([1, 83, 256])
+Waveform: (65024,)
+Saved audio: /content/quality_eval/knm_00180_01376866978/knm_00180_01376866978_1.wav
+
+Input: ಅಷ್ಟರಲ್ಲಿ ಡಾಸ್ 8 ಅನ್ನು ನಿರ್ಮಿಸಲಾಗಿತ್ತು.
+Normalized: ಅಷ್ಟರಲ್ಲಿ ಡಾಸ್ ಎಂಟು ಅನ್ನು ನಿರ್ಮಿಸಲಾಗಿತ್ತು ...
+Phoneme: a ṣː ṭa ra lː li ɖaa sː m ṭu a nː nu ni rː mi sa laa gi tː tu 
+HKL features: torch.Size([1, 83, 256])
+Prosody hidden: torch.Size([1, 83, 256])
+Waveform: (69632,)
+Saved audio: /content/quality_eval/knm_00180_01376866978/knm_00180_01376866978_2.wav
+
+Input: ಅಷ್ಟರಲ್ಲಿ ಡಾಸ್ 8 ಅನ್ನು ನಿರ್ಮಿಸಲಾಗಿತ್ತು.
+Normalized: ಅಷ್ಟರಲ್ಲಿ ಡಾಸ್ ಎಂಟು ಅನ್ನು ನಿರ್ಮಿಸಲಾಗಿತ್ತು ...
+Phoneme: a ṣː ṭa ra lː li ɖaa sː m ṭu a nː nu ni rː mi sa laa gi tː tu 
+HKL features: torch.Size([1, 83, 256])
+Prosody hidden: torch.Size([1, 83, 256])
+Waveform: (66048,)
+Saved audio: /content/quality_eval/knm_00180_01376866978/knm_00180_01376866978_3.wav
+
+Input: ಆಲಿಸುವ ಧ್ವನಿಯನ್ನಾಗಲಿ ಅನುಭವಿಸುವ ಉಷ್ಣತೆಯನ್ನಾಗಲಿ ಆಹ್ಲಾದವನ್ನಾಗಲಿ ತನ್ನ ಕೋಪದ ಉದ್ರಿಕ್ತಸ್ವಭಾವವನ್ನಾಗಲಿ ತನ್ನ ವಿಷಣ್ಣತೆಯನ್ನಾಗಲಿ ಆತ ನಿರೂಪಿಸಬಹುದು.
+Normalized: ಆಲಿಸುವ ಧ್ವನಿಯನ್ನಾಗಲಿ ಅನುಭವಿಸುವ ಉಷ್ಣತೆಯನ್ನಾಗಲಿ ಆಹ್ಲಾದವನ್ನಾಗಲಿ ತನ್ನ ಕೋಪದ ಉದ್ರಿಕ್ತಸ್ವಭಾವವನ್ನಾಗಲಿ ತನ್ನ ವಿಷಣ್ಣತೆಯನ್ನಾಗಲಿ ಆತ ನಿರೂಪಿಸಬಹುದು ...
+Phoneme: aa li su va dhː va ni ya nː naa ga li a nu bha vi su va u ṣː ṇa te ya nː naa ga li aa hː laa da va nː naa ga li ta nː na koo pa da u dː ri kː ta sː va bhaa va va nː naa ga li ta nː na vi ṣa ṇː ṇa te ya nː naa ga li aa ta ni ruu pi sa ba hu du 
+HKL features: torch.Size([1, 263, 256])
+Prosody hidden: torch.Size([1, 263, 256])
+Waveform: (225280,)
+Saved audio: /content/quality_eval/knm_00180_01441716178/knm_00180_01441716178_1.wav
+
+Input: ಆಲಿಸುವ ಧ್ವನಿಯನ್ನಾಗಲಿ ಅನುಭವಿಸುವ ಉಷ್ಣತೆಯನ್ನಾಗಲಿ ಆಹ್ಲಾದವನ್ನಾಗಲಿ ತನ್ನ ಕೋಪದ ಉದ್ರಿಕ್ತಸ್ವಭಾವವನ್ನಾಗಲಿ ತನ್ನ ವಿಷಣ್ಣತೆಯನ್ನಾಗಲಿ ಆತ ನಿರೂಪಿಸಬಹುದು.
+Normalized: ಆಲಿಸುವ ಧ್ವನಿಯನ್ನಾಗಲಿ ಅನುಭವಿಸುವ ಉಷ್ಣತೆಯನ್ನಾಗಲಿ ಆಹ್ಲಾದವನ್ನಾಗಲಿ ತನ್ನ ಕೋಪದ ಉದ್ರಿಕ್ತಸ್ವಭಾವವನ್ನಾಗಲಿ ತನ್ನ ವಿಷಣ್ಣತೆಯನ್ನಾಗಲಿ ಆತ ನಿರೂಪಿಸಬಹುದು ...
+Phoneme: aa li su va dhː va ni ya nː naa ga li a nu bha vi su va u ṣː ṇa te ya nː naa ga li aa hː laa da va nː naa ga li ta nː na koo pa da u dː ri kː ta sː va bhaa va va nː naa ga li ta nː na vi ṣa ṇː ṇa te ya nː naa ga li aa ta ni ruu pi sa ba hu du 
+HKL features: torch.Size([1, 263, 256])
+Prosody hidden: torch.Size([1, 263, 256])
+Waveform: (210176,)
+Saved audio: /content/quality_eval/knm_00180_01441716178/knm_00180_01441716178_2.wav
+
+Input: ಆಲಿಸುವ ಧ್ವನಿಯನ್ನಾಗಲಿ ಅನುಭವಿಸುವ ಉಷ್ಣತೆಯನ್ನಾಗಲಿ ಆಹ್ಲಾದವನ್ನಾಗಲಿ ತನ್ನ ಕೋಪದ ಉದ್ರಿಕ್ತಸ್ವಭಾವವನ್ನಾಗಲಿ ತನ್ನ ವಿಷಣ್ಣತೆಯನ್ನಾಗಲಿ ಆತ ನಿರೂಪಿಸಬಹುದು.
+Normalized: ಆಲಿಸುವ ಧ್ವನಿಯನ್ನಾಗಲಿ ಅನುಭವಿಸುವ ಉಷ್ಣತೆಯನ್ನಾಗಲಿ ಆಹ್ಲಾದವನ್ನಾಗಲಿ ತನ್ನ ಕೋಪದ ಉದ್ರಿಕ್ತಸ್ವಭಾವವನ್ನಾಗಲಿ ತನ್ನ ವಿಷಣ್ಣತೆಯನ್ನಾಗಲಿ ಆತ ನಿರೂಪಿಸಬಹುದು ...
+Phoneme: aa li su va dhː va ni ya nː naa ga li a nu bha vi su va u ṣː ṇa te ya nː naa ga li aa hː laa da va nː naa ga li ta nː na koo pa da u dː ri kː ta sː va bhaa va va nː naa ga li ta nː na vi ṣa ṇː ṇa te ya nː naa ga li aa ta ni ruu pi sa ba hu du 
+HKL features: torch.Size([1, 263, 256])
+Prosody hidden: torch.Size([1, 263, 256])
+Waveform: (228864,)
+Saved audio: /content/quality_eval/knm_00180_01441716178/knm_00180_01441716178_3.wav
+
+Input: ಇದರಿಂದಾಗಿ ಅಂತರಾಷ್ಟ್ರೀಯ ವ್ಯವಹಾರವು ಬಹಳ ಪ್ರಾಮುಖ್ಯವಾಗಿದೆ.
+Normalized: ಇದರಿಂದಾಗಿ ಅಂತರಾಷ್ಟ್ರೀಯ ವ್ಯವಹಾರವು ಬಹಳ ಪ್ರಾಮುಖ್ಯವಾಗಿದೆ ...
+Phoneme: i da ri m daa gi a m ta raa ṣː ṭː rii ya vː ya va haa ra vu ba ha pra mu khː ya vaa gi de 
+HKL features: torch.Size([1, 105, 256])
+Prosody hidden: torch.Size([1, 105, 256])
+Waveform: (95744,)
+Saved audio: /content/quality_eval/knm_00180_01473250593/knm_00180_01473250593_1.wav
+
+Input: ಇದರಿಂದಾಗಿ ಅಂತರಾಷ್ಟ್ರೀಯ ವ್ಯವಹಾರವು ಬಹಳ ಪ್ರಾಮುಖ್ಯವಾಗಿದೆ.
+Normalized: ಇದರಿಂದಾಗಿ ಅಂತರಾಷ್ಟ್ರೀಯ ವ್ಯವಹಾರವು ಬಹಳ ಪ್ರಾಮುಖ್ಯವಾಗಿದೆ ...
+Phoneme: i da ri m daa gi a m ta raa ṣː ṭː rii ya vː ya va haa ra vu ba ha pra mu khː ya vaa gi de 
+HKL features: torch.Size([1, 105, 256])
+Prosody hidden: torch.Size([1, 105, 256])
+Waveform: (99584,)
+Saved audio: /content/quality_eval/knm_00180_01473250593/knm_00180_01473250593_2.wav
+
+Input: ಇದರಿಂದಾಗಿ ಅಂತರಾಷ್ಟ್ರೀಯ ವ್ಯವಹಾರವು ಬಹಳ ಪ್ರಾಮುಖ್ಯವಾಗಿದೆ.
+Normalized: ಇದರಿಂದಾಗಿ ಅಂತರಾಷ್ಟ್ರೀಯ ವ್ಯವಹಾರವು ಬಹಳ ಪ್ರಾಮುಖ್ಯವಾಗಿದೆ ...
+Phoneme: i da ri m daa gi a m ta raa ṣː ṭː rii ya vː ya va haa ra vu ba ha pra mu khː ya vaa gi de 
+HKL features: torch.Size([1, 105, 256])
+Prosody hidden: torch.Size([1, 105, 256])
+Waveform: (97536,)
+Saved audio: /content/quality_eval/knm_00180_01473250593/knm_00180_01473250593_3.wav
+
+Input: ಅಂತರಿಕ್ಷಕ್ಕೂ ಅಂತರಿಕ್ಷ ದೇವತೆಗೂ ನಿಕಟ ಸಂಬಂಧವಿದೆ.
+Normalized: ಅಂತರಿಕ್ಷಕ್ಕೂ ಅಂತರಿಕ್ಷ ದೇವತೆಗೂ ನಿಕಟ ಸಂಬಂಧವಿದೆ ...
+Phoneme: a m ta ri ksha kː kuu a m ta ri ksha dee va te guu ni ka ṭa sa m ba m dha vi de 
+HKL features: torch.Size([1, 89, 256])
+Prosody hidden: torch.Size([1, 89, 256])
+Waveform: (86272,)
+Saved audio: /content/quality_eval/knm_00180_01480799840/knm_00180_01480799840_1.wav
+
+Input: ಅಂತರಿಕ್ಷಕ್ಕೂ ಅಂತರಿಕ್ಷ ದೇವತೆಗೂ ನಿಕಟ ಸಂಬಂಧವಿದೆ.
+Normalized: ಅಂತರಿಕ್ಷಕ್ಕೂ ಅಂತರಿಕ್ಷ ದೇವತೆಗೂ ನಿಕಟ ಸಂಬಂಧವಿದೆ ...
+Phoneme: a m ta ri ksha kː kuu a m ta ri ksha dee va te guu ni ka ṭa sa m ba m dha vi de 
+HKL features: torch.Size([1, 89, 256])
+Prosody hidden: torch.Size([1, 89, 256])
+Waveform: (93696,)
+Saved audio: /content/quality_eval/knm_00180_01480799840/knm_00180_01480799840_2.wav
+
+Input: ಅಂತರಿಕ್ಷಕ್ಕೂ ಅಂತರಿಕ್ಷ ದೇವತೆಗೂ ನಿಕಟ ಸಂಬಂಧವಿದೆ.
+Normalized: ಅಂತರಿಕ್ಷಕ್ಕೂ ಅಂತರಿಕ್ಷ ದೇವತೆಗೂ ನಿಕಟ ಸಂಬಂಧವಿದೆ ...
+Phoneme: a m ta ri ksha kː kuu a m ta ri ksha dee va te guu ni ka ṭa sa m ba m dha vi de 
+HKL features: torch.Size([1, 89, 256])
+Prosody hidden: torch.Size([1, 89, 256])
+Waveform: (99584,)
+Saved audio: /content/quality_eval/knm_00180_01480799840/knm_00180_01480799840_3.wav
+
+Input: ಈ ದೇಶ ಸ್ಥೂಲವಾಗಿ ಈಗಿನ ಬಿಹಾರ ರಾಜ್ಯದಲ್ಲಿನ ಭಾಗಲಪುರ
+Normalized: ಈ ದೇಶ ಸ್ಥೂಲವಾಗಿ ಈಗಿನ ಬಿಹಾರ ರಾಜ್ಯದಲ್ಲಿನ ಭಾಗಲಪುರ
+Phoneme: ii dee sha sː thuu la vaa gi ii gi na bi haa ra raa jː ya da lː li na bhaa ga la pu ra
+HKL features: torch.Size([1, 93, 256])
+Prosody hidden: torch.Size([1, 93, 256])
+Waveform: (91648,)
+Saved audio: /content/quality_eval/knm_00180_01487533497/knm_00180_01487533497_1.wav
+
+Input: ಈ ದೇಶ ಸ್ಥೂಲವಾಗಿ ಈಗಿನ ಬಿಹಾರ ರಾಜ್ಯದಲ್ಲಿನ ಭಾಗಲಪುರ
+Normalized: ಈ ದೇಶ ಸ್ಥೂಲವಾಗಿ ಈಗಿನ ಬಿಹಾರ ರಾಜ್ಯದಲ್ಲಿನ ಭಾಗಲಪುರ
+Phoneme: ii dee sha sː thuu la vaa gi ii gi na bi haa ra raa jː ya da lː li na bhaa ga la pu ra
+HKL features: torch.Size([1, 93, 256])
+Prosody hidden: torch.Size([1, 93, 256])
+Waveform: (103168,)
+Saved audio: /content/quality_eval/knm_00180_01487533497/knm_00180_01487533497_2.wav
+
+Input: ಈ ದೇಶ ಸ್ಥೂಲವಾಗಿ ಈಗಿನ ಬಿಹಾರ ರಾಜ್ಯದಲ್ಲಿನ ಭಾಗಲಪುರ
+Normalized: ಈ ದೇಶ ಸ್ಥೂಲವಾಗಿ ಈಗಿನ ಬಿಹಾರ ರಾಜ್ಯದಲ್ಲಿನ ಭಾಗಲಪುರ
+Phoneme: ii dee sha sː thuu la vaa gi ii gi na bi haa ra raa jː ya da lː li na bhaa ga la pu ra
+HKL features: torch.Size([1, 93, 256])
+Prosody hidden: torch.Size([1, 93, 256])
+Waveform: (100864,)
+Saved audio: /content/quality_eval/knm_00180_01487533497/knm_00180_01487533497_3.wav
+
+Input: ಉಳಿದವ ದ್ವಿಪದಿ
+Normalized: ಉಳಿದವ ದ್ವಿಪದಿ
+Phoneme: u da va dː vi pa di
+HKL features: torch.Size([1, 27, 256])
+Prosody hidden: torch.Size([1, 27, 256])
+Waveform: (29952,)
+Saved audio: /content/quality_eval/knm_00180_01580766251/knm_00180_01580766251_1.wav
+
+Input: ಉಳಿದವ ದ್ವಿಪದಿ
+Normalized: ಉಳಿದವ ದ್ವಿಪದಿ
+Phoneme: u da va dː vi pa di
+HKL features: torch.Size([1, 27, 256])
+Prosody hidden: torch.Size([1, 27, 256])
+Waveform: (27904,)
+Saved audio: /content/quality_eval/knm_00180_01580766251/knm_00180_01580766251_2.wav
+
+Input: ಉಳಿದವ ದ್ವಿಪದಿ
+Normalized: ಉಳಿದವ ದ್ವಿಪದಿ
+Phoneme: u da va dː vi pa di
+HKL features: torch.Size([1, 27, 256])
+Prosody hidden: torch.Size([1, 27, 256])
+Waveform: (29696,)
+Saved audio: /content/quality_eval/knm_00180_01580766251/knm_00180_01580766251_3.wav
+
+Input: ಈ ಕಾಲ ಯಾವುದು ಎಂಬುದು ವೇದಗಳ
+Normalized: ಈ ಕಾಲ ಯಾವುದು ಎಂಬುದು ವೇದಗಳ
+Phoneme: ii kaa la yaa vu du m bu du vee da ga
+HKL features: torch.Size([1, 51, 256])
+Prosody hidden: torch.Size([1, 51, 256])
+Waveform: (58368,)
+Saved audio: /content/quality_eval/knm_00180_01608622883/knm_00180_01608622883_1.wav
+
+Input: ಈ ಕಾಲ ಯಾವುದು ಎಂಬುದು ವೇದಗಳ
+Normalized: ಈ ಕಾಲ ಯಾವುದು ಎಂಬುದು ವೇದಗಳ
+Phoneme: ii kaa la yaa vu du m bu du vee da ga
+HKL features: torch.Size([1, 51, 256])
+Prosody hidden: torch.Size([1, 51, 256])
+Waveform: (58112,)
+Saved audio: /content/quality_eval/knm_00180_01608622883/knm_00180_01608622883_2.wav
+
+Input: ಈ ಕಾಲ ಯಾವುದು ಎಂಬುದು ವೇದಗಳ
+Normalized: ಈ ಕಾಲ ಯಾವುದು ಎಂಬುದು ವೇದಗಳ
+Phoneme: ii kaa la yaa vu du m bu du vee da ga
+HKL features: torch.Size([1, 51, 256])
+Prosody hidden: torch.Size([1, 51, 256])
+Waveform: (49920,)
+Saved audio: /content/quality_eval/knm_00180_01608622883/knm_00180_01608622883_3.wav
+
+Input: ವಿಶೇಷ ವ್ಯಾಪಾರ ವಿರುದ್ಧ ಸಾಮಾನ್ಯ ವ್ಯಾಪಾರ) ವ್ಯಾಖೆಯು ಹಾಗೂ ಕ್ರಮವಿಧಾನದ ವಿಷಯವು ಹಲವು ಅಂಕಿಅಂಶದ ಸಂಗ್ರಹಣದ ಮೇಲೆ ಹಾಕಲಾಗುತ್ತದೆ.
+Normalized: ವಿಶೇಷ ವ್ಯಾಪಾರ ವಿರುದ್ಧ ಸಾಮಾನ್ಯ ವ್ಯಾಪಾರ) ವ್ಯಾಖೆಯು ಹಾಗೂ ಕ್ರಮವಿಧಾನದ ವಿಷಯವು ಹಲವು ಅಂಕಿಅಂಶದ ಸಂಗ್ರಹಣದ ಮೇಲೆ ಹಾಕಲಾಗುತ್ತದೆ ...
+Phoneme: vi shee ṣa vː yaa paa ra vi ru dː dha saa maa nː ya vː yaa paa ra vː yaa khe yu haa guu kra ma vi dhaa na da vi ṣa ya vu ha la vu a m ki a m sha da sa m gra ha ṇa da mee le haa ka laa gu tː ta de 
+HKL features: torch.Size([1, 221, 256])
+Prosody hidden: torch.Size([1, 221, 256])
+Waveform: (235776,)
+Saved audio: /content/quality_eval/knm_00180_01617546309/knm_00180_01617546309_1.wav
+
+Input: ವಿಶೇಷ ವ್ಯಾಪಾರ ವಿರುದ್ಧ ಸಾಮಾನ್ಯ ವ್ಯಾಪಾರ) ವ್ಯಾಖೆಯು ಹಾಗೂ ಕ್ರಮವಿಧಾನದ ವಿಷಯವು ಹಲವು ಅಂಕಿಅಂಶದ ಸಂಗ್ರಹಣದ ಮೇಲೆ ಹಾಕಲಾಗುತ್ತದೆ.
+Normalized: ವಿಶೇಷ ವ್ಯಾಪಾರ ವಿರುದ್ಧ ಸಾಮಾನ್ಯ ವ್ಯಾಪಾರ) ವ್ಯಾಖೆಯು ಹಾಗೂ ಕ್ರಮವಿಧಾನದ ವಿಷಯವು ಹಲವು ಅಂಕಿಅಂಶದ ಸಂಗ್ರಹಣದ ಮೇಲೆ ಹಾಕಲಾಗುತ್ತದೆ ...
+Phoneme: vi shee ṣa vː yaa paa ra vi ru dː dha saa maa nː ya vː yaa paa ra vː yaa khe yu haa guu kra ma vi dhaa na da vi ṣa ya vu ha la vu a m ki a m sha da sa m gra ha ṇa da mee le haa ka laa gu tː ta de 
+HKL features: torch.Size([1, 221, 256])
+Prosody hidden: torch.Size([1, 221, 256])
+Waveform: (189696,)
+Saved audio: /content/quality_eval/knm_00180_01617546309/knm_00180_01617546309_2.wav
+
+Input: ವಿಶೇಷ ವ್ಯಾಪಾರ ವಿರುದ್ಧ ಸಾಮಾನ್ಯ ವ್ಯಾಪಾರ) ವ್ಯಾಖೆಯು ಹಾಗೂ ಕ್ರಮವಿಧಾನದ ವಿಷಯವು ಹಲವು ಅಂಕಿಅಂಶದ ಸಂಗ್ರಹಣದ ಮೇಲೆ ಹಾಕಲಾಗುತ್ತದೆ.
+Normalized: ವಿಶೇಷ ವ್ಯಾಪಾರ ವಿರುದ್ಧ ಸಾಮಾನ್ಯ ವ್ಯಾಪಾರ) ವ್ಯಾಖೆಯು ಹಾಗೂ ಕ್ರಮವಿಧಾನದ ವಿಷಯವು ಹಲವು ಅಂಕಿಅಂಶದ ಸಂಗ್ರಹಣದ ಮೇಲೆ ಹಾಕಲಾಗುತ್ತದೆ ...
+Phoneme: vi shee ṣa vː yaa paa ra vi ru dː dha saa maa nː ya vː yaa paa ra vː yaa khe yu haa guu kra ma vi dhaa na da vi ṣa ya vu ha la vu a m ki a m sha da sa m gra ha ṇa da mee le haa ka laa gu tː ta de 
+HKL features: torch.Size([1, 221, 256])
+Prosody hidden: torch.Size([1, 221, 256])
+Waveform: (247808,)
+Saved audio: /content/quality_eval/knm_00180_01617546309/knm_00180_01617546309_3.wav
+
+Input: ಬ್ರಾಹ್ಮಿ ಲಿಪಿಯಿಂದ ಅಕ್ಷರ ಕೆಳಗೆ ತೋರಿಸಿದಂತೆ ಬೆಳೆದು ಬಂದಿದೆ.
+Normalized: ಬ್ರಾಹ್ಮಿ ಲಿಪಿಯಿಂದ ಅಕ್ಷರ ಕೆಳಗೆ ತೋರಿಸಿದಂತೆ ಬೆಳೆದು ಬಂದಿದೆ ...
+Phoneme: bː raa hː mi li pi yi m da a ksha ra ke ge too ri si da m te be du ba m di de 
+HKL features: torch.Size([1, 109, 256])
+Prosody hidden: torch.Size([1, 109, 256])
+Waveform: (97024,)
+Saved audio: /content/quality_eval/knm_00180_01639396582/knm_00180_01639396582_1.wav
+2026-07-24 15:44:56,670 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ಬ್ರಾಹ್ಮಿ ಲಿಪಿಯಿಂದ ಅಕ್ಷರ ಕೆಳಗೆ ತೋರಿಸಿದಂತೆ ಬೆಳೆದು ಬಂದಿದೆ.
+Normalized: ಬ್ರಾಹ್ಮಿ ಲಿಪಿಯಿಂದ ಅಕ್ಷರ ಕೆಳಗೆ ತೋರಿಸಿದಂತೆ ಬೆಳೆದು ಬಂದಿದೆ ...
+Phoneme: bː raa hː mi li pi yi m da a ksha ra ke ge too ri si da m te be du ba m di de 
+HKL features: torch.Size([1, 109, 256])
+Prosody hidden: torch.Size([1, 109, 256])
+Waveform: (74496,)
+Saved audio: /content/quality_eval/knm_00180_01639396582/knm_00180_01639396582_2.wav
+
+Input: ಬ್ರಾಹ್ಮಿ ಲಿಪಿಯಿಂದ ಅಕ್ಷರ ಕೆಳಗೆ ತೋರಿಸಿದಂತೆ ಬೆಳೆದು ಬಂದಿದೆ.
+Normalized: ಬ್ರಾಹ್ಮಿ ಲಿಪಿಯಿಂದ ಅಕ್ಷರ ಕೆಳಗೆ ತೋರಿಸಿದಂತೆ ಬೆಳೆದು ಬಂದಿದೆ ...
+Phoneme: bː raa hː mi li pi yi m da a ksha ra ke ge too ri si da m te be du ba m di de 
+HKL features: torch.Size([1, 109, 256])
+Prosody hidden: torch.Size([1, 109, 256])
+Waveform: (115712,)
+Saved audio: /content/quality_eval/knm_00180_01639396582/knm_00180_01639396582_3.wav
+
+Input: ಅಂ ಕನ್ನಡ ವರ್ಣಮಾಲೆಯ ಮೊದಲನೇ ಯೋಗವಾಹಕವಾಗಿದೆ
+Normalized: ಅಂ ಕನ್ನಡ ವರ್ಣಮಾಲೆಯ ಮೊದಲನೇ ಯೋಗವಾಹಕವಾಗಿದೆ
+Phoneme: a m ka nː na ɖa va rː ṇa maa le ya mo da la nee yoo ga vaa ha ka vaa gi de
+HKL features: torch.Size([1, 79, 256])
+Prosody hidden: torch.Size([1, 79, 256])
+Waveform: (88832,)
+Saved audio: /content/quality_eval/knm_00180_01678941353/knm_00180_01678941353_1.wav
+
+Input: ಅಂ ಕನ್ನಡ ವರ್ಣಮಾಲೆಯ ಮೊದಲನೇ ಯೋಗವಾಹಕವಾಗಿದೆ
+Normalized: ಅಂ ಕನ್ನಡ ವರ್ಣಮಾಲೆಯ ಮೊದಲನೇ ಯೋಗವಾಹಕವಾಗಿದೆ
+Phoneme: a m ka nː na ɖa va rː ṇa maa le ya mo da la nee yoo ga vaa ha ka vaa gi de
+HKL features: torch.Size([1, 79, 256])
+Prosody hidden: torch.Size([1, 79, 256])
+Waveform: (86272,)
+Saved audio: /content/quality_eval/knm_00180_01678941353/knm_00180_01678941353_2.wav
+
+Input: ಅಂ ಕನ್ನಡ ವರ್ಣಮಾಲೆಯ ಮೊದಲನೇ ಯೋಗವಾಹಕವಾಗಿದೆ
+Normalized: ಅಂ ಕನ್ನಡ ವರ್ಣಮಾಲೆಯ ಮೊದಲನೇ ಯೋಗವಾಹಕವಾಗಿದೆ
+Phoneme: a m ka nː na ɖa va rː ṇa maa le ya mo da la nee yoo ga vaa ha ka vaa gi de
+HKL features: torch.Size([1, 79, 256])
+Prosody hidden: torch.Size([1, 79, 256])
+Waveform: (84480,)
+Saved audio: /content/quality_eval/knm_00180_01678941353/knm_00180_01678941353_3.wav
+
+Input: ನೌಕರರ ಕೈಪಿಡಿ
+Normalized: ನೌಕರರ ಕೈಪಿಡಿ
+Phoneme: na ka ra ra ka pi ɖi
+HKL features: torch.Size([1, 25, 256])
+Prosody hidden: torch.Size([1, 25, 256])
+Waveform: (35072,)
+Saved audio: /content/quality_eval/knm_00180_01688464527/knm_00180_01688464527_1.wav
+
+Input: ನೌಕರರ ಕೈಪಿಡಿ
+Normalized: ನೌಕರರ ಕೈಪಿಡಿ
+Phoneme: na ka ra ra ka pi ɖi
+HKL features: torch.Size([1, 25, 256])
+Prosody hidden: torch.Size([1, 25, 256])
+Waveform: (32000,)
+Saved audio: /content/quality_eval/knm_00180_01688464527/knm_00180_01688464527_2.wav
+
+Input: ನೌಕರರ ಕೈಪಿಡಿ
+Normalized: ನೌಕರರ ಕೈಪಿಡಿ
+Phoneme: na ka ra ra ka pi ɖi
+HKL features: torch.Size([1, 25, 256])
+Prosody hidden: torch.Size([1, 25, 256])
+Waveform: (33792,)
+Saved audio: /content/quality_eval/knm_00180_01688464527/knm_00180_01688464527_3.wav
+
+Input: ಈ ಚಿಕಿತ್ಸೆಯನ್ನು ಬೇರೆ ಬೇರೆ ಸಸ್ಯಗಳಲ್ಲಿ ಬೇರೆ ಬೇರೆ ಹಂತಗಳಲ್ಲಿ ಕೊಡಬೇಕಾಗುವುದು.
+Normalized: ಈ ಚಿಕಿತ್ಸೆಯನ್ನು ಬೇರೆ ಬೇರೆ ಸಸ್ಯಗಳಲ್ಲಿ ಬೇರೆ ಬೇರೆ ಹಂತಗಳಲ್ಲಿ ಕೊಡಬೇಕಾಗುವುದು ...
+Phoneme: ii chi ki tː se ya nː nu bee re bee re sa sː ya ga lː li bee re bee re ha m ta ga lː li ko ɖa bee kaa gu vu du 
+HKL features: torch.Size([1, 141, 256])
+Prosody hidden: torch.Size([1, 141, 256])
+Waveform: (123392,)
+Saved audio: /content/quality_eval/knm_00180_01708454408/knm_00180_01708454408_1.wav
+
+Input: ಈ ಚಿಕಿತ್ಸೆಯನ್ನು ಬೇರೆ ಬೇರೆ ಸಸ್ಯಗಳಲ್ಲಿ ಬೇರೆ ಬೇರೆ ಹಂತಗಳಲ್ಲಿ ಕೊಡಬೇಕಾಗುವುದು.
+Normalized: ಈ ಚಿಕಿತ್ಸೆಯನ್ನು ಬೇರೆ ಬೇರೆ ಸಸ್ಯಗಳಲ್ಲಿ ಬೇರೆ ಬೇರೆ ಹಂತಗಳಲ್ಲಿ ಕೊಡಬೇಕಾಗುವುದು ...
+Phoneme: ii chi ki tː se ya nː nu bee re bee re sa sː ya ga lː li bee re bee re ha m ta ga lː li ko ɖa bee kaa gu vu du 
+HKL features: torch.Size([1, 141, 256])
+Prosody hidden: torch.Size([1, 141, 256])
+Waveform: (120576,)
+Saved audio: /content/quality_eval/knm_00180_01708454408/knm_00180_01708454408_2.wav
+
+Input: ಈ ಚಿಕಿತ್ಸೆಯನ್ನು ಬೇರೆ ಬೇರೆ ಸಸ್ಯಗಳಲ್ಲಿ ಬೇರೆ ಬೇರೆ ಹಂತಗಳಲ್ಲಿ ಕೊಡಬೇಕಾಗುವುದು.
+Normalized: ಈ ಚಿಕಿತ್ಸೆಯನ್ನು ಬೇರೆ ಬೇರೆ ಸಸ್ಯಗಳಲ್ಲಿ ಬೇರೆ ಬೇರೆ ಹಂತಗಳಲ್ಲಿ ಕೊಡಬೇಕಾಗುವುದು ...
+Phoneme: ii chi ki tː se ya nː nu bee re bee re sa sː ya ga lː li bee re bee re ha m ta ga lː li ko ɖa bee kaa gu vu du 
+HKL features: torch.Size([1, 141, 256])
+Prosody hidden: torch.Size([1, 141, 256])
+Waveform: (122368,)
+Saved audio: /content/quality_eval/knm_00180_01708454408/knm_00180_01708454408_3.wav
+
+Input: ಇತ್ತೀಚಿನ ಉನ್ನತ ಅವಧಿ ಐವತ್ತು ಮತ್ತು ಅರುವತ್ತರ ಸಾಲಿನಲ್ಲಿ ಆಗಿದೆ.
+Normalized: ಇತ್ತೀಚಿನ ಉನ್ನತ ಅವಧಿ ಐವತ್ತು ಮತ್ತು ಅರುವತ್ತರ ಸಾಲಿನಲ್ಲಿ ಆಗಿದೆ ...
+Phoneme: i tː tii chi na u nː na ta a va dhi va tː tu ma tː tu a ru va tː ta ra saa li na lː li aa gi de 
+HKL features: torch.Size([1, 115, 256])
+Prosody hidden: torch.Size([1, 115, 256])
+Waveform: (109824,)
+Saved audio: /content/quality_eval/knm_00180_01758521212/knm_00180_01758521212_1.wav
+
+Input: ಇತ್ತೀಚಿನ ಉನ್ನತ ಅವಧಿ ಐವತ್ತು ಮತ್ತು ಅರುವತ್ತರ ಸಾಲಿನಲ್ಲಿ ಆಗಿದೆ.
+Normalized: ಇತ್ತೀಚಿನ ಉನ್ನತ ಅವಧಿ ಐವತ್ತು ಮತ್ತು ಅರುವತ್ತರ ಸಾಲಿನಲ್ಲಿ ಆಗಿದೆ ...
+Phoneme: i tː tii chi na u nː na ta a va dhi va tː tu ma tː tu a ru va tː ta ra saa li na lː li aa gi de 
+HKL features: torch.Size([1, 115, 256])
+Prosody hidden: torch.Size([1, 115, 256])
+Waveform: (112640,)
+Saved audio: /content/quality_eval/knm_00180_01758521212/knm_00180_01758521212_2.wav
+
+Input: ಇತ್ತೀಚಿನ ಉನ್ನತ ಅವಧಿ ಐವತ್ತು ಮತ್ತು ಅರುವತ್ತರ ಸಾಲಿನಲ್ಲಿ ಆಗಿದೆ.
+Normalized: ಇತ್ತೀಚಿನ ಉನ್ನತ ಅವಧಿ ಐವತ್ತು ಮತ್ತು ಅರುವತ್ತರ ಸಾಲಿನಲ್ಲಿ ಆಗಿದೆ ...
+Phoneme: i tː tii chi na u nː na ta a va dhi va tː tu ma tː tu a ru va tː ta ra saa li na lː li aa gi de 
+HKL features: torch.Size([1, 115, 256])
+Prosody hidden: torch.Size([1, 115, 256])
+Waveform: (119552,)
+Saved audio: /content/quality_eval/knm_00180_01758521212/knm_00180_01758521212_3.wav
+2026-07-24 15:45:05,372 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ನಾವು ಹುಟ್ಟಿದ ಸಮಂಜಸತೆಯಲ್ಲಿ
+Normalized: ನಾವು ಹುಟ್ಟಿದ ಸಮಂಜಸತೆಯಲ್ಲಿ
+Phoneme: naa vu hu ṭː ṭi da sa ma m ja sa te ya lː li
+HKL features: torch.Size([1, 51, 256])
+Prosody hidden: torch.Size([1, 51, 256])
+Waveform: (47104,)
+Saved audio: /content/quality_eval/knm_00180_01774218546/knm_00180_01774218546_1.wav
+2026-07-24 15:45:05,787 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ನಾವು ಹುಟ್ಟಿದ ಸಮಂಜಸತೆಯಲ್ಲಿ
+Normalized: ನಾವು ಹುಟ್ಟಿದ ಸಮಂಜಸತೆಯಲ್ಲಿ
+Phoneme: naa vu hu ṭː ṭi da sa ma m ja sa te ya lː li
+HKL features: torch.Size([1, 51, 256])
+Prosody hidden: torch.Size([1, 51, 256])
+Waveform: (51968,)
+Saved audio: /content/quality_eval/knm_00180_01774218546/knm_00180_01774218546_2.wav
+2026-07-24 15:45:06,246 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ನಾವು ಹುಟ್ಟಿದ ಸಮಂಜಸತೆಯಲ್ಲಿ
+Normalized: ನಾವು ಹುಟ್ಟಿದ ಸಮಂಜಸತೆಯಲ್ಲಿ
+Phoneme: naa vu hu ṭː ṭi da sa ma m ja sa te ya lː li
+HKL features: torch.Size([1, 51, 256])
+Prosody hidden: torch.Size([1, 51, 256])
+Waveform: (50688,)
+Saved audio: /content/quality_eval/knm_00180_01774218546/knm_00180_01774218546_3.wav
+2026-07-24 15:45:06,703 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ಪುಟಗಳು ನೂರ ನಲ್ವತ್ತೊಂದು
+Normalized: ಪುಟಗಳು ನೂರ ನಲ್ವತ್ತೊಂದು
+Phoneme: pu ṭa ga nuu ra na lː va tː to m du
+HKL features: torch.Size([1, 45, 256])
+Prosody hidden: torch.Size([1, 45, 256])
+Waveform: (43264,)
+Saved audio: /content/quality_eval/knm_00180_01807860969/knm_00180_01807860969_1.wav
+2026-07-24 15:45:07,190 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ಪುಟಗಳು ನೂರ ನಲ್ವತ್ತೊಂದು
+Normalized: ಪುಟಗಳು ನೂರ ನಲ್ವತ್ತೊಂದು
+Phoneme: pu ṭa ga nuu ra na lː va tː to m du
+HKL features: torch.Size([1, 45, 256])
+Prosody hidden: torch.Size([1, 45, 256])
+Waveform: (46336,)
+Saved audio: /content/quality_eval/knm_00180_01807860969/knm_00180_01807860969_2.wav
+2026-07-24 15:45:07,631 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ಪುಟಗಳು ನೂರ ನಲ್ವತ್ತೊಂದು
+Normalized: ಪುಟಗಳು ನೂರ ನಲ್ವತ್ತೊಂದು
+Phoneme: pu ṭa ga nuu ra na lː va tː to m du
+HKL features: torch.Size([1, 45, 256])
+Prosody hidden: torch.Size([1, 45, 256])
+Waveform: (37632,)
+Saved audio: /content/quality_eval/knm_00180_01807860969/knm_00180_01807860969_3.wav
+
+Input: ಕೆಲವು ಸಲ ಇನ್ನೂ ಹೆಚ್ಚು ಎತ್ತರಕ್ಕೆ ಬೆಳೆಯುತ್ತವೆ
+Normalized: ಕೆಲವು ಸಲ ಇನ್ನೂ ಹೆಚ್ಚು ಎತ್ತರಕ್ಕೆ ಬೆಳೆಯುತ್ತವೆ
+Phoneme: ke la vu sa la i nː nuu he chː chu tː ta ra kː ke be yu tː ta ve
+HKL features: torch.Size([1, 87, 256])
+Prosody hidden: torch.Size([1, 87, 256])
+Waveform: (90880,)
+Saved audio: /content/quality_eval/knm_00180_01848494669/knm_00180_01848494669_1.wav
+2026-07-24 15:45:08,522 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ಕೆಲವು ಸಲ ಇನ್ನೂ ಹೆಚ್ಚು ಎತ್ತರಕ್ಕೆ ಬೆಳೆಯುತ್ತವೆ
+Normalized: ಕೆಲವು ಸಲ ಇನ್ನೂ ಹೆಚ್ಚು ಎತ್ತರಕ್ಕೆ ಬೆಳೆಯುತ್ತವೆ
+Phoneme: ke la vu sa la i nː nuu he chː chu tː ta ra kː ke be yu tː ta ve
+HKL features: torch.Size([1, 87, 256])
+Prosody hidden: torch.Size([1, 87, 256])
+Waveform: (66048,)
+Saved audio: /content/quality_eval/knm_00180_01848494669/knm_00180_01848494669_2.wav
+2026-07-24 15:45:08,914 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ಕೆಲವು ಸಲ ಇನ್ನೂ ಹೆಚ್ಚು ಎತ್ತರಕ್ಕೆ ಬೆಳೆಯುತ್ತವೆ
+Normalized: ಕೆಲವು ಸಲ ಇನ್ನೂ ಹೆಚ್ಚು ಎತ್ತರಕ್ಕೆ ಬೆಳೆಯುತ್ತವೆ
+Phoneme: ke la vu sa la i nː nuu he chː chu tː ta ra kː ke be yu tː ta ve
+HKL features: torch.Size([1, 87, 256])
+Prosody hidden: torch.Size([1, 87, 256])
+Waveform: (72448,)
+Saved audio: /content/quality_eval/knm_00180_01848494669/knm_00180_01848494669_3.wav
+
+Input: ಅಂತರರಾಷ್ಟ್ರೀಯ ಬಾಹ್ಯಾಕಾಶ ನಿಲ್ದಾಣವು ಬಾಹ್ಯಾಕಾಶ ವಿಮಾನಗಳ ಇತಿಹಾಸದಲ್ಲೇ ಅತ್ಯಂತ ಹೆಚ್ಚು ಬಾರಿ ಬಾಹ್ಯಾಕಾಶ ನೌಕೆಗಳು ಸಂದರ್ಶಿಸಿದ ನಿಲ್ದಾಣವಾಗಿದೆ.
+Normalized: ಅಂತರರಾಷ್ಟ್ರೀಯ ಬಾಹ್ಯಾಕಾಶ ನಿಲ್ದಾಣವು ಬಾಹ್ಯಾಕಾಶ ವಿಮಾನಗಳ ಇತಿಹಾಸದಲ್ಲೇ ಅತ್ಯಂತ ಹೆಚ್ಚು ಬಾರಿ ಬಾಹ್ಯಾಕಾಶ ನೌಕೆಗಳು ಸಂದರ್ಶಿಸಿದ ನಿಲ್ದಾಣವಾಗಿದೆ ...
+Phoneme: a m ta ra raa ṣː ṭː rii ya baa hː yaa kaa sha ni lː daa ṇa vu baa hː yaa kaa sha vi maa na ga i ti haa sa da lː lee a tː ya m ta he chː chu baa ri baa hː yaa kaa sha na ke ga sa m da rː shi si da ni lː daa ṇa vaa gi de 
+HKL features: torch.Size([1, 251, 256])
+Prosody hidden: torch.Size([1, 251, 256])
+Waveform: (208896,)
+Saved audio: /content/quality_eval/knm_00180_01887121406/knm_00180_01887121406_1.wav
+
+Input: ಅಂತರರಾಷ್ಟ್ರೀಯ ಬಾಹ್ಯಾಕಾಶ ನಿಲ್ದಾಣವು ಬಾಹ್ಯಾಕಾಶ ವಿಮಾನಗಳ ಇತಿಹಾಸದಲ್ಲೇ ಅತ್ಯಂತ ಹೆಚ್ಚು ಬಾರಿ ಬಾಹ್ಯಾಕಾಶ ನೌಕೆಗಳು ಸಂದರ್ಶಿಸಿದ ನಿಲ್ದಾಣವಾಗಿದೆ.
+Normalized: ಅಂತರರಾಷ್ಟ್ರೀಯ ಬಾಹ್ಯಾಕಾಶ ನಿಲ್ದಾಣವು ಬಾಹ್ಯಾಕಾಶ ವಿಮಾನಗಳ ಇತಿಹಾಸದಲ್ಲೇ ಅತ್ಯಂತ ಹೆಚ್ಚು ಬಾರಿ ಬಾಹ್ಯಾಕಾಶ ನೌಕೆಗಳು ಸಂದರ್ಶಿಸಿದ ನಿಲ್ದಾಣವಾಗಿದೆ ...
+Phoneme: a m ta ra raa ṣː ṭː rii ya baa hː yaa kaa sha ni lː daa ṇa vu baa hː yaa kaa sha vi maa na ga i ti haa sa da lː lee a tː ya m ta he chː chu baa ri baa hː yaa kaa sha na ke ga sa m da rː shi si da ni lː daa ṇa vaa gi de 
+HKL features: torch.Size([1, 251, 256])
+Prosody hidden: torch.Size([1, 251, 256])
+Waveform: (190976,)
+Saved audio: /content/quality_eval/knm_00180_01887121406/knm_00180_01887121406_2.wav
+
+Input: ಅಂತರರಾಷ್ಟ್ರೀಯ ಬಾಹ್ಯಾಕಾಶ ನಿಲ್ದಾಣವು ಬಾಹ್ಯಾಕಾಶ ವಿಮಾನಗಳ ಇತಿಹಾಸದಲ್ಲೇ ಅತ್ಯಂತ ಹೆಚ್ಚು ಬಾರಿ ಬಾಹ್ಯಾಕಾಶ ನೌಕೆಗಳು ಸಂದರ್ಶಿಸಿದ ನಿಲ್ದಾಣವಾಗಿದೆ.
+Normalized: ಅಂತರರಾಷ್ಟ್ರೀಯ ಬಾಹ್ಯಾಕಾಶ ನಿಲ್ದಾಣವು ಬಾಹ್ಯಾಕಾಶ ವಿಮಾನಗಳ ಇತಿಹಾಸದಲ್ಲೇ ಅತ್ಯಂತ ಹೆಚ್ಚು ಬಾರಿ ಬಾಹ್ಯಾಕಾಶ ನೌಕೆಗಳು ಸಂದರ್ಶಿಸಿದ ನಿಲ್ದಾಣವಾಗಿದೆ ...
+Phoneme: a m ta ra raa ṣː ṭː rii ya baa hː yaa kaa sha ni lː daa ṇa vu baa hː yaa kaa sha vi maa na ga i ti haa sa da lː lee a tː ya m ta he chː chu baa ri baa hː yaa kaa sha na ke ga sa m da rː shi si da ni lː daa ṇa vaa gi de 
+HKL features: torch.Size([1, 251, 256])
+Prosody hidden: torch.Size([1, 251, 256])
+Waveform: (202752,)
+Saved audio: /content/quality_eval/knm_00180_01887121406/knm_00180_01887121406_3.wav
+
+Input: ಅಂಜೂರದ ವ್ಯವಸಾಯಕ್ಕೆ ಅತಿ ಫಲವತ್ತಾದ ಮಣ್ಣು ಬೇಕಾಗಿಲ್ಲ
+Normalized: ಅಂಜೂರದ ವ್ಯವಸಾಯಕ್ಕೆ ಅತಿ ಫಲವತ್ತಾದ ಮಣ್ಣು ಬೇಕಾಗಿಲ್ಲ
+Phoneme: a m juu ra da vː ya va saa ya kː ke a ti pha la va tː taa da ma ṇː ṇu bee kaa gi lː la
+HKL features: torch.Size([1, 95, 256])
+Prosody hidden: torch.Size([1, 95, 256])
+Waveform: (97280,)
+Saved audio: /content/quality_eval/knm_00180_01979139119/knm_00180_01979139119_1.wav
+
+Input: ಅಂಜೂರದ ವ್ಯವಸಾಯಕ್ಕೆ ಅತಿ ಫಲವತ್ತಾದ ಮಣ್ಣು ಬೇಕಾಗಿಲ್ಲ
+Normalized: ಅಂಜೂರದ ವ್ಯವಸಾಯಕ್ಕೆ ಅತಿ ಫಲವತ್ತಾದ ಮಣ್ಣು ಬೇಕಾಗಿಲ್ಲ
+Phoneme: a m juu ra da vː ya va saa ya kː ke a ti pha la va tː taa da ma ṇː ṇu bee kaa gi lː la
+HKL features: torch.Size([1, 95, 256])
+Prosody hidden: torch.Size([1, 95, 256])
+Waveform: (93952,)
+Saved audio: /content/quality_eval/knm_00180_01979139119/knm_00180_01979139119_2.wav
+
+Input: ಅಂಜೂರದ ವ್ಯವಸಾಯಕ್ಕೆ ಅತಿ ಫಲವತ್ತಾದ ಮಣ್ಣು ಬೇಕಾಗಿಲ್ಲ
+Normalized: ಅಂಜೂರದ ವ್ಯವಸಾಯಕ್ಕೆ ಅತಿ ಫಲವತ್ತಾದ ಮಣ್ಣು ಬೇಕಾಗಿಲ್ಲ
+Phoneme: a m juu ra da vː ya va saa ya kː ke a ti pha la va tː taa da ma ṇː ṇu bee kaa gi lː la
+HKL features: torch.Size([1, 95, 256])
+Prosody hidden: torch.Size([1, 95, 256])
+Waveform: (92928,)
+Saved audio: /content/quality_eval/knm_00180_01979139119/knm_00180_01979139119_3.wav
+
+Input: ಈ ಚಿತ್ರಗಳ ಆಸೆಯಿಂದಾಗಿ ಇಂಥ ಚೀಟಿಗಳನ್ನು ಸಂಗ್ರಹಿಸುವುದೇ ಅನೇಕರ ಹವ್ಯಾಸವಾಗಿದೆ.
+Normalized: ಈ ಚಿತ್ರಗಳ ಆಸೆಯಿಂದಾಗಿ ಇಂಥ ಚೀಟಿಗಳನ್ನು ಸಂಗ್ರಹಿಸುವುದೇ ಅನೇಕರ ಹವ್ಯಾಸವಾಗಿದೆ ...
+Phoneme: ii chi tra ga aa se yi m daa gi i m tha chii ṭi ga nː nu sa m gra hi su vu dee a nee ka ra ha vː yaa sa vaa gi de 
+HKL features: torch.Size([1, 137, 256])
+Prosody hidden: torch.Size([1, 137, 256])
+Waveform: (140800,)
+Saved audio: /content/quality_eval/knm_00180_01994023075/knm_00180_01994023075_1.wav
+
+Input: ಈ ಚಿತ್ರಗಳ ಆಸೆಯಿಂದಾಗಿ ಇಂಥ ಚೀಟಿಗಳನ್ನು ಸಂಗ್ರಹಿಸುವುದೇ ಅನೇಕರ ಹವ್ಯಾಸವಾಗಿದೆ.
+Normalized: ಈ ಚಿತ್ರಗಳ ಆಸೆಯಿಂದಾಗಿ ಇಂಥ ಚೀಟಿಗಳನ್ನು ಸಂಗ್ರಹಿಸುವುದೇ ಅನೇಕರ ಹವ್ಯಾಸವಾಗಿದೆ ...
+Phoneme: ii chi tra ga aa se yi m daa gi i m tha chii ṭi ga nː nu sa m gra hi su vu dee a nee ka ra ha vː yaa sa vaa gi de 
+HKL features: torch.Size([1, 137, 256])
+Prosody hidden: torch.Size([1, 137, 256])
+Waveform: (136960,)
+Saved audio: /content/quality_eval/knm_00180_01994023075/knm_00180_01994023075_2.wav
+
+Input: ಈ ಚಿತ್ರಗಳ ಆಸೆಯಿಂದಾಗಿ ಇಂಥ ಚೀಟಿಗಳನ್ನು ಸಂಗ್ರಹಿಸುವುದೇ ಅನೇಕರ ಹವ್ಯಾಸವಾಗಿದೆ.
+Normalized: ಈ ಚಿತ್ರಗಳ ಆಸೆಯಿಂದಾಗಿ ಇಂಥ ಚೀಟಿಗಳನ್ನು ಸಂಗ್ರಹಿಸುವುದೇ ಅನೇಕರ ಹವ್ಯಾಸವಾಗಿದೆ ...
+Phoneme: ii chi tra ga aa se yi m daa gi i m tha chii ṭi ga nː nu sa m gra hi su vu dee a nee ka ra ha vː yaa sa vaa gi de 
+HKL features: torch.Size([1, 137, 256])
+Prosody hidden: torch.Size([1, 137, 256])
+Waveform: (130048,)
+Saved audio: /content/quality_eval/knm_00180_01994023075/knm_00180_01994023075_3.wav
+
+Input: ಸಂಪರ್ಕ, ಸಂವಹನದ ದೃಷ್ಟಿಕೋನ
+Normalized: ಸಂಪರ್ಕ , ಸಂವಹನದ ದೃಷ್ಟಿಕೋನ
+Phoneme: sa m pa rː ka  sa m va ha na da da ṣː ṭi koo na
+HKL features: torch.Size([1, 49, 256])
+Prosody hidden: torch.Size([1, 49, 256])
+Waveform: (51456,)
+Saved audio: /content/quality_eval/knm_00180_02020094033/knm_00180_02020094033_1.wav
+
+Input: ಸಂಪರ್ಕ, ಸಂವಹನದ ದೃಷ್ಟಿಕೋನ
+Normalized: ಸಂಪರ್ಕ , ಸಂವಹನದ ದೃಷ್ಟಿಕೋನ
+Phoneme: sa m pa rː ka  sa m va ha na da da ṣː ṭi koo na
+HKL features: torch.Size([1, 49, 256])
+Prosody hidden: torch.Size([1, 49, 256])
+Waveform: (51200,)
+Saved audio: /content/quality_eval/knm_00180_02020094033/knm_00180_02020094033_2.wav
+
+Input: ಸಂಪರ್ಕ, ಸಂವಹನದ ದೃಷ್ಟಿಕೋನ
+Normalized: ಸಂಪರ್ಕ , ಸಂವಹನದ ದೃಷ್ಟಿಕೋನ
+Phoneme: sa m pa rː ka  sa m va ha na da da ṣː ṭi koo na
+HKL features: torch.Size([1, 49, 256])
+Prosody hidden: torch.Size([1, 49, 256])
+Waveform: (62976,)
+Saved audio: /content/quality_eval/knm_00180_02020094033/knm_00180_02020094033_3.wav
+
+Input: ಸಮೀಕ್ಷೆಯಲ್ಲಿ ಒಟ್ಟಾರೆಯಾಗಿ ವಿಶ್ವ ವ್ಯಾಪಾರ ಸಂಸ್ಥೆ ಸೇರಿದಂತೆ ಎಲ್ಲ ಅಂತರರಾಷ್ಟ್ರೀಯ ಸಂಸ್ಥೆಗಳನ್ನು ಪರಿಗಣಿಸಲಾಗಿದೆ.
+Normalized: ಸಮೀಕ್ಷೆಯಲ್ಲಿ ಒಟ್ಟಾರೆಯಾಗಿ ವಿಶ್ವ ವ್ಯಾಪಾರ ಸಂಸ್ಥೆ ಸೇರಿದಂತೆ ಎಲ್ಲ ಅಂತರರಾಷ್ಟ್ರೀಯ ಸಂಸ್ಥೆಗಳನ್ನು ಪರಿಗಣಿಸಲಾಗಿದೆ ...
+Phoneme: sa mii ksha ya lː li ṭː ṭaa re yaa gi vi shː va vː yaa paa ra sa m sː the see ri da m te lː la a m ta ra raa ṣː ṭː rii ya sa m sː the ga nː nu pa ri ga ṇi sa laa gi de 
+HKL features: torch.Size([1, 201, 256])
+Prosody hidden: torch.Size([1, 201, 256])
+Waveform: (161536,)
+Saved audio: /content/quality_eval/knm_00180_02024695155/knm_00180_02024695155_1.wav
+
+Input: ಸಮೀಕ್ಷೆಯಲ್ಲಿ ಒಟ್ಟಾರೆಯಾಗಿ ವಿಶ್ವ ವ್ಯಾಪಾರ ಸಂಸ್ಥೆ ಸೇರಿದಂತೆ ಎಲ್ಲ ಅಂತರರಾಷ್ಟ್ರೀಯ ಸಂಸ್ಥೆಗಳನ್ನು ಪರಿಗಣಿಸಲಾಗಿದೆ.
+Normalized: ಸಮೀಕ್ಷೆಯಲ್ಲಿ ಒಟ್ಟಾರೆಯಾಗಿ ವಿಶ್ವ ವ್ಯಾಪಾರ ಸಂಸ್ಥೆ ಸೇರಿದಂತೆ ಎಲ್ಲ ಅಂತರರಾಷ್ಟ್ರೀಯ ಸಂಸ್ಥೆಗಳನ್ನು ಪರಿಗಣಿಸಲಾಗಿದೆ ...
+Phoneme: sa mii ksha ya lː li ṭː ṭaa re yaa gi vi shː va vː yaa paa ra sa m sː the see ri da m te lː la a m ta ra raa ṣː ṭː rii ya sa m sː the ga nː nu pa ri ga ṇi sa laa gi de 
+HKL features: torch.Size([1, 201, 256])
+Prosody hidden: torch.Size([1, 201, 256])
+Waveform: (219392,)
+Saved audio: /content/quality_eval/knm_00180_02024695155/knm_00180_02024695155_2.wav
+
+Input: ಸಮೀಕ್ಷೆಯಲ್ಲಿ ಒಟ್ಟಾರೆಯಾಗಿ ವಿಶ್ವ ವ್ಯಾಪಾರ ಸಂಸ್ಥೆ ಸೇರಿದಂತೆ ಎಲ್ಲ ಅಂತರರಾಷ್ಟ್ರೀಯ ಸಂಸ್ಥೆಗಳನ್ನು ಪರಿಗಣಿಸಲಾಗಿದೆ.
+Normalized: ಸಮೀಕ್ಷೆಯಲ್ಲಿ ಒಟ್ಟಾರೆಯಾಗಿ ವಿಶ್ವ ವ್ಯಾಪಾರ ಸಂಸ್ಥೆ ಸೇರಿದಂತೆ ಎಲ್ಲ ಅಂತರರಾಷ್ಟ್ರೀಯ ಸಂಸ್ಥೆಗಳನ್ನು ಪರಿಗಣಿಸಲಾಗಿದೆ ...
+Phoneme: sa mii ksha ya lː li ṭː ṭaa re yaa gi vi shː va vː yaa paa ra sa m sː the see ri da m te lː la a m ta ra raa ṣː ṭː rii ya sa m sː the ga nː nu pa ri ga ṇi sa laa gi de 
+HKL features: torch.Size([1, 201, 256])
+Prosody hidden: torch.Size([1, 201, 256])
+Waveform: (171520,)
+Saved audio: /content/quality_eval/knm_00180_02024695155/knm_00180_02024695155_3.wav
+
+Input: ಕಾಡುಪಕ್ಷಿಗಳ ಗೂಡಿನಿಂದ ತಂದೋ ಪಕ್ಷಿಗಳನ್ನು ಸಾಕಿಯೋ ಮೊಟ್ಟೆ ಪಡೆದು ಅವುಗಳನ್ನು ಸೇವಿಸುತ್ತಿದ್ದ.
+Normalized: ಕಾಡುಪಕ್ಷಿಗಳ ಗೂಡಿನಿಂದ ತಂದೋ ಪಕ್ಷಿಗಳನ್ನು ಸಾಕಿಯೋ ಮೊಟ್ಟೆ ಪಡೆದು ಅವುಗಳನ್ನು ಸೇವಿಸುತ್ತಿದ್ದ ...
+Phoneme: kaa ɖu pa ksha ga guu ɖi ni m da ta m doo pa ksha ga nː nu saa ki yoo mo ṭː ṭe pa ɖe du a vu ga nː nu see vi su tː ti dː da 
+HKL features: torch.Size([1, 163, 256])
+Prosody hidden: torch.Size([1, 163, 256])
+Waveform: (147456,)
+Saved audio: /content/quality_eval/knm_00180_02035550403/knm_00180_02035550403_1.wav
+
+Input: ಕಾಡುಪಕ್ಷಿಗಳ ಗೂಡಿನಿಂದ ತಂದೋ ಪಕ್ಷಿಗಳನ್ನು ಸಾಕಿಯೋ ಮೊಟ್ಟೆ ಪಡೆದು ಅವುಗಳನ್ನು ಸೇವಿಸುತ್ತಿದ್ದ.
+Normalized: ಕಾಡುಪಕ್ಷಿಗಳ ಗೂಡಿನಿಂದ ತಂದೋ ಪಕ್ಷಿಗಳನ್ನು ಸಾಕಿಯೋ ಮೊಟ್ಟೆ ಪಡೆದು ಅವುಗಳನ್ನು ಸೇವಿಸುತ್ತಿದ್ದ ...
+Phoneme: kaa ɖu pa ksha ga guu ɖi ni m da ta m doo pa ksha ga nː nu saa ki yoo mo ṭː ṭe pa ɖe du a vu ga nː nu see vi su tː ti dː da 
+HKL features: torch.Size([1, 163, 256])
+Prosody hidden: torch.Size([1, 163, 256])
+Waveform: (128000,)
+Saved audio: /content/quality_eval/knm_00180_02035550403/knm_00180_02035550403_2.wav
+
+Input: ಕಾಡುಪಕ್ಷಿಗಳ ಗೂಡಿನಿಂದ ತಂದೋ ಪಕ್ಷಿಗಳನ್ನು ಸಾಕಿಯೋ ಮೊಟ್ಟೆ ಪಡೆದು ಅವುಗಳನ್ನು ಸೇವಿಸುತ್ತಿದ್ದ.
+Normalized: ಕಾಡುಪಕ್ಷಿಗಳ ಗೂಡಿನಿಂದ ತಂದೋ ಪಕ್ಷಿಗಳನ್ನು ಸಾಕಿಯೋ ಮೊಟ್ಟೆ ಪಡೆದು ಅವುಗಳನ್ನು ಸೇವಿಸುತ್ತಿದ್ದ ...
+Phoneme: kaa ɖu pa ksha ga guu ɖi ni m da ta m doo pa ksha ga nː nu saa ki yoo mo ṭː ṭe pa ɖe du a vu ga nː nu see vi su tː ti dː da 
+HKL features: torch.Size([1, 163, 256])
+Prosody hidden: torch.Size([1, 163, 256])
+Waveform: (138240,)
+Saved audio: /content/quality_eval/knm_00180_02035550403/knm_00180_02035550403_3.wav
+
+Input: ಆದರೆ ಇದರಿಂದ ಯಾವುದಕ್ಕೂ ತೊಂದರೆಯುಂಟಾಗಲಿಲ್ಲ.
+Normalized: ಆದರೆ ಇದರಿಂದ ಯಾವುದಕ್ಕೂ ತೊಂದರೆಯುಂಟಾಗಲಿಲ್ಲ ...
+Phoneme: aa da re i da ri m da yaa vu da kː kuu to m da re yu m ṭaa ga li lː la 
+HKL features: torch.Size([1, 79, 256])
+Prosody hidden: torch.Size([1, 79, 256])
+Waveform: (77312,)
+Saved audio: /content/quality_eval/knm_00180_02045715086/knm_00180_02045715086_1.wav
+
+Input: ಆದರೆ ಇದರಿಂದ ಯಾವುದಕ್ಕೂ ತೊಂದರೆಯುಂಟಾಗಲಿಲ್ಲ.
+Normalized: ಆದರೆ ಇದರಿಂದ ಯಾವುದಕ್ಕೂ ತೊಂದರೆಯುಂಟಾಗಲಿಲ್ಲ ...
+Phoneme: aa da re i da ri m da yaa vu da kː kuu to m da re yu m ṭaa ga li lː la 
+HKL features: torch.Size([1, 79, 256])
+Prosody hidden: torch.Size([1, 79, 256])
+Waveform: (69376,)
+Saved audio: /content/quality_eval/knm_00180_02045715086/knm_00180_02045715086_2.wav
+
+Input: ಆದರೆ ಇದರಿಂದ ಯಾವುದಕ್ಕೂ ತೊಂದರೆಯುಂಟಾಗಲಿಲ್ಲ.
+Normalized: ಆದರೆ ಇದರಿಂದ ಯಾವುದಕ್ಕೂ ತೊಂದರೆಯುಂಟಾಗಲಿಲ್ಲ ...
+Phoneme: aa da re i da ri m da yaa vu da kː kuu to m da re yu m ṭaa ga li lː la 
+HKL features: torch.Size([1, 79, 256])
+Prosody hidden: torch.Size([1, 79, 256])
+Waveform: (78336,)
+Saved audio: /content/quality_eval/knm_00180_02045715086/knm_00180_02045715086_3.wav
+
+Input: ಈ ಜಲವನ್ನು ಅಧಿಷ್ಠಾನವಾಗಿ ಹೊಂದಿರುವ ದೇವತೆ ಜಲದೇವತೆ
+Normalized: ಈ ಜಲವನ್ನು ಅಧಿಷ್ಠಾನವಾಗಿ ಹೊಂದಿರುವ ದೇವತೆ ಜಲದೇವತೆ
+Phoneme: ii ja la va nː nu a dhi ṣː ṭhaa na vaa gi ho m di ru va dee va te ja la dee va te
+HKL features: torch.Size([1, 91, 256])
+Prosody hidden: torch.Size([1, 91, 256])
+Waveform: (92672,)
+Saved audio: /content/quality_eval/knm_00180_02071485412/knm_00180_02071485412_1.wav
+
+Input: ಈ ಜಲವನ್ನು ಅಧಿಷ್ಠಾನವಾಗಿ ಹೊಂದಿರುವ ದೇವತೆ ಜಲದೇವತೆ
+Normalized: ಈ ಜಲವನ್ನು ಅಧಿಷ್ಠಾನವಾಗಿ ಹೊಂದಿರುವ ದೇವತೆ ಜಲದೇವತೆ
+Phoneme: ii ja la va nː nu a dhi ṣː ṭhaa na vaa gi ho m di ru va dee va te ja la dee va te
+HKL features: torch.Size([1, 91, 256])
+Prosody hidden: torch.Size([1, 91, 256])
+Waveform: (78848,)
+Saved audio: /content/quality_eval/knm_00180_02071485412/knm_00180_02071485412_2.wav
+
+Input: ಈ ಜಲವನ್ನು ಅಧಿಷ್ಠಾನವಾಗಿ ಹೊಂದಿರುವ ದೇವತೆ ಜಲದೇವತೆ
+Normalized: ಈ ಜಲವನ್ನು ಅಧಿಷ್ಠಾನವಾಗಿ ಹೊಂದಿರುವ ದೇವತೆ ಜಲದೇವತೆ
+Phoneme: ii ja la va nː nu a dhi ṣː ṭhaa na vaa gi ho m di ru va dee va te ja la dee va te
+HKL features: torch.Size([1, 91, 256])
+Prosody hidden: torch.Size([1, 91, 256])
+Waveform: (82688,)
+Saved audio: /content/quality_eval/knm_00180_02071485412/knm_00180_02071485412_3.wav
+
+Input: ಇದು ಮೊಬೈಲ್ ಆಧಾರಿತ ವ್ಯವಸ್ಥೆ
+Normalized: ಇದು ಮೊಬೈಲ್ ಆಧಾರಿತ ವ್ಯವಸ್ಥೆ
+Phoneme: i du mo ba lː aa dhaa ri ta vː ya va sː the
+HKL features: torch.Size([1, 53, 256])
+Prosody hidden: torch.Size([1, 53, 256])
+Waveform: (57088,)
+Saved audio: /content/quality_eval/knm_00180_02080927001/knm_00180_02080927001_1.wav
+
+Input: ಇದು ಮೊಬೈಲ್ ಆಧಾರಿತ ವ್ಯವಸ್ಥೆ
+Normalized: ಇದು ಮೊಬೈಲ್ ಆಧಾರಿತ ವ್ಯವಸ್ಥೆ
+Phoneme: i du mo ba lː aa dhaa ri ta vː ya va sː the
+HKL features: torch.Size([1, 53, 256])
+Prosody hidden: torch.Size([1, 53, 256])
+Waveform: (60416,)
+Saved audio: /content/quality_eval/knm_00180_02080927001/knm_00180_02080927001_2.wav
+
+Input: ಇದು ಮೊಬೈಲ್ ಆಧಾರಿತ ವ್ಯವಸ್ಥೆ
+Normalized: ಇದು ಮೊಬೈಲ್ ಆಧಾರಿತ ವ್ಯವಸ್ಥೆ
+Phoneme: i du mo ba lː aa dhaa ri ta vː ya va sː the
+HKL features: torch.Size([1, 53, 256])
+Prosody hidden: torch.Size([1, 53, 256])
+Waveform: (49920,)
+Saved audio: /content/quality_eval/knm_00180_02080927001/knm_00180_02080927001_3.wav
+
+Input: ಈ ಮಾದರಿಯನ್ನು ಹಲವು, ದೇಶಗಳಲ್ಲಿ ಮತ್ತು ಹಲವು, ಸರಕಿನ ಪ್ರಕರಣಗಳಲ್ಲಿ ವಿಸ್ತರಿಸಲಾಗಿದೆ.
+Normalized: ಈ ಮಾದರಿಯನ್ನು ಹಲವು , ದೇಶಗಳಲ್ಲಿ ಮತ್ತು ಹಲವು , ಸರಕಿನ ಪ್ರಕರಣಗಳಲ್ಲಿ ವಿಸ್ತರಿಸಲಾಗಿದೆ ...
+Phoneme: ii maa da ri ya nː nu ha la vu  dee sha ga lː li ma tː tu ha la vu  sa ra ki na pra ka ra ṇa ga lː li vi sː ta ri sa laa gi de 
+HKL features: torch.Size([1, 149, 256])
+Prosody hidden: torch.Size([1, 149, 256])
+Waveform: (130560,)
+Saved audio: /content/quality_eval/knm_00180_02084330253/knm_00180_02084330253_1.wav
+
+Input: ಈ ಮಾದರಿಯನ್ನು ಹಲವು, ದೇಶಗಳಲ್ಲಿ ಮತ್ತು ಹಲವು, ಸರಕಿನ ಪ್ರಕರಣಗಳಲ್ಲಿ ವಿಸ್ತರಿಸಲಾಗಿದೆ.
+Normalized: ಈ ಮಾದರಿಯನ್ನು ಹಲವು , ದೇಶಗಳಲ್ಲಿ ಮತ್ತು ಹಲವು , ಸರಕಿನ ಪ್ರಕರಣಗಳಲ್ಲಿ ವಿಸ್ತರಿಸಲಾಗಿದೆ ...
+Phoneme: ii maa da ri ya nː nu ha la vu  dee sha ga lː li ma tː tu ha la vu  sa ra ki na pra ka ra ṇa ga lː li vi sː ta ri sa laa gi de 
+HKL features: torch.Size([1, 149, 256])
+Prosody hidden: torch.Size([1, 149, 256])
+Waveform: (145152,)
+Saved audio: /content/quality_eval/knm_00180_02084330253/knm_00180_02084330253_2.wav
+
+Input: ಈ ಮಾದರಿಯನ್ನು ಹಲವು, ದೇಶಗಳಲ್ಲಿ ಮತ್ತು ಹಲವು, ಸರಕಿನ ಪ್ರಕರಣಗಳಲ್ಲಿ ವಿಸ್ತರಿಸಲಾಗಿದೆ.
+Normalized: ಈ ಮಾದರಿಯನ್ನು ಹಲವು , ದೇಶಗಳಲ್ಲಿ ಮತ್ತು ಹಲವು , ಸರಕಿನ ಪ್ರಕರಣಗಳಲ್ಲಿ ವಿಸ್ತರಿಸಲಾಗಿದೆ ...
+Phoneme: ii maa da ri ya nː nu ha la vu  dee sha ga lː li ma tː tu ha la vu  sa ra ki na pra ka ra ṇa ga lː li vi sː ta ri sa laa gi de 
+HKL features: torch.Size([1, 149, 256])
+Prosody hidden: torch.Size([1, 149, 256])
+Waveform: (144128,)
+Saved audio: /content/quality_eval/knm_00180_02084330253/knm_00180_02084330253_3.wav
+
+Input: ಆಧುನಿಕ ಮನೋವಿಜ್ಞಾನದ ಸಂಶೋಧನಾ ಕಾರ್ಯಗಳಿಗೆ ಉಪಯೋಗವಾಗುವುದಕ್ಕೆ ಮೊದಲೇ ಅಂತರವಲೋಕನ ವಿಧಾನ ಪ್ರಚಲಿತವಾಗಿತ್ತು.
+Normalized: ಆಧುನಿಕ ಮನೋವಿಜ್ಞಾನದ ಸಂಶೋಧನಾ ಕಾರ್ಯಗಳಿಗೆ ಉಪಯೋಗವಾಗುವುದಕ್ಕೆ ಮೊದಲೇ ಅಂತರವಲೋಕನ ವಿಧಾನ ಪ್ರಚಲಿತವಾಗಿತ್ತು ...
+Phoneme: aa dhu ni ka ma noo vi jː na da sa m shoo dha naa kaa rː ya ga ge u pa yoo ga vaa gu vu da kː ke mo da lee a m ta ra va loo ka na vi dhaa na pra cha li ta vaa gi tː tu 
+HKL features: torch.Size([1, 185, 256])
+Prosody hidden: torch.Size([1, 185, 256])
+Waveform: (167936,)
+Saved audio: /content/quality_eval/knm_00180_02086055039/knm_00180_02086055039_1.wav
+
+Input: ಆಧುನಿಕ ಮನೋವಿಜ್ಞಾನದ ಸಂಶೋಧನಾ ಕಾರ್ಯಗಳಿಗೆ ಉಪಯೋಗವಾಗುವುದಕ್ಕೆ ಮೊದಲೇ ಅಂತರವಲೋಕನ ವಿಧಾನ ಪ್ರಚಲಿತವಾಗಿತ್ತು.
+Normalized: ಆಧುನಿಕ ಮನೋವಿಜ್ಞಾನದ ಸಂಶೋಧನಾ ಕಾರ್ಯಗಳಿಗೆ ಉಪಯೋಗವಾಗುವುದಕ್ಕೆ ಮೊದಲೇ ಅಂತರವಲೋಕನ ವಿಧಾನ ಪ್ರಚಲಿತವಾಗಿತ್ತು ...
+Phoneme: aa dhu ni ka ma noo vi jː na da sa m shoo dha naa kaa rː ya ga ge u pa yoo ga vaa gu vu da kː ke mo da lee a m ta ra va loo ka na vi dhaa na pra cha li ta vaa gi tː tu 
+HKL features: torch.Size([1, 185, 256])
+Prosody hidden: torch.Size([1, 185, 256])
+Waveform: (191488,)
+Saved audio: /content/quality_eval/knm_00180_02086055039/knm_00180_02086055039_2.wav
+
+Input: ಆಧುನಿಕ ಮನೋವಿಜ್ಞಾನದ ಸಂಶೋಧನಾ ಕಾರ್ಯಗಳಿಗೆ ಉಪಯೋಗವಾಗುವುದಕ್ಕೆ ಮೊದಲೇ ಅಂತರವಲೋಕನ ವಿಧಾನ ಪ್ರಚಲಿತವಾಗಿತ್ತು.
+Normalized: ಆಧುನಿಕ ಮನೋವಿಜ್ಞಾನದ ಸಂಶೋಧನಾ ಕಾರ್ಯಗಳಿಗೆ ಉಪಯೋಗವಾಗುವುದಕ್ಕೆ ಮೊದಲೇ ಅಂತರವಲೋಕನ ವಿಧಾನ ಪ್ರಚಲಿತವಾಗಿತ್ತು ...
+Phoneme: aa dhu ni ka ma noo vi jː na da sa m shoo dha naa kaa rː ya ga ge u pa yoo ga vaa gu vu da kː ke mo da lee a m ta ra va loo ka na vi dhaa na pra cha li ta vaa gi tː tu 
+HKL features: torch.Size([1, 185, 256])
+Prosody hidden: torch.Size([1, 185, 256])
+Waveform: (177920,)
+Saved audio: /content/quality_eval/knm_00180_02086055039/knm_00180_02086055039_3.wav
+
+Input: ಹದಿನೆಂಟನೇ ಶತಮಾನದಲ್ಲಿ ಗುರುತಿಸಲಾದ ಅಸ್ಥಿರ ಚಲನಶಾಸ್ತ್ರ ಇದರಲ್ಲೊಂದೆನಿಸಿದೆ.
+Normalized: ಹದಿನೆಂಟನೇ ಶತಮಾನದಲ್ಲಿ ಗುರುತಿಸಲಾದ ಅಸ್ಥಿರ ಚಲನಶಾಸ್ತ್ರ ಇದರಲ್ಲೊಂದೆನಿಸಿದೆ ...
+Phoneme: ha di ne m ṭa nee sha ta maa na da lː li gu ru ti sa laa da a sː thi ra cha la na shaa sː tra i da ra lː lo m de ni si de 
+HKL features: torch.Size([1, 133, 256])
+Prosody hidden: torch.Size([1, 133, 256])
+Waveform: (114688,)
+Saved audio: /content/quality_eval/knm_00180_02108841996/knm_00180_02108841996_1.wav
+
+Input: ಹದಿನೆಂಟನೇ ಶತಮಾನದಲ್ಲಿ ಗುರುತಿಸಲಾದ ಅಸ್ಥಿರ ಚಲನಶಾಸ್ತ್ರ ಇದರಲ್ಲೊಂದೆನಿಸಿದೆ.
+Normalized: ಹದಿನೆಂಟನೇ ಶತಮಾನದಲ್ಲಿ ಗುರುತಿಸಲಾದ ಅಸ್ಥಿರ ಚಲನಶಾಸ್ತ್ರ ಇದರಲ್ಲೊಂದೆನಿಸಿದೆ ...
+Phoneme: ha di ne m ṭa nee sha ta maa na da lː li gu ru ti sa laa da a sː thi ra cha la na shaa sː tra i da ra lː lo m de ni si de 
+HKL features: torch.Size([1, 133, 256])
+Prosody hidden: torch.Size([1, 133, 256])
+Waveform: (117760,)
+Saved audio: /content/quality_eval/knm_00180_02108841996/knm_00180_02108841996_2.wav
+
+Input: ಹದಿನೆಂಟನೇ ಶತಮಾನದಲ್ಲಿ ಗುರುತಿಸಲಾದ ಅಸ್ಥಿರ ಚಲನಶಾಸ್ತ್ರ ಇದರಲ್ಲೊಂದೆನಿಸಿದೆ.
+Normalized: ಹದಿನೆಂಟನೇ ಶತಮಾನದಲ್ಲಿ ಗುರುತಿಸಲಾದ ಅಸ್ಥಿರ ಚಲನಶಾಸ್ತ್ರ ಇದರಲ್ಲೊಂದೆನಿಸಿದೆ ...
+Phoneme: ha di ne m ṭa nee sha ta maa na da lː li gu ru ti sa laa da a sː thi ra cha la na shaa sː tra i da ra lː lo m de ni si de 
+HKL features: torch.Size([1, 133, 256])
+Prosody hidden: torch.Size([1, 133, 256])
+Waveform: (120576,)
+Saved audio: /content/quality_eval/knm_00180_02108841996/knm_00180_02108841996_3.wav
+
+Input: ಹಿಮದ ಹಾಳೆ ಖಂಡದಿಂದ ಮೆಲ್ಲನೆ ಸಾಗರದತ್ತ ಸರಿಯುತ್ತದೆ.
+Normalized: ಹಿಮದ ಹಾಳೆ ಖಂಡದಿಂದ ಮೆಲ್ಲನೆ ಸಾಗರದತ್ತ ಸರಿಯುತ್ತದೆ ...
+Phoneme: hi ma da haa kha m ɖa di m da me lː la ne saa ga ra da tː ta sa ri yu tː ta de 
+HKL features: torch.Size([1, 91, 256])
+Prosody hidden: torch.Size([1, 91, 256])
+Waveform: (73216,)
+Saved audio: /content/quality_eval/knm_00180_02115080584/knm_00180_02115080584_1.wav
+
+Input: ಹಿಮದ ಹಾಳೆ ಖಂಡದಿಂದ ಮೆಲ್ಲನೆ ಸಾಗರದತ್ತ ಸರಿಯುತ್ತದೆ.
+Normalized: ಹಿಮದ ಹಾಳೆ ಖಂಡದಿಂದ ಮೆಲ್ಲನೆ ಸಾಗರದತ್ತ ಸರಿಯುತ್ತದೆ ...
+Phoneme: hi ma da haa kha m ɖa di m da me lː la ne saa ga ra da tː ta sa ri yu tː ta de 
+HKL features: torch.Size([1, 91, 256])
+Prosody hidden: torch.Size([1, 91, 256])
+Waveform: (110848,)
+Saved audio: /content/quality_eval/knm_00180_02115080584/knm_00180_02115080584_2.wav
+
+Input: ಹಿಮದ ಹಾಳೆ ಖಂಡದಿಂದ ಮೆಲ್ಲನೆ ಸಾಗರದತ್ತ ಸರಿಯುತ್ತದೆ.
+Normalized: ಹಿಮದ ಹಾಳೆ ಖಂಡದಿಂದ ಮೆಲ್ಲನೆ ಸಾಗರದತ್ತ ಸರಿಯುತ್ತದೆ ...
+Phoneme: hi ma da haa kha m ɖa di m da me lː la ne saa ga ra da tː ta sa ri yu tː ta de 
+HKL features: torch.Size([1, 91, 256])
+Prosody hidden: torch.Size([1, 91, 256])
+Waveform: (74240,)
+Saved audio: /content/quality_eval/knm_00180_02115080584/knm_00180_02115080584_3.wav
+
+Input: ಅಂಜೂರದ ಮರ ಜುಲೈ ಅಕ್ಟೋಬರ್ ಮತ್ತು ಜನವರಿ ಮೇ ತಿಂಗಳು ಹೀಗೆ ವರ್ಷದಲ್ಲಿ ಎರಡು ಸಲ ಹಣ್ಣು ಬಿಡುವುದು
+Normalized: ಅಂಜೂರದ ಮರ ಜುಲೈ ಅಕ್ಟೋಬರ್ ಮತ್ತು ಜನವರಿ ಮೇ ತಿಂಗಳು ಹೀಗೆ ವರ್ಷದಲ್ಲಿ ಎರಡು ಸಲ ಹಣ್ಣು ಬಿಡುವುದು
+Phoneme: a m juu ra da ma ra ju la a kː ṭoo ba rː ma tː tu ja na va ri mee ti m ga hii ge va rː ṣa da lː li ra ɖu sa la ha ṇː ṇu bi ɖu vu du
+HKL features: torch.Size([1, 167, 256])
+Prosody hidden: torch.Size([1, 167, 256])
+Waveform: (177152,)
+Saved audio: /content/quality_eval/knm_00180_02118058654/knm_00180_02118058654_1.wav
+
+Input: ಅಂಜೂರದ ಮರ ಜುಲೈ ಅಕ್ಟೋಬರ್ ಮತ್ತು ಜನವರಿ ಮೇ ತಿಂಗಳು ಹೀಗೆ ವರ್ಷದಲ್ಲಿ ಎರಡು ಸಲ ಹಣ್ಣು ಬಿಡುವುದು
+Normalized: ಅಂಜೂರದ ಮರ ಜುಲೈ ಅಕ್ಟೋಬರ್ ಮತ್ತು ಜನವರಿ ಮೇ ತಿಂಗಳು ಹೀಗೆ ವರ್ಷದಲ್ಲಿ ಎರಡು ಸಲ ಹಣ್ಣು ಬಿಡುವುದು
+Phoneme: a m juu ra da ma ra ju la a kː ṭoo ba rː ma tː tu ja na va ri mee ti m ga hii ge va rː ṣa da lː li ra ɖu sa la ha ṇː ṇu bi ɖu vu du
+HKL features: torch.Size([1, 167, 256])
+Prosody hidden: torch.Size([1, 167, 256])
+Waveform: (214784,)
+Saved audio: /content/quality_eval/knm_00180_02118058654/knm_00180_02118058654_2.wav
+
+Input: ಅಂಜೂರದ ಮರ ಜುಲೈ ಅಕ್ಟೋಬರ್ ಮತ್ತು ಜನವರಿ ಮೇ ತಿಂಗಳು ಹೀಗೆ ವರ್ಷದಲ್ಲಿ ಎರಡು ಸಲ ಹಣ್ಣು ಬಿಡುವುದು
+Normalized: ಅಂಜೂರದ ಮರ ಜುಲೈ ಅಕ್ಟೋಬರ್ ಮತ್ತು ಜನವರಿ ಮೇ ತಿಂಗಳು ಹೀಗೆ ವರ್ಷದಲ್ಲಿ ಎರಡು ಸಲ ಹಣ್ಣು ಬಿಡುವುದು
+Phoneme: a m juu ra da ma ra ju la a kː ṭoo ba rː ma tː tu ja na va ri mee ti m ga hii ge va rː ṣa da lː li ra ɖu sa la ha ṇː ṇu bi ɖu vu du
+HKL features: torch.Size([1, 167, 256])
+Prosody hidden: torch.Size([1, 167, 256])
+Waveform: (133376,)
+Saved audio: /content/quality_eval/knm_00180_02118058654/knm_00180_02118058654_3.wav
+
+Input: ವೈಮಾನಿಕ ವಿಜ್ಞಾನ ನಾಗಾಲೋಟದಲ್ಲಿ ಬೆಳೆಯುತ್ತಿರುವ ಈ ಶತಮಾನದಲ್ಲಿ ಅಂತರಿಕ್ಷ ಕಾಯಿದೆ ಬೇಗಬೇಗನೆ ಬದಲಾಗುತ್ತಿದೆ.
+Normalized: ವೈಮಾನಿಕ ವಿಜ್ಞಾನ ನಾಗಾಲೋಟದಲ್ಲಿ ಬೆಳೆಯುತ್ತಿರುವ ಈ ಶತಮಾನದಲ್ಲಿ ಅಂತರಿಕ್ಷ ಕಾಯಿದೆ ಬೇಗಬೇಗನೆ ಬದಲಾಗುತ್ತಿದೆ ...
+Phoneme: va maa ni ka vi jː na naa gaa loo ṭa da lː li be yu tː ti ru va ii sha ta maa na da lː li a m ta ri ksha kaa yi de bee ga bee ga ne ba da laa gu tː ti de 
+HKL features: torch.Size([1, 187, 256])
+Prosody hidden: torch.Size([1, 187, 256])
+Waveform: (182784,)
+Saved audio: /content/quality_eval/knm_00180_02120887143/knm_00180_02120887143_1.wav
+
+Input: ವೈಮಾನಿಕ ವಿಜ್ಞಾನ ನಾಗಾಲೋಟದಲ್ಲಿ ಬೆಳೆಯುತ್ತಿರುವ ಈ ಶತಮಾನದಲ್ಲಿ ಅಂತರಿಕ್ಷ ಕಾಯಿದೆ ಬೇಗಬೇಗನೆ ಬದಲಾಗುತ್ತಿದೆ.
+Normalized: ವೈಮಾನಿಕ ವಿಜ್ಞಾನ ನಾಗಾಲೋಟದಲ್ಲಿ ಬೆಳೆಯುತ್ತಿರುವ ಈ ಶತಮಾನದಲ್ಲಿ ಅಂತರಿಕ್ಷ ಕಾಯಿದೆ ಬೇಗಬೇಗನೆ ಬದಲಾಗುತ್ತಿದೆ ...
+Phoneme: va maa ni ka vi jː na naa gaa loo ṭa da lː li be yu tː ti ru va ii sha ta maa na da lː li a m ta ri ksha kaa yi de bee ga bee ga ne ba da laa gu tː ti de 
+HKL features: torch.Size([1, 187, 256])
+Prosody hidden: torch.Size([1, 187, 256])
+Waveform: (193280,)
+Saved audio: /content/quality_eval/knm_00180_02120887143/knm_00180_02120887143_2.wav
+
+Input: ವೈಮಾನಿಕ ವಿಜ್ಞಾನ ನಾಗಾಲೋಟದಲ್ಲಿ ಬೆಳೆಯುತ್ತಿರುವ ಈ ಶತಮಾನದಲ್ಲಿ ಅಂತರಿಕ್ಷ ಕಾಯಿದೆ ಬೇಗಬೇಗನೆ ಬದಲಾಗುತ್ತಿದೆ.
+Normalized: ವೈಮಾನಿಕ ವಿಜ್ಞಾನ ನಾಗಾಲೋಟದಲ್ಲಿ ಬೆಳೆಯುತ್ತಿರುವ ಈ ಶತಮಾನದಲ್ಲಿ ಅಂತರಿಕ್ಷ ಕಾಯಿದೆ ಬೇಗಬೇಗನೆ ಬದಲಾಗುತ್ತಿದೆ ...
+Phoneme: va maa ni ka vi jː na naa gaa loo ṭa da lː li be yu tː ti ru va ii sha ta maa na da lː li a m ta ri ksha kaa yi de bee ga bee ga ne ba da laa gu tː ti de 
+HKL features: torch.Size([1, 187, 256])
+Prosody hidden: torch.Size([1, 187, 256])
+Waveform: (173312,)
+Saved audio: /content/quality_eval/knm_00180_02120887143/knm_00180_02120887143_3.wav
+
+Input: ಈ ಸಮಸ್ಯೆಗಳನ್ನು ಪರಿಹರಿಸದಿದ್ದಲ್ಲಿ ಈ ಘಟನೆಗಳು ನಿಲ್ದಾಣದ ಜೋಡಣಾ ಕಾಲಗಣನೆಯ ಮೇಲೆ ಪ್ರಭಾವ ಬೀರುತ್ತವೆ
+Normalized: ಈ ಸಮಸ್ಯೆಗಳನ್ನು ಪರಿಹರಿಸದಿದ್ದಲ್ಲಿ ಈ ಘಟನೆಗಳು ನಿಲ್ದಾಣದ ಜೋಡಣಾ ಕಾಲಗಣನೆಯ ಮೇಲೆ ಪ್ರಭಾವ ಬೀರುತ್ತವೆ
+Phoneme: ii sa ma sː ye ga nː nu pa ri ha ri sa di dː da lː li ii gha ṭa ne ga ni lː daa ṇa da joo ɖa ṇaa kaa la ga ṇa ne ya mee le pra bhaa va bii ru tː ta ve
+HKL features: torch.Size([1, 175, 256])
+Prosody hidden: torch.Size([1, 175, 256])
+Waveform: (169216,)
+Saved audio: /content/quality_eval/knm_00271_00003824418/knm_00271_00003824418_1.wav
+
+Input: ಈ ಸಮಸ್ಯೆಗಳನ್ನು ಪರಿಹರಿಸದಿದ್ದಲ್ಲಿ ಈ ಘಟನೆಗಳು ನಿಲ್ದಾಣದ ಜೋಡಣಾ ಕಾಲಗಣನೆಯ ಮೇಲೆ ಪ್ರಭಾವ ಬೀರುತ್ತವೆ
+Normalized: ಈ ಸಮಸ್ಯೆಗಳನ್ನು ಪರಿಹರಿಸದಿದ್ದಲ್ಲಿ ಈ ಘಟನೆಗಳು ನಿಲ್ದಾಣದ ಜೋಡಣಾ ಕಾಲಗಣನೆಯ ಮೇಲೆ ಪ್ರಭಾವ ಬೀರುತ್ತವೆ
+Phoneme: ii sa ma sː ye ga nː nu pa ri ha ri sa di dː da lː li ii gha ṭa ne ga ni lː daa ṇa da joo ɖa ṇaa kaa la ga ṇa ne ya mee le pra bhaa va bii ru tː ta ve
+HKL features: torch.Size([1, 175, 256])
+Prosody hidden: torch.Size([1, 175, 256])
+Waveform: (173568,)
+Saved audio: /content/quality_eval/knm_00271_00003824418/knm_00271_00003824418_2.wav
+
+Input: ಈ ಸಮಸ್ಯೆಗಳನ್ನು ಪರಿಹರಿಸದಿದ್ದಲ್ಲಿ ಈ ಘಟನೆಗಳು ನಿಲ್ದಾಣದ ಜೋಡಣಾ ಕಾಲಗಣನೆಯ ಮೇಲೆ ಪ್ರಭಾವ ಬೀರುತ್ತವೆ
+Normalized: ಈ ಸಮಸ್ಯೆಗಳನ್ನು ಪರಿಹರಿಸದಿದ್ದಲ್ಲಿ ಈ ಘಟನೆಗಳು ನಿಲ್ದಾಣದ ಜೋಡಣಾ ಕಾಲಗಣನೆಯ ಮೇಲೆ ಪ್ರಭಾವ ಬೀರುತ್ತವೆ
+Phoneme: ii sa ma sː ye ga nː nu pa ri ha ri sa di dː da lː li ii gha ṭa ne ga ni lː daa ṇa da joo ɖa ṇaa kaa la ga ṇa ne ya mee le pra bhaa va bii ru tː ta ve
+HKL features: torch.Size([1, 175, 256])
+Prosody hidden: torch.Size([1, 175, 256])
+Waveform: (158208,)
+Saved audio: /content/quality_eval/knm_00271_00003824418/knm_00271_00003824418_3.wav
+
+Input: ಸೋಂಕು ತಗುಲಿಯೋ ಬೇರೆ ಪ್ರತಿರಕ್ಷಣಾವಿಧಾನಗಳಿಂದಲೋ ರಕ್ಷಣೆ ಪಡೆದವರಲ್ಲಿ ಒಂದು ಗೊತ್ತಾದ ರೋಧವಸ್ತು ಹೆಚ್ಚಿರುವುದು
+Normalized: ಸೋಂಕು ತಗುಲಿಯೋ ಬೇರೆ ಪ್ರತಿರಕ್ಷಣಾವಿಧಾನಗಳಿಂದಲೋ ರಕ್ಷಣೆ ಪಡೆದವರಲ್ಲಿ ಒಂದು ಗೊತ್ತಾದ ರೋಧವಸ್ತು ಹೆಚ್ಚಿರುವುದು
+Phoneme: soo m ku ta gu li yoo bee re pra ti ra ksha ṇaa vi dhaa na ga m da loo ra ksha ṇe pa ɖe da va ra lː li m du go tː taa da roo dha va sː tu he chː chi ru vu du
+HKL features: torch.Size([1, 191, 256])
+Prosody hidden: torch.Size([1, 191, 256])
+Waveform: (157440,)
+Saved audio: /content/quality_eval/knm_00271_00010768080/knm_00271_00010768080_1.wav
+
+Input: ಸೋಂಕು ತಗುಲಿಯೋ ಬೇರೆ ಪ್ರತಿರಕ್ಷಣಾವಿಧಾನಗಳಿಂದಲೋ ರಕ್ಷಣೆ ಪಡೆದವರಲ್ಲಿ ಒಂದು ಗೊತ್ತಾದ ರೋಧವಸ್ತು ಹೆಚ್ಚಿರುವುದು
+Normalized: ಸೋಂಕು ತಗುಲಿಯೋ ಬೇರೆ ಪ್ರತಿರಕ್ಷಣಾವಿಧಾನಗಳಿಂದಲೋ ರಕ್ಷಣೆ ಪಡೆದವರಲ್ಲಿ ಒಂದು ಗೊತ್ತಾದ ರೋಧವಸ್ತು ಹೆಚ್ಚಿರುವುದು
+Phoneme: soo m ku ta gu li yoo bee re pra ti ra ksha ṇaa vi dhaa na ga m da loo ra ksha ṇe pa ɖe da va ra lː li m du go tː taa da roo dha va sː tu he chː chi ru vu du
+HKL features: torch.Size([1, 191, 256])
+Prosody hidden: torch.Size([1, 191, 256])
+Waveform: (164864,)
+Saved audio: /content/quality_eval/knm_00271_00010768080/knm_00271_00010768080_2.wav
+
+Input: ಸೋಂಕು ತಗುಲಿಯೋ ಬೇರೆ ಪ್ರತಿರಕ್ಷಣಾವಿಧಾನಗಳಿಂದಲೋ ರಕ್ಷಣೆ ಪಡೆದವರಲ್ಲಿ ಒಂದು ಗೊತ್ತಾದ ರೋಧವಸ್ತು ಹೆಚ್ಚಿರುವುದು
+Normalized: ಸೋಂಕು ತಗುಲಿಯೋ ಬೇರೆ ಪ್ರತಿರಕ್ಷಣಾವಿಧಾನಗಳಿಂದಲೋ ರಕ್ಷಣೆ ಪಡೆದವರಲ್ಲಿ ಒಂದು ಗೊತ್ತಾದ ರೋಧವಸ್ತು ಹೆಚ್ಚಿರುವುದು
+Phoneme: soo m ku ta gu li yoo bee re pra ti ra ksha ṇaa vi dhaa na ga m da loo ra ksha ṇe pa ɖe da va ra lː li m du go tː taa da roo dha va sː tu he chː chi ru vu du
+HKL features: torch.Size([1, 191, 256])
+Prosody hidden: torch.Size([1, 191, 256])
+Waveform: (153600,)
+Saved audio: /content/quality_eval/knm_00271_00010768080/knm_00271_00010768080_3.wav
+2026-07-24 15:46:09,922 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ಎಡ ದಲ್ಲಿ ನಿರ್ಗಮಿಸಿ
+Normalized: ಎಡ ದಲ್ಲಿ ನಿರ್ಗಮಿಸಿ
+Phoneme: ɖa da lː li ni rː ga mi si
+HKL features: torch.Size([1, 37, 256])
+Prosody hidden: torch.Size([1, 37, 256])
+Waveform: (41472,)
+Saved audio: /content/quality_eval/knm_00271_00054137866/knm_00271_00054137866_1.wav
+2026-07-24 15:46:10,184 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ಎಡ ದಲ್ಲಿ ನಿರ್ಗಮಿಸಿ
+Normalized: ಎಡ ದಲ್ಲಿ ನಿರ್ಗಮಿಸಿ
+Phoneme: ɖa da lː li ni rː ga mi si
+HKL features: torch.Size([1, 37, 256])
+Prosody hidden: torch.Size([1, 37, 256])
+Waveform: (37888,)
+Saved audio: /content/quality_eval/knm_00271_00054137866/knm_00271_00054137866_2.wav
+2026-07-24 15:46:10,469 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ಎಡ ದಲ್ಲಿ ನಿರ್ಗಮಿಸಿ
+Normalized: ಎಡ ದಲ್ಲಿ ನಿರ್ಗಮಿಸಿ
+Phoneme: ɖa da lː li ni rː ga mi si
+HKL features: torch.Size([1, 37, 256])
+Prosody hidden: torch.Size([1, 37, 256])
+Waveform: (37120,)
+Saved audio: /content/quality_eval/knm_00271_00054137866/knm_00271_00054137866_3.wav
+
+Input: , ನಂತರ
+Normalized: , ನಂತರ
+Phoneme:  na m ta ra
+HKL features: torch.Size([1, 9, 256])
+Prosody hidden: torch.Size([1, 9, 256])
+Waveform: (19712,)
+Saved audio: /content/quality_eval/knm_00271_00079684796/knm_00271_00079684796_1.wav
+
+Input: , ನಂತರ
+Normalized: , ನಂತರ
+Phoneme:  na m ta ra
+HKL features: torch.Size([1, 9, 256])
+Prosody hidden: torch.Size([1, 9, 256])
+Waveform: (17408,)
+Saved audio: /content/quality_eval/knm_00271_00079684796/knm_00271_00079684796_2.wav
+
+Input: , ನಂತರ
+Normalized: , ನಂತರ
+Phoneme:  na m ta ra
+HKL features: torch.Size([1, 9, 256])
+Prosody hidden: torch.Size([1, 9, 256])
+Waveform: (18688,)
+Saved audio: /content/quality_eval/knm_00271_00079684796/knm_00271_00079684796_3.wav
+
+Input: ಗಗನಯಾತ್ರೆ ಹದಿನೈದು ಮುಗಿಯುವ ಹೊತ್ತಿಗೆ ನೂರ ಮೂವತ್ತೆಂಟು ಪ್ರಮುಖ ವಿಜ್ಞಾನ ಪರೀಕ್ಷೆಗಳನ್ನು ಅಂತರರಾಷ್ಟ್ರೀಯ ಬಾಹ್ಯಾಕಾಶ ನಿಲ್ದಾಣದ ಮೇಲೆ ನಡೆಸಲಾಗಿತ್ತು.
+Normalized: ಗಗನಯಾತ್ರೆ ಹದಿನೈದು ಮುಗಿಯುವ ಹೊತ್ತಿಗೆ ನೂರ ಮೂವತ್ತೆಂಟು ಪ್ರಮುಖ ವಿಜ್ಞಾನ ಪರೀಕ್ಷೆಗಳನ್ನು ಅಂತರರಾಷ್ಟ್ರೀಯ ಬಾಹ್ಯಾಕಾಶ ನಿಲ್ದಾಣದ ಮೇಲೆ ನಡೆಸಲಾಗಿತ್ತು ...
+Phoneme: ga ga na yaa tra ha di na du mu gi yu va ho tː ti ge nuu ra muu va tː te m ṭu pra mu kha vi jː na pa rii ksha ga nː nu a m ta ra raa ṣː ṭː rii ya baa hː yaa kaa sha ni lː daa ṇa da mee le na ɖe sa laa gi tː tu 
+HKL features: torch.Size([1, 259, 256])
+Prosody hidden: torch.Size([1, 259, 256])
+Waveform: (211200,)
+Saved audio: /content/quality_eval/knm_00271_00104295233/knm_00271_00104295233_1.wav
+
+Input: ಗಗನಯಾತ್ರೆ ಹದಿನೈದು ಮುಗಿಯುವ ಹೊತ್ತಿಗೆ ನೂರ ಮೂವತ್ತೆಂಟು ಪ್ರಮುಖ ವಿಜ್ಞಾನ ಪರೀಕ್ಷೆಗಳನ್ನು ಅಂತರರಾಷ್ಟ್ರೀಯ ಬಾಹ್ಯಾಕಾಶ ನಿಲ್ದಾಣದ ಮೇಲೆ ನಡೆಸಲಾಗಿತ್ತು.
+Normalized: ಗಗನಯಾತ್ರೆ ಹದಿನೈದು ಮುಗಿಯುವ ಹೊತ್ತಿಗೆ ನೂರ ಮೂವತ್ತೆಂಟು ಪ್ರಮುಖ ವಿಜ್ಞಾನ ಪರೀಕ್ಷೆಗಳನ್ನು ಅಂತರರಾಷ್ಟ್ರೀಯ ಬಾಹ್ಯಾಕಾಶ ನಿಲ್ದಾಣದ ಮೇಲೆ ನಡೆಸಲಾಗಿತ್ತು ...
+Phoneme: ga ga na yaa tra ha di na du mu gi yu va ho tː ti ge nuu ra muu va tː te m ṭu pra mu kha vi jː na pa rii ksha ga nː nu a m ta ra raa ṣː ṭː rii ya baa hː yaa kaa sha ni lː daa ṇa da mee le na ɖe sa laa gi tː tu 
+HKL features: torch.Size([1, 259, 256])
+Prosody hidden: torch.Size([1, 259, 256])
+Waveform: (203520,)
+Saved audio: /content/quality_eval/knm_00271_00104295233/knm_00271_00104295233_2.wav
+
+Input: ಗಗನಯಾತ್ರೆ ಹದಿನೈದು ಮುಗಿಯುವ ಹೊತ್ತಿಗೆ ನೂರ ಮೂವತ್ತೆಂಟು ಪ್ರಮುಖ ವಿಜ್ಞಾನ ಪರೀಕ್ಷೆಗಳನ್ನು ಅಂತರರಾಷ್ಟ್ರೀಯ ಬಾಹ್ಯಾಕಾಶ ನಿಲ್ದಾಣದ ಮೇಲೆ ನಡೆಸಲಾಗಿತ್ತು.
+Normalized: ಗಗನಯಾತ್ರೆ ಹದಿನೈದು ಮುಗಿಯುವ ಹೊತ್ತಿಗೆ ನೂರ ಮೂವತ್ತೆಂಟು ಪ್ರಮುಖ ವಿಜ್ಞಾನ ಪರೀಕ್ಷೆಗಳನ್ನು ಅಂತರರಾಷ್ಟ್ರೀಯ ಬಾಹ್ಯಾಕಾಶ ನಿಲ್ದಾಣದ ಮೇಲೆ ನಡೆಸಲಾಗಿತ್ತು ...
+Phoneme: ga ga na yaa tra ha di na du mu gi yu va ho tː ti ge nuu ra muu va tː te m ṭu pra mu kha vi jː na pa rii ksha ga nː nu a m ta ra raa ṣː ṭː rii ya baa hː yaa kaa sha ni lː daa ṇa da mee le na ɖe sa laa gi tː tu 
+HKL features: torch.Size([1, 259, 256])
+Prosody hidden: torch.Size([1, 259, 256])
+Waveform: (232448,)
+Saved audio: /content/quality_eval/knm_00271_00104295233/knm_00271_00104295233_3.wav
+2026-07-24 15:46:16,906 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ಪೂರ್ವಕ್ಕೆ ಸಾಗಿ
+Normalized: ಪೂರ್ವಕ್ಕೆ ಸಾಗಿ
+Phoneme: puu rː va kː ke saa gi
+HKL features: torch.Size([1, 29, 256])
+Prosody hidden: torch.Size([1, 29, 256])
+Waveform: (30720,)
+Saved audio: /content/quality_eval/knm_00271_00128476962/knm_00271_00128476962_1.wav
+2026-07-24 15:46:17,165 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ಪೂರ್ವಕ್ಕೆ ಸಾಗಿ
+Normalized: ಪೂರ್ವಕ್ಕೆ ಸಾಗಿ
+Phoneme: puu rː va kː ke saa gi
+HKL features: torch.Size([1, 29, 256])
+Prosody hidden: torch.Size([1, 29, 256])
+Waveform: (31488,)
+Saved audio: /content/quality_eval/knm_00271_00128476962/knm_00271_00128476962_2.wav
+2026-07-24 15:46:17,419 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ಪೂರ್ವಕ್ಕೆ ಸಾಗಿ
+Normalized: ಪೂರ್ವಕ್ಕೆ ಸಾಗಿ
+Phoneme: puu rː va kː ke saa gi
+HKL features: torch.Size([1, 29, 256])
+Prosody hidden: torch.Size([1, 29, 256])
+Waveform: (31744,)
+Saved audio: /content/quality_eval/knm_00271_00128476962/knm_00271_00128476962_3.wav
+2026-07-24 15:46:17,691 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ಒಂದೂವರೆ ಮೈಲಿಯಲ್ಲಿ
+Normalized: ಒಂದೂವರೆ ಮೈಲಿಯಲ್ಲಿ
+Phoneme: m duu va re ma li ya lː li
+HKL features: torch.Size([1, 35, 256])
+Prosody hidden: torch.Size([1, 35, 256])
+Waveform: (34816,)
+Saved audio: /content/quality_eval/knm_00271_00131741463/knm_00271_00131741463_1.wav
+2026-07-24 15:46:17,949 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ಒಂದೂವರೆ ಮೈಲಿಯಲ್ಲಿ
+Normalized: ಒಂದೂವರೆ ಮೈಲಿಯಲ್ಲಿ
+Phoneme: m duu va re ma li ya lː li
+HKL features: torch.Size([1, 35, 256])
+Prosody hidden: torch.Size([1, 35, 256])
+Waveform: (39424,)
+Saved audio: /content/quality_eval/knm_00271_00131741463/knm_00271_00131741463_2.wav
+2026-07-24 15:46:18,228 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ಒಂದೂವರೆ ಮೈಲಿಯಲ್ಲಿ
+Normalized: ಒಂದೂವರೆ ಮೈಲಿಯಲ್ಲಿ
+Phoneme: m duu va re ma li ya lː li
+HKL features: torch.Size([1, 35, 256])
+Prosody hidden: torch.Size([1, 35, 256])
+Waveform: (35840,)
+Saved audio: /content/quality_eval/knm_00271_00131741463/knm_00271_00131741463_3.wav
+
+Input: ಕಾಲು ಮೈಲಿಯಲ್ಲಿ
+Normalized: ಕಾಲು ಮೈಲಿಯಲ್ಲಿ
+Phoneme: kaa lu ma li ya lː li
+HKL features: torch.Size([1, 29, 256])
+Prosody hidden: torch.Size([1, 29, 256])
+Waveform: (32256,)
+Saved audio: /content/quality_eval/knm_00271_00201361358/knm_00271_00201361358_1.wav
+
+Input: ಕಾಲು ಮೈಲಿಯಲ್ಲಿ
+Normalized: ಕಾಲು ಮೈಲಿಯಲ್ಲಿ
+Phoneme: kaa lu ma li ya lː li
+HKL features: torch.Size([1, 29, 256])
+Prosody hidden: torch.Size([1, 29, 256])
+Waveform: (31232,)
+Saved audio: /content/quality_eval/knm_00271_00201361358/knm_00271_00201361358_2.wav
+
+Input: ಕಾಲು ಮೈಲಿಯಲ್ಲಿ
+Normalized: ಕಾಲು ಮೈಲಿಯಲ್ಲಿ
+Phoneme: kaa lu ma li ya lː li
+HKL features: torch.Size([1, 29, 256])
+Prosody hidden: torch.Size([1, 29, 256])
+Waveform: (32000,)
+Saved audio: /content/quality_eval/knm_00271_00201361358/knm_00271_00201361358_3.wav
+
+Input: ವೃತ್ತದಲ್ಲಿ, ಒಂದನೇ ನಿರ್ಗಮನವನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ
+Normalized: ವೃತ್ತದಲ್ಲಿ , ಒಂದನೇ ನಿರ್ಗಮನವನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ
+Phoneme: va tː ta da lː li  m da nee ni rː ga ma na va nː nu te ge du ko
+HKL features: torch.Size([1, 87, 256])
+Prosody hidden: torch.Size([1, 87, 256])
+Waveform: (72704,)
+Saved audio: /content/quality_eval/knm_00271_00227355364/knm_00271_00227355364_1.wav
+
+Input: ವೃತ್ತದಲ್ಲಿ, ಒಂದನೇ ನಿರ್ಗಮನವನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ
+Normalized: ವೃತ್ತದಲ್ಲಿ , ಒಂದನೇ ನಿರ್ಗಮನವನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ
+Phoneme: va tː ta da lː li  m da nee ni rː ga ma na va nː nu te ge du ko
+HKL features: torch.Size([1, 87, 256])
+Prosody hidden: torch.Size([1, 87, 256])
+Waveform: (72192,)
+Saved audio: /content/quality_eval/knm_00271_00227355364/knm_00271_00227355364_2.wav
+
+Input: ವೃತ್ತದಲ್ಲಿ, ಒಂದನೇ ನಿರ್ಗಮನವನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ
+Normalized: ವೃತ್ತದಲ್ಲಿ , ಒಂದನೇ ನಿರ್ಗಮನವನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ
+Phoneme: va tː ta da lː li  m da nee ni rː ga ma na va nː nu te ge du ko
+HKL features: torch.Size([1, 87, 256])
+Prosody hidden: torch.Size([1, 87, 256])
+Waveform: (66304,)
+Saved audio: /content/quality_eval/knm_00271_00227355364/knm_00271_00227355364_3.wav
+
+Input: ಅಂಕುರತ್ವರಣಕ್ಕೆ ತಗ್ಗಿದ ಉಷ್ಣತೆಯ ಜೊತೆಗೆ ನೀರು
+Normalized: ಅಂಕುರತ್ವರಣಕ್ಕೆ ತಗ್ಗಿದ ಉಷ್ಣತೆಯ ಜೊತೆಗೆ ನೀರು
+Phoneme: a m ku ra tː va ra ṇa kː ke ta gː gi da u ṣː ṇa te ya jo te ge nii ru
+HKL features: torch.Size([1, 83, 256])
+Prosody hidden: torch.Size([1, 83, 256])
+Waveform: (90112,)
+Saved audio: /content/quality_eval/knm_00271_00252957052/knm_00271_00252957052_1.wav
+
+Input: ಅಂಕುರತ್ವರಣಕ್ಕೆ ತಗ್ಗಿದ ಉಷ್ಣತೆಯ ಜೊತೆಗೆ ನೀರು
+Normalized: ಅಂಕುರತ್ವರಣಕ್ಕೆ ತಗ್ಗಿದ ಉಷ್ಣತೆಯ ಜೊತೆಗೆ ನೀರು
+Phoneme: a m ku ra tː va ra ṇa kː ke ta gː gi da u ṣː ṇa te ya jo te ge nii ru
+HKL features: torch.Size([1, 83, 256])
+Prosody hidden: torch.Size([1, 83, 256])
+Waveform: (67584,)
+Saved audio: /content/quality_eval/knm_00271_00252957052/knm_00271_00252957052_2.wav
+
+Input: ಅಂಕುರತ್ವರಣಕ್ಕೆ ತಗ್ಗಿದ ಉಷ್ಣತೆಯ ಜೊತೆಗೆ ನೀರು
+Normalized: ಅಂಕುರತ್ವರಣಕ್ಕೆ ತಗ್ಗಿದ ಉಷ್ಣತೆಯ ಜೊತೆಗೆ ನೀರು
+Phoneme: a m ku ra tː va ra ṇa kː ke ta gː gi da u ṣː ṇa te ya jo te ge nii ru
+HKL features: torch.Size([1, 83, 256])
+Prosody hidden: torch.Size([1, 83, 256])
+Waveform: (78592,)
+Saved audio: /content/quality_eval/knm_00271_00252957052/knm_00271_00252957052_3.wav
+
+Input: ಎಂಟು ನೂರು ಮೀಟರ್‌ಗಳಲ್ಲಿ
+Normalized: ಎಂಟು ನೂರು ಮೀಟರ್‌ಗಳಲ್ಲಿ
+Phoneme: m ṭu nuu ru mii ṭa rː ga lː li
+HKL features: torch.Size([1, 43, 256])
+Prosody hidden: torch.Size([1, 43, 256])
+Waveform: (41216,)
+Saved audio: /content/quality_eval/knm_00271_00292891683/knm_00271_00292891683_1.wav
+
+Input: ಎಂಟು ನೂರು ಮೀಟರ್‌ಗಳಲ್ಲಿ
+Normalized: ಎಂಟು ನೂರು ಮೀಟರ್‌ಗಳಲ್ಲಿ
+Phoneme: m ṭu nuu ru mii ṭa rː ga lː li
+HKL features: torch.Size([1, 43, 256])
+Prosody hidden: torch.Size([1, 43, 256])
+Waveform: (53760,)
+Saved audio: /content/quality_eval/knm_00271_00292891683/knm_00271_00292891683_2.wav
+
+Input: ಎಂಟು ನೂರು ಮೀಟರ್‌ಗಳಲ್ಲಿ
+Normalized: ಎಂಟು ನೂರು ಮೀಟರ್‌ಗಳಲ್ಲಿ
+Phoneme: m ṭu nuu ru mii ṭa rː ga lː li
+HKL features: torch.Size([1, 43, 256])
+Prosody hidden: torch.Size([1, 43, 256])
+Waveform: (51200,)
+Saved audio: /content/quality_eval/knm_00271_00292891683/knm_00271_00292891683_3.wav
+2026-07-24 15:46:22,492 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ಆರ್ನೂರು ಮೀಟರ್‌ಗಳಲ್ಲಿ
+Normalized: ಆರ್ನೂರು ಮೀಟರ್‌ಗಳಲ್ಲಿ
+Phoneme: aa rː nuu ru mii ṭa rː ga lː li
+HKL features: torch.Size([1, 39, 256])
+Prosody hidden: torch.Size([1, 39, 256])
+Waveform: (38656,)
+Saved audio: /content/quality_eval/knm_00271_00375365154/knm_00271_00375365154_1.wav
+
+Input: ಆರ್ನೂರು ಮೀಟರ್‌ಗಳಲ್ಲಿ
+Normalized: ಆರ್ನೂರು ಮೀಟರ್‌ಗಳಲ್ಲಿ
+Phoneme: aa rː nuu ru mii ṭa rː ga lː li
+HKL features: torch.Size([1, 39, 256])
+Prosody hidden: torch.Size([1, 39, 256])
+Waveform: (35328,)
+Saved audio: /content/quality_eval/knm_00271_00375365154/knm_00271_00375365154_2.wav
+2026-07-24 15:46:23,021 | WARNING | PESQ computation failed: b'No utterances detected'
+WARNING:notebook_quality_eval:PESQ computation failed: b'No utterances detected'
+
+Input: ಆರ್ನೂರು ಮೀಟರ್‌ಗಳಲ್ಲಿ
+Normalized: ಆರ್ನೂರು ಮೀಟರ್‌ಗಳಲ್ಲಿ
+Phoneme: aa rː nuu ru mii ṭa rː ga lː li
+HKL features: torch.Size([1, 39, 256])
+Prosody hidden: torch.Size([1, 39, 256])
+Waveform: (37888,)
+Saved audio: /content/quality_eval/knm_00271_00375365154/knm_00271_00375365154_3.wav
+
+Input: ಈ ಸಮ್ಮೇಳನ ಕೇಂದ್ರ ಬ್ಯಾಂಕುಗಳೊಳಗೆ ಬೆಳೆಯಬೇಕಾದ ಸಹಕಾರದ ಆವಶ್ಯಕತೆಯನ್ನು ಒತ್ತಿ ಹೇಳಿತು
+Normalized: ಈ ಸಮ್ಮೇಳನ ಕೇಂದ್ರ ಬ್ಯಾಂಕುಗಳೊಳಗೆ ಬೆಳೆಯಬೇಕಾದ ಸಹಕಾರದ ಆವಶ್ಯಕತೆಯನ್ನು ಒತ್ತಿ ಹೇಳಿತು
+Phoneme: ii sa mː mee na kee m dː ra bː yaa m ku ga ge be ya bee kaa da sa ha kaa ra da aa va shː ya ka te ya nː nu tː ti hee tu
+HKL features: torch.Size([1, 151, 256])
+Prosody hidden: torch.Size([1, 151, 256])
+Waveform: (137728,)
+Saved audio: /content/quality_eval/knm_00271_00413960012/knm_00271_00413960012_1.wav
+
+Input: ಈ ಸಮ್ಮೇಳನ ಕೇಂದ್ರ ಬ್ಯಾಂಕುಗಳೊಳಗೆ ಬೆಳೆಯಬೇಕಾದ ಸಹಕಾರದ ಆವಶ್ಯಕತೆಯನ್ನು ಒತ್ತಿ ಹೇಳಿತು
+Normalized: ಈ ಸಮ್ಮೇಳನ ಕೇಂದ್ರ ಬ್ಯಾಂಕುಗಳೊಳಗೆ ಬೆಳೆಯಬೇಕಾದ ಸಹಕಾರದ ಆವಶ್ಯಕತೆಯನ್ನು ಒತ್ತಿ ಹೇಳಿತು
+Phoneme: ii sa mː mee na kee m dː ra bː yaa m ku ga ge be ya bee kaa da sa ha kaa ra da aa va shː ya ka te ya nː nu tː ti hee tu
+HKL features: torch.Size([1, 151, 256])
+Prosody hidden: torch.Size([1, 151, 256])
+Waveform: (135936,)
+Saved audio: /content/quality_eval/knm_00271_00413960012/knm_00271_00413960012_2.wav
+
+Input: ಈ ಸಮ್ಮೇಳನ ಕೇಂದ್ರ ಬ್ಯಾಂಕುಗಳೊಳಗೆ ಬೆಳೆಯಬೇಕಾದ ಸಹಕಾರದ ಆವಶ್ಯಕತೆಯನ್ನು ಒತ್ತಿ ಹೇಳಿತು
+Normalized: ಈ ಸಮ್ಮೇಳನ ಕೇಂದ್ರ ಬ್ಯಾಂಕುಗಳೊಳಗೆ ಬೆಳೆಯಬೇಕಾದ ಸಹಕಾರದ ಆವಶ್ಯಕತೆಯನ್ನು ಒತ್ತಿ ಹೇಳಿತು
+Phoneme: ii sa mː mee na kee m dː ra bː yaa m ku ga ge be ya bee kaa da sa ha kaa ra da aa va shː ya ka te ya nː nu tː ti hee tu
+HKL features: torch.Size([1, 151, 256])
+Prosody hidden: torch.Size([1, 151, 256])
+Waveform: (134144,)
+Saved audio: /content/quality_eval/knm_00271_00413960012/knm_00271_00413960012_3.wav
+
+Input: ಎಡಕ್ಕೆ ತಿರುಗಿ
+Normalized: ಎಡಕ್ಕೆ ತಿರುಗಿ
+Phoneme: ɖa kː ke ti ru gi
+HKL features: torch.Size([1, 27, 256])
+Prosody hidden: torch.Size([1, 27, 256])
+Waveform: (24064,)
+Saved audio: /content/quality_eval/knm_00271_00416120252/knm_00271_00416120252_1.wav
+
+Input: ಎಡಕ್ಕೆ ತಿರುಗಿ
+Normalized: ಎಡಕ್ಕೆ ತಿರುಗಿ
+Phoneme: ɖa kː ke ti ru gi
+HKL features: torch.Size([1, 27, 256])
+Prosody hidden: torch.Size([1, 27, 256])
+Waveform: (26112,)
+Saved audio: /content/quality_eval/knm_00271_00416120252/knm_00271_00416120252_2.wav
+
+Input: ಎಡಕ್ಕೆ ತಿರುಗಿ
+Normalized: ಎಡಕ್ಕೆ ತಿರುಗಿ
+Phoneme: ɖa kː ke ti ru gi
+HKL features: torch.Size([1, 27, 256])
+Prosody hidden: torch.Size([1, 27, 256])
+Waveform: (26624,)
+Saved audio: /content/quality_eval/knm_00271_00416120252/knm_00271_00416120252_3.wav
+
+Input: ಹೀಗೆ ಮಾಡುವುದರಿಂದ ದುರ್ಬಲ ಸ್ಥಾನಗಳಿಲ್ಲದೆ ಮೇಲಿನ ಮೈ ಎಲ್ಲವೂ ಸರಿಯಾಗಿ ಅಂಟಿಕೊಳ್ಳುವುದು
+Normalized: ಹೀಗೆ ಮಾಡುವುದರಿಂದ ದುರ್ಬಲ ಸ್ಥಾನಗಳಿಲ್ಲದೆ ಮೇಲಿನ ಮೈ ಎಲ್ಲವೂ ಸರಿಯಾಗಿ ಅಂಟಿಕೊಳ್ಳುವುದು
+Phoneme: hii ge maa ɖu vu da ri m da du rː ba la sː thaa na ga lː la de mee li na ma lː la vuu sa ri yaa gi a m ṭi ko vu du
+HKL features: torch.Size([1, 153, 256])
+Prosody hidden: torch.Size([1, 153, 256])
+Waveform: (126464,)
+Saved audio: /content/quality_eval/knm_00271_00423268598/knm_00271_00423268598_1.wav
+
+Input: ಹೀಗೆ ಮಾಡುವುದರಿಂದ ದುರ್ಬಲ ಸ್ಥಾನಗಳಿಲ್ಲದೆ ಮೇಲಿನ ಮೈ ಎಲ್ಲವೂ ಸರಿಯಾಗಿ ಅಂಟಿಕೊಳ್ಳುವುದು
+Normalized: ಹೀಗೆ ಮಾಡುವುದರಿಂದ ದುರ್ಬಲ ಸ್ಥಾನಗಳಿಲ್ಲದೆ ಮೇಲಿನ ಮೈ ಎಲ್ಲವೂ ಸರಿಯಾಗಿ ಅಂಟಿಕೊಳ್ಳುವುದು
+Phoneme: hii ge maa ɖu vu da ri m da du rː ba la sː thaa na ga lː la de mee li na ma lː la vuu sa ri yaa gi a m ṭi ko vu du
+HKL features: torch.Size([1, 153, 256])
+Prosody hidden: torch.Size([1, 153, 256])
+Waveform: (119808,)
+Saved audio: /content/quality_eval/knm_00271_00423268598/knm_00271_00423268598_2.wav
+
+Input: ಹೀಗೆ ಮಾಡುವುದರಿಂದ ದುರ್ಬಲ ಸ್ಥಾನಗಳಿಲ್ಲದೆ ಮೇಲಿನ ಮೈ ಎಲ್ಲವೂ ಸರಿಯಾಗಿ ಅಂಟಿಕೊಳ್ಳುವುದು
+Normalized: ಹೀಗೆ ಮಾಡುವುದರಿಂದ ದುರ್ಬಲ ಸ್ಥಾನಗಳಿಲ್ಲದೆ ಮೇಲಿನ ಮೈ ಎಲ್ಲವೂ ಸರಿಯಾಗಿ ಅಂಟಿಕೊಳ್ಳುವುದು
+Phoneme: hii ge maa ɖu vu da ri m da du rː ba la sː thaa na ga lː la de mee li na ma lː la vuu sa ri yaa gi a m ṭi ko vu du
+HKL features: torch.Size([1, 153, 256])
+Prosody hidden: torch.Size([1, 153, 256])
+Waveform: (121344,)
+Saved audio: /content/quality_eval/knm_00271_00423268598/knm_00271_00423268598_3.wav
+
+Input: ಎರಡು ಅಥವಾ ಹೆಚ್ಚು ಹೆದ್ದಾರಿಗಳು ಕೂಡುವ ಸ್ಥಳದಲ್ಲಿ ಎಡಭಾಗಕ್ಕೆ ಹೋಗಿ
+Normalized: ಎರಡು ಅಥವಾ ಹೆಚ್ಚು ಹೆದ್ದಾರಿಗಳು ಕೂಡುವ ಸ್ಥಳದಲ್ಲಿ ಎಡಭಾಗಕ್ಕೆ ಹೋಗಿ
+Phoneme: ra ɖu a tha vaa he chː chu he dː daa ri ga kuu ɖu va sː tha da lː li ɖa bhaa ga kː ke hoo gi
+HKL features: torch.Size([1, 119, 256])
+Prosody hidden: torch.Size([1, 119, 256])
+Waveform: (101632,)
+Saved audio: /content/quality_eval/knm_00271_00433301650/knm_00271_00433301650_1.wav
+
+Input: ಎರಡು ಅಥವಾ ಹೆಚ್ಚು ಹೆದ್ದಾರಿಗಳು ಕೂಡುವ ಸ್ಥಳದಲ್ಲಿ ಎಡಭಾಗಕ್ಕೆ ಹೋಗಿ
+Normalized: ಎರಡು ಅಥವಾ ಹೆಚ್ಚು ಹೆದ್ದಾರಿಗಳು ಕೂಡುವ ಸ್ಥಳದಲ್ಲಿ ಎಡಭಾಗಕ್ಕೆ ಹೋಗಿ
+Phoneme: ra ɖu a tha vaa he chː chu he dː daa ri ga kuu ɖu va sː tha da lː li ɖa bhaa ga kː ke hoo gi
+HKL features: torch.Size([1, 119, 256])
+Prosody hidden: torch.Size([1, 119, 256])
+Waveform: (88064,)
+Saved audio: /content/quality_eval/knm_00271_00433301650/knm_00271_00433301650_2.wav
+
+Input: ಎರಡು ಅಥವಾ ಹೆಚ್ಚು ಹೆದ್ದಾರಿಗಳು ಕೂಡುವ ಸ್ಥಳದಲ್ಲಿ ಎಡಭಾಗಕ್ಕೆ ಹೋಗಿ
+Normalized: ಎರಡು ಅಥವಾ ಹೆಚ್ಚು ಹೆದ್ದಾರಿಗಳು ಕೂಡುವ ಸ್ಥಳದಲ್ಲಿ ಎಡಭಾಗಕ್ಕೆ ಹೋಗಿ
+Phoneme: ra ɖu a tha vaa he chː chu he dː daa ri ga kuu ɖu va sː tha da lː li ɖa bhaa ga kː ke hoo gi
+HKL features: torch.Size([1, 119, 256])
+Prosody hidden: torch.Size([1, 119, 256])
+Waveform: (92416,)
+Saved audio: /content/quality_eval/knm_00271_00433301650/knm_00271_00433301650_3.wav
+
+Input: ಮನೋವಿಜ್ಞಾನದ ಅಧ್ಯಯನ ವಸ್ತುವು ಪ್ರಜ್ಞಾನುಭವ ಎಂದೂ ಅದರ ಅಧ್ಯಯನಕ್ಕೆ ಸಮರ್ಪಕವಾದ ವಿಧಾನ ಅಂತರವಲೋಕನವೆಂದೂ ಪ್ರತಿಪಾದಿಸಿದ್ದಾನೆ
+Normalized: ಮನೋವಿಜ್ಞಾನದ ಅಧ್ಯಯನ ವಸ್ತುವು ಪ್ರಜ್ಞಾನುಭವ ಎಂದೂ ಅದರ ಅಧ್ಯಯನಕ್ಕೆ ಸಮರ್ಪಕವಾದ ವಿಧಾನ ಅಂತರವಲೋಕನವೆಂದೂ ಪ್ರತಿಪಾದಿಸಿದ್ದಾನೆ
+Phoneme: ma noo vi jː na da a dhː ya ya na va sː tu vu pra jː nu bha va m duu a da ra a dhː ya ya na kː ke sa ma rː pa ka vaa da vi dhaa na a m ta ra va loo ka na ve m duu pra ti paa di si dː daa ne
+HKL features: torch.Size([1, 215, 256])
+Prosody hidden: torch.Size([1, 215, 256])
+Waveform: (196352,)
+Saved audio: /content/quality_eval/knm_00271_00503551772/knm_00271_00503551772_1.wav
+
+Input: ಮನೋವಿಜ್ಞಾನದ ಅಧ್ಯಯನ ವಸ್ತುವು ಪ್ರಜ್ಞಾನುಭವ ಎಂದೂ ಅದರ ಅಧ್ಯಯನಕ್ಕೆ ಸಮರ್ಪಕವಾದ ವಿಧಾನ ಅಂತರವಲೋಕನವೆಂದೂ ಪ್ರತಿಪಾದಿಸಿದ್ದಾನೆ
+Normalized: ಮನೋವಿಜ್ಞಾನದ ಅಧ್ಯಯನ ವಸ್ತುವು ಪ್ರಜ್ಞಾನುಭವ ಎಂದೂ ಅದರ ಅಧ್ಯಯನಕ್ಕೆ ಸಮರ್ಪಕವಾದ ವಿಧಾನ ಅಂತರವಲೋಕನವೆಂದೂ ಪ್ರತಿಪಾದಿಸಿದ್ದಾನೆ
+Phoneme: ma noo vi jː na da a dhː ya ya na va sː tu vu pra jː nu bha va m duu a da ra a dhː ya ya na kː ke sa ma rː pa ka vaa da vi dhaa na a m ta ra va loo ka na ve m duu pra ti paa di si dː daa ne
+HKL features: torch.Size([1, 215, 256])
+Prosody hidden: torch.Size([1, 215, 256])
+Waveform: (221696,)
+Saved audio: /content/quality_eval/knm_00271_00503551772/knm_00271_00503551772_2.wav
+
+Input: ಮನೋವಿಜ್ಞಾನದ ಅಧ್ಯಯನ ವಸ್ತುವು ಪ್ರಜ್ಞಾನುಭವ ಎಂದೂ ಅದರ ಅಧ್ಯಯನಕ್ಕೆ ಸಮರ್ಪಕವಾದ ವಿಧಾನ ಅಂತರವಲೋಕನವೆಂದೂ ಪ್ರತಿಪಾದಿಸಿದ್ದಾನೆ
+Normalized: ಮನೋವಿಜ್ಞಾನದ ಅಧ್ಯಯನ ವಸ್ತುವು ಪ್ರಜ್ಞಾನುಭವ ಎಂದೂ ಅದರ ಅಧ್ಯಯನಕ್ಕೆ ಸಮರ್ಪಕವಾದ ವಿಧಾನ ಅಂತರವಲೋಕನವೆಂದೂ ಪ್ರತಿಪಾದಿಸಿದ್ದಾನೆ
+Phoneme: ma noo vi jː na da a dhː ya ya na va sː tu vu pra jː nu bha va m duu a da ra a dhː ya ya na kː ke sa ma rː pa ka vaa da vi dhaa na a m ta ra va loo ka na ve m duu pra ti paa di si dː daa ne
+HKL features: torch.Size([1, 215, 256])
+Prosody hidden: torch.Size([1, 215, 256])
+Waveform: (179456,)
+Saved audio: /content/quality_eval/knm_00271_00503551772/knm_00271_00503551772_3.wav
+
+Input: ಅಂಗುತ್ತರ ನಿಕಾಯದಂತಹ ಬೌದ್ಧ ಪಠ್ಯಗಳಲ್ಲಿ ಹದಿನಾರು ಮಹಾಜನಪದಗಳಲ್ಲಿ ಒಂದೆಂದು ಪರಿಗಣಿಸಲ್ಪಟ್ಟಿದೆ
+Normalized: ಅಂಗುತ್ತರ ನಿಕಾಯದಂತಹ ಬೌದ್ಧ ಪಠ್ಯಗಳಲ್ಲಿ ಹದಿನಾರು ಮಹಾಜನಪದಗಳಲ್ಲಿ ಒಂದೆಂದು ಪರಿಗಣಿಸಲ್ಪಟ್ಟಿದೆ
+Phoneme: a m gu tː ta ra ni kaa ya da m ta ha ba dː dha pa ṭhː ya ga lː li ha di naa ru ma haa ja na pa da ga lː li m de m du pa ri ga ṇi sa lː pa ṭː ṭi de
+HKL features: torch.Size([1, 165, 256])
+Prosody hidden: torch.Size([1, 165, 256])
+Waveform: (181504,)
+Saved audio: /content/quality_eval/knm_00271_00578551464/knm_00271_00578551464_1.wav
+
+Input: ಅಂಗುತ್ತರ ನಿಕಾಯದಂತಹ ಬೌದ್ಧ ಪಠ್ಯಗಳಲ್ಲಿ ಹದಿನಾರು ಮಹಾಜನಪದಗಳಲ್ಲಿ ಒಂದೆಂದು ಪರಿಗಣಿಸಲ್ಪಟ್ಟಿದೆ
+Normalized: ಅಂಗುತ್ತರ ನಿಕಾಯದಂತಹ ಬೌದ್ಧ ಪಠ್ಯಗಳಲ್ಲಿ ಹದಿನಾರು ಮಹಾಜನಪದಗಳಲ್ಲಿ ಒಂದೆಂದು ಪರಿಗಣಿಸಲ್ಪಟ್ಟಿದೆ
+Phoneme: a m gu tː ta ra ni kaa ya da m ta ha ba dː dha pa ṭhː ya ga lː li ha di naa ru ma haa ja na pa da ga lː li m de m du pa ri ga ṇi sa lː pa ṭː ṭi de
+HKL features: torch.Size([1, 165, 256])
+Prosody hidden: torch.Size([1, 165, 256])
+Waveform: (158464,)
+Saved audio: /content/quality_eval/knm_00271_00578551464/knm_00271_00578551464_2.wav
+
+Input: ಅಂಗುತ್ತರ ನಿಕಾಯದಂತಹ ಬೌದ್ಧ ಪಠ್ಯಗಳಲ್ಲಿ ಹದಿನಾರು ಮಹಾಜನಪದಗಳಲ್ಲಿ ಒಂದೆಂದು ಪರಿಗಣಿಸಲ್ಪಟ್ಟಿದೆ
+Normalized: ಅಂಗುತ್ತರ ನಿಕಾಯದಂತಹ ಬೌದ್ಧ ಪಠ್ಯಗಳಲ್ಲಿ ಹದಿನಾರು ಮಹಾಜನಪದಗಳಲ್ಲಿ ಒಂದೆಂದು ಪರಿಗಣಿಸಲ್ಪಟ್ಟಿದೆ
+Phoneme: a m gu tː ta ra ni kaa ya da m ta ha ba dː dha pa ṭhː ya ga lː li ha di naa ru ma haa ja na pa da ga lː li m de m du pa ri ga ṇi sa lː pa ṭː ṭi de
+HKL features: torch.Size([1, 165, 256])
+Prosody hidden: torch.Size([1, 165, 256])
+Waveform: (153344,)
+Saved audio: /content/quality_eval/knm_00271_00578551464/knm_00271_00578551464_3.wav
+2026-07-24 15:46:41,709 | INFO | Saved quality report to /content/quality_eval/quality_report.json
+INFO:notebook_quality_eval:Saved quality report to /content/quality_eval/quality_report.json
+{'min': 0.08847934100049315, 'max': 0.4275811289999183, 'avg': 0.20232262840997162, 'p95': 0.3306430870006807}
+{'cpu_ram': {'cpu_percent': 100.0, 'ram_percent': 50.4, 'process_rss_mb': 2780.6484375, 'process_vms_mb': 15220.65234375}, 'gpu': {'gpu_devices': [{'device_index': 0, 'gpu_util_percent': 0.0, 'memory_util_percent': 9.454345703125, 'memory_used_mb': 1452.1875, 'memory_total_mb': 15360.0}]}}
